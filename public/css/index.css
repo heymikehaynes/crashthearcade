@@ -1,0 +1,358 @@
+/* Styles */
+
+@font-face {
+	font-family: Archivo;
+	src: url(/fonts/archivo/Archivo-Regular.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo;
+	src: url(/fonts/archivo/Archivo-Italic.woff);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Archivo;
+	src: url(/fonts/archivo/Archivo-Bold.woff);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo;
+	src: url(/fonts/archivo/Archivo-BoldItalic.woff);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Archivo Expanded;
+	src: url(/fonts/archivo-expanded/Archivo_Expanded-Regular.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo Expanded;
+	src: url(/fonts/archivo-expanded/Archivo_Expanded-Italic.woff);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Archivo Expanded;
+	src: url(/fonts/archivo-expanded/Archivo_Expanded-Bold.woff);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo Expanded;
+	src: url(/fonts/archivo-expanded/Archivo_Expanded-BoldItalic.woff);
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Theme colors */
+:root {
+	--primary-accent: #10d275;
+	--secondary-accent: #afecc0;
+	--primary-bg: #010608;
+	--secondary-bg: #121617;
+	--divider-lines: #1d2021;
+	--primary-text: #FFFFFF;
+	--secondary-text: #717374;
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Archivo', sans-serif;
+	color: var(--primary-text);
+	font-size: 24px;
+	background-color: var(--primary-bg);
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	max-width: 1200px;
+	margin: 100px auto 24px auto;
+}
+
+#container {
+	display: grid;
+	grid-template-columns: 310px auto;
+	column-gap: 50px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+p {
+	line-height: 1.6;
+}
+
+h1 {
+	font-size: 56px;
+	line-height: 110%;
+	font-weight: bold;
+	text-wrap: balance;
+	font-family: 'Archivo Expanded', sans-serif;
+	margin: 0 0 32px 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color: var(--primary-text);
+	box-shadow: inset 0 -16px 0 var(--primary-accent);
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 1.6;
+	font-weight: bold;
+	border-bottom: 4px solid var(--divider-lines);
+	padding-bottom: 4px;
+	margin-top: 36px;
+	letter-spacing: 0.25px;
+	text-transform: uppercase;
+	font-family: 'Archivo Expanded', sans-serif;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 1.4;
+	font-weight: normal;
+	margin-bottom: 55px;
+}
+
+blockquote {
+	padding-left: 30px;
+	margin: 30px 0;
+	border-left: 8px solid var(--secondary-accent);
+	letter-spacing: 0;
+}
+
+ul {
+	padding: 0 0 0 20px;
+}
+
+li {
+	line-height: 1.6;
+}
+
+ul li ul {
+	padding: 0 0 0 24px;
+}
+
+ul li::marker {
+	color: var(--secondary-accent) !important;
+}
+
+a, p a {
+	color: var(--primary-text);
+	transition: all .1s ease;
+}
+
+a:visited {
+	color: var(--primary-text);
+}
+
+a:hover, p a:hover,
+a:active, p a:active {
+	color: var(--primary-accent);
+}
+
+header {
+	border-right: 4px solid var(--divider-lines);
+	position: relative;
+}
+
+.sidebar {
+	position: sticky;
+	top: 52px;
+	width: 256px;
+}
+
+table {
+	margin: 1em 0;
+}
+
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: monospace;
+}
+
+code {
+	word-break: break-all;
+}
+
+/* Header */
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+
+.home-link img {
+	width: 42px;
+	height: auto;
+}
+
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	padding: 0;
+	margin: 32px 0;
+	list-style: none;
+}
+
+.nav li {
+	margin-bottom: 12px;
+}
+
+.nav-item a {
+	font-family: 'Archivo Expanded', sans-serif;
+	font-size: 32px;
+	line-height: 110%;
+	text-decoration: none;
+	color: var(--primary-text);
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: 0.25px;
+	text-transform: uppercase;
+}
+
+.nav-item a:not(:hover) {
+	text-decoration: none;
+}
+
+.nav a[aria-current="page"], .nav a:hover {
+	text-decoration: none;
+	color: var(--primary-text);
+	box-shadow: inset 0 -8px 0 var(--primary-accent);
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.postlist-tags {
+	font-family: 'Archivo Expanded', sans-serif;
+	margin-bottom: 24px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.postlist-tags a {
+	text-decoration: none;
+	color: var(--primary-accent);
+}
+
+.post-item {
+	margin-bottom: 110px;
+}
+
+.postlist-content img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+.rating {
+	margin-top: 28px;
+	font-size: 28px;
+}
+
+.rating i {
+	margin-right: -3px;
+}
+
+.postlist-date {
+	margin: 36px 0 0 0;
+	padding: 18px 24px;
+	border-radius: 100px;
+	background: var(--secondary-bg);
+	color: var(--primary-text);
+	display: inline-block;
+}
+
+ul.socials {
+	margin: 0;
+	padding: 0;
+}
+
+ul.socials li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul.socials li a {
+	background: var(--secondary-bg);
+	font-size: 26px;
+	border-radius: 100px;
+	padding: 16px;
+	text-align: center;
+}
+
+ul.socials li a:hover {
+	background: var(--primary-accent);
+	color: var(--primary-text);
+}
+
+ul.socials li a i {
+	width: 30px;
+}
+
+footer {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	border-top: 4px solid var(--divider-lines);
+	padding: 24px 0 3px 0;
+	font-size: 18px;
+	color: var(--secondary-text);
+}
+
+footer a, footer a:visited {
+	color: var(--secondary-text);
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--primary-accent);
+	text-decoration: underline;
+}

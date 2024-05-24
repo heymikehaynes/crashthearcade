@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title or metadata.title }}</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+		{%- css %}* { box-sizing: border-box; }{% endcss %}
+		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/16a7b58cc9.js" crossorigin="anonymous"></script>
+
+		<style>{% getBundle "css" %}</style>
+	</head>
+	<body>
+
+	<div id="container">
+
+		<header>
+			<div class="sidebar">
+			<a href="/" class="home-link"><img src="/img/cta-logo.png"></a>
+
+			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+			<nav>
+				<ul class="nav">
+				{%- for entry in collections.all | eleventyNavigation %}
+					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+				{%- endfor %}
+				</ul>
+			</nav>
+
+			<nav>
+				<ul class="socials">
+					<li><a href="https://bsky.app/profile/crashthearcade.com" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a></li>
+					<li><a href="https://crashthearcade.social/@mike" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a></li>
+					<li><a href="https://crashthearcade.tumblr.com/" title="Tumblr"><i class="fa-brands fa-tumblr"></i></a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+
+		<div class="main-content">{{ content | safe }}</div>
+
+	</div>
+
+	<footer>
+		<div class="footer-01"><i class="fa-sharp fa-regular fa-copyright"></i> 2024, crashthearcade <a href="https://www.11ty.dev/docs/versions/">v2.0.1</a>.</div>
+		<div class="footer-02"><a href="#">RSS</a></div>
+	</footer>
+
+	</body>
+</html>

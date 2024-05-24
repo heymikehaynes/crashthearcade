@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="postlist-tags">
+	{% for tag in tags %}
+		{% if tag != "posts" %}
+			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<h1 class="postlist-title">{{ title }}</h1>
+
+<div class="postlist-content">{{ content | safe }}</div>
+
+{% if rating is defined %}
+<div class="rating">
+		{% for i in range(1, rating | int + 1) %}
+				<i class="fa-sharp fa-solid fa-star"></i>
+		{% endfor %}
+		{% if rating % 1 != 0 %}
+				<i class="fas sharp fa-star-half-alt"></i>
+		{% endif %}
+		{% set filledStars = rating | int %}
+		{% if rating % 1 != 0 %}
+				{% set filledStars = filledStars + 1 %}
+		{% endif %}
+		{% for i in range(filledStars, 5) %}
+				<i class="fa-sharp fa-regular fa-star"></i>
+		{% endfor %}
+</div>
+{% endif %}
+
+<time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | ordinalDate }}</time>
+
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<ul class="links-nextprev">
+	{%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+	{%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}
+{%- endif %}
