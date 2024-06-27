@@ -32,12 +32,13 @@
 				{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
+					<li class="nav-item"><a href="https://www.instapaper.com/u/folder/5025446/bookmarks">Saved</a></li>
+					<li class="nav-item"><a href="feed/feed.xml">RSS</a></li>
 				</ul>
 			</nav>
 
 			<nav>
 				<ul class="socials">
-					<li><a href="https://bsky.app/profile/crashthearcade.com" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a></li>
 					<li><a href="https://crashthearcade.social/@mike" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a></li>
 					<li><a href="https://crashthearcade.tumblr.com/" title="Tumblr"><i class="fa-brands fa-tumblr"></i></a></li>
 				</ul>
