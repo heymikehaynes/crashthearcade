@@ -56,15 +56,22 @@
 	font-style: italic;
 }
 
+@font-face {
+	font-family: Departure;
+	src: url(/fonts/departure/DepartureMono-Regular.woff);
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Theme colors */
 :root {
-	--primary-accent: #10d275;
-	--secondary-accent: #afecc0;
-	--primary-bg: #010608;
-	--secondary-bg: #121617;
-	--divider-lines: #1d2021;
+	--primary-accent: #29adff;
+	--secondary-accent: #84d0ff;
+	--primary-bg: #08121c;
+	--secondary-bg: #151c26;
+	--divider-lines: #1b222d;
 	--primary-text: #FFFFFF;
-	--secondary-text: #717374;
+	--secondary-text: #5f6369;
 }
 
 /* Global stylesheet */
