@@ -2,13 +2,9 @@
 layout: layouts/base.njk
 ---
 
-<div class="postlist-tags">
-	{% for tag in tags %}
-		{% if tag != "posts" %}
-			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-		{% endif %}
-	{% endfor %}
-</div>
+<time class="postlist-date" datetime="{{ date | htmlDateString }}">
+	» {{ date | ordinalDate }}
+</time>
 
 <h1 class="postlist-title">{{ title }}</h1>
 
@@ -32,7 +28,13 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
-<time class="postlist-date" datetime="{{ date | htmlDateString }}">{{ date | ordinalDate }}</time>
+<div class="postlist-tags">
+	{% for tag in tags %}
+		{% if tag != "posts" %}
+			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

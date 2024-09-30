@@ -1,9 +1,22 @@
 <div class="sidebar">
+<a href="/" class="home-link"><img src="/img/cta-logo-reverse.png"></a>
 
-LOGO
+{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+<nav>
+	<ul class="nav">
+	{%- for entry in collections.all | eleventyNavigation %}
+		<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+	{%- endfor %}
+		<li class="nav-item"><a href="https://reederapp.net/qotk31U8S5GNHl5LIJOaGw" target="_blank">Bookmarks</a></li>
+		<li class="nav-item"><a href="feed/feed.xml">Subscribe</a></li>
+	</ul>
+</nav>
 
-NAVIGATION
-
-SOCIALS
-
+<nav>
+	<ul class="socials">
+		<li><a href="https://social.lol/@crashthearcade" title="Mastodon" target="_blank">Mastodon</a></li>
+		<li><a href="https://pixelfed.social/@crashthearcade" title="Tumblr" target="_blank">Pixelfed</a></li>
+		<li><a href="https://crashthearcade.tumblr.com/" title="Tumblr" target="_blank">Tumblr</a></li>
+	</ul>
+</nav>
 </div>

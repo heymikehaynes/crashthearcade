@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Defaults
 
-### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get work done. It was updated May 13th, 2024.
+### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get work done.
 
 ## Hardware
 
@@ -18,10 +18,9 @@ eleventyNavigation:
 - Chair: IKEA HATTEFJÄLL (Grey/White)
 - Display: ~~Samsung LS27R350FHNXZA 27″~~ 🪦
 - Audio: Apple HomePod mini (Space Grey)
-- Phone: iPhone 15 Pro (Blue)
+- Phone: iPhone 1P Plus (Black)
 - Watch: Apple Watch Series 7, 45mm (Midnight)
 - Tablet: 12.9″ iPad Pro, 6th gen (Space Grey)
-	- Keyboard: Apple Smart Keyboard Folio
 	- Mouse: Logitech Pebble i345 (White)
 - Headphones:
 	- Apple AirPods (3rd generation)
@@ -42,13 +41,12 @@ eleventyNavigation:
 - Photos: Apple Photos
 - Cloud storage: iCloud
 - RSS client: [Reeder](https://www.reederapp.com/)
-- RSS provider: [Feedbin](https://feedbin.com/)
-- Read later: GoodLinks
+- Read later: [Matter](#)
 - Browser: Arc
 - Chat: iMessage
 - Music: Spotify
-- Podcasts: Pocket Casts
-- Passwords: 1Password
+- Podcasts: Reeder
+- Passwords: Apple Passwords
 - Code editor: Nova
 - Design: Figma
 - Art: Aseprite
