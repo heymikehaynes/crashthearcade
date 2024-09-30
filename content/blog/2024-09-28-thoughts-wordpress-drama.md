@@ -13,4 +13,4 @@ To have dragged this out into the public eye feels *misguided*. At the same time
 
 Similarly, WordPress.com has always walked a strange line and could, depending on the plan, create a similarly *degraded* experience for users. There are also plenty of people who confuse WP.com and WP.org, which is essentially what WPE being punished for doing.
 
-There’s a lot of grey here so neither side feels completely right or wrong but I feel like Automattic comes out worse for wear here. I feel for the people working there that could have done without this whole fiasco.
+There’s a lot of grey here so neither side feels completely right or wrong but I feel like Automattic comes out worse for wear here. I feel for the people working there that could have done without this noise.
