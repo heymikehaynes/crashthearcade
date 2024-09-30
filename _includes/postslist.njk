@@ -39,3 +39,27 @@
 	</div>
 
 {% endfor %}
+
+<div class="now-block">
+	<div class="now-reading-block">
+	{% for post in reading %}
+		<div><h3>Reading</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+		<div>{{ post.description | safe }}</div>
+	{% endfor %}
+	</div>
+
+	<div class="now-playing-block">
+	{% for post in playing %}
+		<div><h3>Playing</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+		<div>{{ post.description | safe }}</div>
+	{% endfor %}
+	</div>
+
+	<div class="tumblr-block">
+	{% for post in tumblr %}
+		<div class="tumblr-block-post">
+			<div>{{ post.description | safe }}</div>
+		</div>
+	{% endfor %}
+	</div>
+</div>

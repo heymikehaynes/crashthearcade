@@ -6,7 +6,7 @@ layout: layouts/base.njk
 	» {{ date | ordinalDate }}
 </time>
 
-<h1 class="postlist-title">{{ title }}</h1>
+<h1 class="postlist-title"><a href="#">{{ title }}</a></h1>
 
 <div class="postlist-content">{{ content | safe }}</div>
 
@@ -28,21 +28,10 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
-<div class="postlist-tags">
+<div class="postlist-tags single-tags">
 	{% for tag in tags %}
 		{% if tag != "posts" %}
 			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
 		{% endif %}
 	{% endfor %}
 </div>
-
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
-{%- if nextPost or previousPost %}
-<ul class="links-nextprev">
-	{%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-	{%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-</ul>
-{%- endif %}
-{%- endif %}
