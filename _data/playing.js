@@ -1,4 +1,4 @@
-/* latest posts from tumblr */
+/* latest game from raindrop */
 
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const Parser = require("rss-parser");
@@ -20,7 +20,7 @@ function extractImagesOnly(html) {
 }
 
 module.exports = async function () {
-	let rssUrl = "https://crashthearcade.tumblr.com/rss"; // Replace with your RSS feed URL
+	let rssUrl = "https://raindrop.io/collection/46077085/feed"; // Replace with your RSS feed URL
 
 	try {
 		let xml = await EleventyFetch(rssUrl, {
@@ -30,7 +30,7 @@ module.exports = async function () {
 
 		let feed = await parser.parseString(xml);
 
-		return feed.items.slice(0, 9).map(item => {
+		return feed.items.slice(0, 1).map(item => {
 			let description = item.content || item['content:encoded'] || item.description;
 
 			// Extract only images from the description
