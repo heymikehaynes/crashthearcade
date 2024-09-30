@@ -2,8 +2,17 @@
 
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const Parser = require("rss-parser");
-const cheerio = require("cheerio"); // Import Cheerio
-const parser = new Parser(); // Create a new parser instance
+const parser = new Parser();
+
+const maxDescriptionLength = 100; // Set your desired length for truncation
+
+// Function to truncate descriptions
+function truncateString(str, maxLength) {
+		if (str.length <= maxLength) {
+				return str; // Return the original string if it's short enough
+		}
+		return str.slice(0, maxLength) + '...'; // Truncate and add ellipsis
+}
 
 module.exports = async function () {
 		let jsonFeedUrl = "https://reederapp.net/qotk31U8S5GNHl5LIJOaGw.json"; // Replace with your JSON feed URL
@@ -17,27 +26,14 @@ module.exports = async function () {
 
 				// Map the feed items to extract the relevant fields
 				return jsonFeed.items.slice(0, 10).map(item => {
-						// Get the full description
-						const fullDescription = item.content_html || item.content_text || item.summary || '';
-
-						// Load the description into Cheerio for manipulation
-						const $ = cheerio.load(fullDescription);
-
-						// Optionally, you can remove unwanted tags or elements here
-						// For example, if you want to remove <p> tags but keep their content
-						$('p').unwrap(); // This removes the <p> tags but keeps the text inside
-
-						// If you want to truncate the description to a certain number of characters
-						const truncatedDescription = $('body').text().slice(0, 100) + '...'; // Truncate to 100 characters
-
-						// Render the HTML for description
-						const htmlDescription = $.html(); // Get the modified HTML back
+						const fullDescription = item.content_html || item.content_text || item.summary || ''; // Get the full description
+						const truncatedDescription = truncateString(fullDescription, maxDescriptionLength); // Truncate it
 
 						return {
 								title: item.title,
 								link: item.url || item.link, // Ensure the correct link field is used
 								pubDate: new Date(item.date_published || item.date), // Handle date fields appropriately
-								description: htmlDescription || truncatedDescription // Use the manipulated description
+								description: truncatedDescription // Use the truncated description
 						};
 				});
 		} catch (error) {
