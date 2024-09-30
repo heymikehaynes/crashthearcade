@@ -319,6 +319,10 @@ ul.socials li a i {
 	margin-bottom: 0px;
 }
 
+.bookmark-post img {
+	display: none;
+}
+
 .rating {
 	margin-top: 28px;
 	font-size: 28px;
