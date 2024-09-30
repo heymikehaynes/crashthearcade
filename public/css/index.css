@@ -95,12 +95,14 @@ h1 {
 
 h1 a {
 	text-decoration: none;
+	color: var(--primary-text);
+	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
 h1 a:hover {
 	text-decoration: none;
 	color: var(--primary-text);
-	box-shadow: inset 0 -16px 0 var(--primary-accent);
+	box-shadow: inset 0 -16px 0 var(--secondary-accent);
 }
 
 h2 {
@@ -353,4 +355,8 @@ footer a, footer a:visited {
 footer a:hover {
 	color: var(--primary-accent);
 	text-decoration: underline;
+}
+
+.links-nextprev {
+	margin: 60px 0;
 }

@@ -11,6 +11,6 @@ tags:
 
 Yeah, I’m really not sure why the tech press is making a big deal out of the fact that the R1 runs Android. It’s basically a smartphone, why would Rabbit use anything else to run a device like this? It’s still cheaper (though lacking in features) compared to most Android devices.
 
-Admittedly, I’m kind of bummed about the reception for the R1 so far. I love the design of it, both the hardware (yes, even the orange) and software. I think the price tag is steep but not completely out of line. In a lot of ways, it reminds me of Pebble’s smartwatches, which I was an early adopter and supporter of.
+Admittedly, I’m kind of bummed about the reception for the R1 so far. I love the design of it, both the hardware (yes, even the orange) and software. I think the price tag is steep but not completely out of line. In a lot of ways, it reminds me of Pebble’s smartwatches, which I was an early adopter of.
 
 I hope Rabbit is able to turn it into something compelling eventually.
