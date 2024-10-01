@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Defaults
 
-### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get work done.
+#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get work done.
 
 ## Hardware
 
