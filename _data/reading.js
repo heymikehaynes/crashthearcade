@@ -1,49 +1,40 @@
-/* latest book from raindrop */
+/* latest book from reeder */
 
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const Parser = require("rss-parser");
-const sanitizeHtml = require("sanitize-html");
-const parser = new Parser();
-
-// Function to extract only images
-function extractImagesOnly(html) {
-	return sanitizeHtml(html, {
-		allowedTags: ['img'], // Allow only <img> tags
-		allowedAttributes: {
-			'img': ['src', 'alt', 'title'] // Allow relevant attributes for <img>
-		},
-		// Remove all text nodes
-		textFilter: function(text) {
-			return ''; // Return empty string for all text content
-		}
-	});
-}
 
 module.exports = async function () {
-	let rssUrl = "https://raindrop.io/collection/46077244/feed"; // Replace with your RSS feed URL
+	let jsonFeedUrl = "https://reederapp.net/fp5HzbXGT2qXFRBQ6yMp1Q.json"; // Replace with your JSON feed URL
 
 	try {
-		let xml = await EleventyFetch(rssUrl, {
+		// Fetch and parse the JSON feed
+		let jsonFeed = await EleventyFetch(jsonFeedUrl, {
 			duration: "1h", // Cache for 1 hour
-			type: "text"
+			type: "json"    // Use "json" as the type for JSON feeds
 		});
 
-		let feed = await parser.parseString(xml);
+		// Extract the latest item from the JSON feed
+		return jsonFeed.items.slice(0, 1).map(item => {
+			// Extract the image from the _reeder.media[0].url or image field
+			let imageUrl = item._reeder?.media?.[0]?.url || item.image;
 
-		return feed.items.slice(0, 1).map(item => {
-			let description = item.content || item['content:encoded'] || item.description;
+			// Fallback if no image is found
+			if (!imageUrl) {
+				imageUrl = item.attachments?.[0]?.url || ''; // Check attachments as a fallback
+			}
 
-			// Extract only images from the description
-			let imagesOnly = extractImagesOnly(description);
+			// Remove year in parentheses from the title (e.g., "(2024)")
+			let title = item.title.replace(/\(\d{4}\)/, '').trim();
 
 			return {
-				...item,
-				pubDate: new Date(item.pubDate),
-				description: imagesOnly // Use only images
+				title: title, // Return the cleaned title
+				link: item.url || item.link, // Ensure the correct link field is used
+				pubDate: new Date(item.date_published || item.date), // Handle date fields appropriately
+				description: item.content_text || '', // Use content_text as the description
+				image: imageUrl // Return the extracted image URL
 			};
 		});
 	} catch (error) {
-		console.error("Error fetching RSS feed:", error);
+		console.error("Error fetching JSON feed:", error);
 		return [];
 	}
 };
