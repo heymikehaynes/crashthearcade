@@ -448,3 +448,47 @@ footer a:hover {
 	border-radius: 4px;
 	margin-bottom: 12px;
 }
+
+@media only screen and (max-width: 1050px) {
+
+	body {
+		padding: 0 32px;
+		margin: 50px auto 24px auto;
+	}
+
+	#container {
+		display: block;
+	}
+
+	header {
+		border-right: 0;
+	}
+
+	.sidebar {
+		width: 100%;
+		margin-bottom: 110px;
+		display: grid;
+		grid-template-columns: 1fr auto;
+	}
+
+	.now-block, .socials, .tumblr-block-post:nth-of-type(9) {
+		display: none;
+	}
+
+	.tumblr-block-array {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.nav {
+		margin: 0;
+	}
+
+	footer {
+		display: block;
+	}
+
+	.footer-02 {
+		margin-top: 12px;
+	}
+
+}
