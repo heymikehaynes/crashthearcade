@@ -11,24 +11,24 @@ eleventyNavigation:
 
 ## Hardware
 
-- Computer: 13″ 2022 M2 MacBook Air (Midnight)
+- Computer: 2022 M2 MacBook Air, 13", Midnight
 	- Keyboard: Keychron K2 Mechanical Keyboard
-	- Mouse: Apple Magic Mouse (Black)
-- Desk: IKEA UTESPELARE (White)
-- Chair: IKEA HATTEFJÄLL (Grey/White)
-- Display: ~~Samsung LS27R350FHNXZA 27″~~ 🪦
-- Audio: Apple HomePod mini (Space Grey)
-- Phone: iPhone 1P Plus (Black)
-- Watch: Apple Watch Series 7, 45mm (Midnight)
-- Tablet: 12.9″ iPad Pro, 6th gen (Space Grey)
-	- Mouse: Logitech Pebble i345 (White)
+	- Mouse: Apple Magic Mouse, Black
+- Desk: IKEA UTESPELARE, White
+- Chair: IKEA HATTEFJÄLL, Grey/White
+- Display: LG 27QN600, 27"
+- Audio: Apple HomePod mini, Space Grey
+- Phone: iPhone 16 Plus, 128GB, Black
+- Watch: Apple Watch Series 7, 45mm, Midnight
+- Tablet: iPad Air, 11", 6th gen, Space Grey
+	- Mouse: Logitech Pebble i345, White
 - Headphones:
-	- Apple AirPods (3rd generation)
-	- Apple AirPods Max (Space Grey)
+	- Apple AirPods, 3rd gen
+	- Apple AirPods Max, Space Grey
 - Gaming consoles:
-	- Xbox Series X (Black)
-	- PlayStation 5 (White)
-	- Nintendo Switch, non-OLED (Grey)
+	- Xbox Series X, Black
+	- PlayStation 5, White
+	- Nintendo Switch, non-OLED, Grey
 
 ## Software & Services
 
@@ -40,8 +40,8 @@ eleventyNavigation:
 - Contacts: Apple Contacts
 - Photos: Apple Photos
 - Cloud storage: iCloud
-- RSS client: [Reeder](https://www.reederapp.com/)
-- Read later: [Matter](#)
+- RSS client: Reeder
+- Read later: Matter
 - Browser: Arc
 - Chat: iMessage
 - Music: Spotify
