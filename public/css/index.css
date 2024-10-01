@@ -1,5 +1,4 @@
 /* Styles */
-
 @font-face {
 	font-family: Archivo;
 	src: url(/fonts/archivo/Archivo-Regular.woff);
@@ -41,7 +40,6 @@
 	--secondary-accent: #84d0ff;
 	--primary-bg: #08121c;
 	--secondary-bg: #151c26;
-	--divider-lines: #1b222d;
 	--primary-text: #FFFFFF;
 	--secondary-text: #5f6369;
 }
@@ -66,7 +64,7 @@ html {
 }
 
 header {
-	border-right: 4px solid var(--divider-lines);
+	border-right: 4px solid var(--secondary-bg);
 }
 
 body {
@@ -113,7 +111,7 @@ h2 {
 	font-size: 42px;
 	line-height: 1.6;
 	font-weight: bold;
-	border-bottom: 4px solid var(--divider-lines);
+	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
 	margin-top: 36px;
 	font-family: 'Archivo', sans-serif;
@@ -123,11 +121,11 @@ h3 {
 	font-size: 16px;
 	line-height: 1.4;
 	font-weight: normal;
-	margin: 0 0 5px 0;
+	margin: 0 0 8px 0;
 	font-family: 'Departure', monospace;
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
-	color: var(--primary-accent);
+	color: var(--secondary-text);
 }
 
 blockquote {
@@ -270,7 +268,6 @@ ul.socials li a i {
 }
 
 /* Posts list */
-
 .postlist {
 	list-style: none;
 	padding: 0;
@@ -358,7 +355,7 @@ ul.socials li a i {
 footer {
 	display: grid;
 	grid-template-columns: 1fr auto;
-	border-top: 4px solid var(--divider-lines);
+	border-top: 4px solid var(--secondary-bg);
 	padding: 24px 0 3px 0;
 	font-size: 16px;
 	color: var(--secondary-text);
@@ -379,27 +376,50 @@ footer a:hover {
 }
 
 /* sidebar */
-
 .sidebar {
-	/* position: sticky; */
+	position: sticky;
 	top: 52px;
 	width: 220px;
 	padding-right: 32px;
 }
 
-.status-sidebar-block .now-playing-block, .status-sidebar-block .now-reading-block {
+/* now block */
+.now-block {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	background: var(--secondary-bg);
-	padding: 12px;
-	border-radius: 8px;
-	margin-top: 24px;
+	padding: 24px 0;
+	border-radius: 4px;
+	margin: 0 0 110px 0;
+	column-gap: 32px;
+}
+
+.now-playing-block, .now-reading-block {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	column-gap: 12px;
 }
 
 .now-playing-block img, .now-reading-block img {
-	height: 140px;
+	height: 112px;
+	rotate: -7deg;
+	margin: -24px 0 -60px -12px;
+}
+
+.now-playing-block a, .now-reading-block a {
+	text-decoration: none;
+}
+
+.now-playing-block a:hover, .now-reading-block a:hover {
+	text-decoration: underline;
+}
+
+.vert-align-copy {
+	margin: auto 0;
+	margin-bottom: 4px;
 }
 
 /* tumblr block */
-
 .tumblr-block {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;

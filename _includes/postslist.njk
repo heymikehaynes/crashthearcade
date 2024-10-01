@@ -1,3 +1,19 @@
+<div class="now-block">
+	<div class="now-reading-block">
+		{% for post in reading %}
+			<a href="{{ post.link }}"><div>{{ post.description | safe }}</div></a>
+			<div class="vert-align-copy"><h3>Reading</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+		{% endfor %}
+	</div>
+
+	<div class="now-playing-block">
+		{% for post in playing %}
+			<div>{{ post.description | safe }}</div>
+			<div class="vert-align-copy"><h3>Playing</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+		{% endfor %}
+	</div>
+</div>
+
 {% for post in postslist | reverse %}
 
 	<div class="post-item">
@@ -40,26 +56,10 @@
 
 {% endfor %}
 
-<div class="now-block">
-	<div class="now-reading-block">
-	{% for post in reading %}
-		<div><h3>Reading</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
-		<div>{{ post.description | safe }}</div>
-	{% endfor %}
-	</div>
-
-	<div class="now-playing-block">
-	{% for post in playing %}
-		<div><h3>Playing</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
-		<div>{{ post.description | safe }}</div>
-	{% endfor %}
-	</div>
-
-	<div class="tumblr-block">
+<div class="tumblr-block">
 	{% for post in tumblr %}
 		<div class="tumblr-block-post">
-			<div>{{ post.description | safe }}</div>
+			<a href="{{ post.link }}"><div>{{ post.description | safe }}</div></a>
 		</div>
 	{% endfor %}
-	</div>
 </div>
