@@ -1,15 +1,15 @@
 <div class="now-block">
 	<div class="now-reading-block">
 		{% for post in reading %}
-			<a href="{{ post.link }}"><div>{{ post.description | safe }}</div></a>
-			<div class="vert-align-copy"><h3>Reading</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+			<a href="{{ post.link }}" target="_blank"><div>{{ post.description | safe }}</div></a>
+			<div class="vert-align-copy"><h3>Reading</h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></div>
 		{% endfor %}
 	</div>
 
 	<div class="now-playing-block">
 		{% for post in playing %}
-			<div>{{ post.description | safe }}</div>
-			<div class="vert-align-copy"><h3>Playing</h3><a href="{{ post.link }}">{{ post.title }}</a></div>
+			<a href="{{ post.link }}" target="_blank"><div>{{ post.description | safe }}</div></a>
+			<div class="vert-align-copy"><h3>Playing</h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></div>
 		{% endfor %}
 	</div>
 </div>
