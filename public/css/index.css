@@ -412,6 +412,7 @@ footer a:hover {
 	height: 112px;
 	rotate: -7deg;
 	margin: -24px 0 -60px -12px;
+	box-shadow: -1px 3px 5px #00000070;
 }
 
 .now-playing-block a, .now-reading-block a {
