@@ -1,6 +1,7 @@
 ---
 title: On the Rocksteady layoffs
 date: 2024-09-02
+type: post
 tags:
 - Video games
 ---

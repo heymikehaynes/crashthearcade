@@ -127,18 +127,28 @@ module.exports = function(eleventyConfig) {
 
 	// Custom Collection: Group Posts by Year for Archive Page
 	eleventyConfig.addCollection("postsByYear", function(collectionApi) {
-		let posts = collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust path if needed
-		let postsByYear = {};
+			let posts = collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust path if needed
+			let postsByYear = {};
 
-		posts.forEach(post => {
-			let year = post.date.getFullYear();
-			if (!postsByYear[year]) {
-				postsByYear[year] = [];
-			}
-			postsByYear[year].push(post);
-		});
+			// Group posts by year
+			posts.forEach(post => {
+					let year = post.date.getFullYear();
+					if (!postsByYear[year]) {
+							postsByYear[year] = [];
+					}
+					postsByYear[year].push(post);
+			});
 
-		return postsByYear;
+			// Convert the postsByYear object into an array and sort by year in reverse order
+			let sortedPostsByYear = Object.entries(postsByYear).sort((a, b) => b[0] - a[0]);
+
+			// Sort posts within each year in reverse chronological order
+			sortedPostsByYear = sortedPostsByYear.map(([year, posts]) => {
+					posts.sort((a, b) => b.date - a.date);
+					return { year, posts };
+			});
+
+			return sortedPostsByYear;
 	});
 
 	// Features to make your build faster (when you need them)

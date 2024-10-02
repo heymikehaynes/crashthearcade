@@ -1,6 +1,7 @@
 ---
 title:
 date: 2024-09-23
+type: note
 tags:
 - Video games
 ---

@@ -1,6 +1,7 @@
 ---
 title: Zenless Zone Zero'd
 date: 2024-05-29
+type: post
 tags:
 - Video games
 ---

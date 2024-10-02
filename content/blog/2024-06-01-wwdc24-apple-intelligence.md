@@ -1,6 +1,7 @@
 ---
 title: WWDC24 and Apple Intelligence
 date: 2024-06-14
+type: post
 tags:
 - Apple
 ---
