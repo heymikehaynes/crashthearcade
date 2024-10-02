@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: Bookmarks
-  order: 5
+  order: 3
 ---
 
 # Bookmarks
