@@ -6,7 +6,7 @@
 				onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
 		></a>
 		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
-			» {{ post.pubDate | ordinalDate }}
+			<a href="{{ post.link }}" target="_blank">» {{ post.pubDate | ordinalDate }}</a>
 		</time>
 		<h5><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(75) }}</a></h5>
 	</div>

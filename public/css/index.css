@@ -299,9 +299,13 @@ ul.socials li a i {
 	letter-spacing: 1.25px;
 }
 
-.postlist-date a {
+.postlist-date a, .bookmark-list-date a {
 	text-decoration: none;
 	color: var(--primary-accent);
+}
+
+.postlist-date a:hover, .bookmark-list-date a:hover {
+	text-decoration: underline;
 }
 
 .post-item {
