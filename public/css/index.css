@@ -150,6 +150,13 @@ blockquote {
 	font-style: italic;
 }
 
+.update-block {
+	background: var(--secondary-bg);
+	padding: 32px;
+	border-radius: 8px;
+	margin: 38px 0 8px 0;
+}
+
 ul {
 	padding: 0 0 0 20px;
 }

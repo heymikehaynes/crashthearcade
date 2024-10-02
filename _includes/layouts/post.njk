@@ -28,6 +28,13 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
+{% if update is defined %}
+	<div class="update-block">
+		<h3>Update {{ page.fileLastModified | ordinalDate }}</h3>
+		<p>{{ update | safe }}</p>
+	</div>
+{% endif %}
+
 <div class="postlist-tags single-tags">
 	{% for tag in tags %}
 		{% if tag != "posts" %}

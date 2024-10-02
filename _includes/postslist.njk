@@ -28,6 +28,13 @@
 		</div>
 		{% endif %}
 
+		{% if post.data.update is defined %}
+			<div class="update-block">
+				<h3>Update {{ post.data.page.fileLastModified | ordinalDate }}</h3>
+				<p>{{ post.data.update | safe }}</p>
+			</div>
+		{% endif %}
+
 		<div class="postlist-tags">
 			{% for tag in post.data.tags %}
 				{% if tag != "posts" %}
