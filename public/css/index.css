@@ -93,7 +93,6 @@ h1 {
 	text-wrap: balance;
 	font-family: 'Archivo', sans-serif;
 	margin: 0 0 32px 0;
-	text-align: balance;
 }
 
 h1 a {
@@ -316,16 +315,47 @@ ul.socials li a i {
 	margin-top: -24px;
 }
 
-.bookmark-post {
-	margin-bottom: 100px;
+.bookmark-block {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 24px;
+	margin-bottom: 24px;
 }
 
-.bookmark-post:last-of-type {
-	margin-bottom: 0px;
+.bookmark-block p {
+	display: none;
 }
 
 .bookmark-post img {
-	display: none;
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px 4px 0 0;
+}
+
+.bookmark-post {
+	background: var(--secondary-bg);
+	border-radius: 4px;
+	margin-bottom: 24px;
+	display: block;
+}
+
+.bookmark-post h5 {
+	margin: 16px;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.2;
+	height: 98px;
+	overflow: hidden;
+}
+
+.bookmark-post h5 a {
+	text-decoration: none;
+}
+
+.bookmark-post h5 a:hover {
+	text-decoration: underline;
 }
 
 .rating {

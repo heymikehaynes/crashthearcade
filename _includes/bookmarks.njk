@@ -1,0 +1,15 @@
+{% for post in bookmarks %}
+	<div class="bookmark-post">
+		<img
+				src="{{ post.image }}"
+				alt="{{ post.title }}"
+				onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
+		>
+		<h5><a href="{{ post.link }}">{{ post.title }}</a></h5>
+		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
+			{{ post.pubDate | ordinalDate }}
+		</time>
+	</div>
+{% endfor %}
+
+<div class="more-button-style"><a href="#">Button</a></div>
