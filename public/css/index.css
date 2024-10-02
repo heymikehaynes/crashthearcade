@@ -331,6 +331,7 @@ ul.socials li a i {
 	height: 180px;
 	object-fit: cover;
 	border-radius: 4px 4px 0 0;
+	border-bottom: 1px solid #ffffff10;
 }
 
 .bookmark-post {
@@ -341,13 +342,23 @@ ul.socials li a i {
 }
 
 .bookmark-post h5 {
-	margin: 16px;
+	margin: 0 16px 16px 16px;
 	display: block;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 1.2;
 	height: 98px;
 	overflow: hidden;
+}
+
+.bookmark-list-date {
+	margin: 16px 16px 12px 16px;
+	font-family: 'Departure', monospace;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: var(--primary-accent);
+	display: block;
+	letter-spacing: 0.6px;
 }
 
 .bookmark-post h5 a {

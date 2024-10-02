@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Bookmarks
 
-#### Some great stuff to read
+#### Some nice things to read online
 
 <div class="bookmark-block">
 	{%- include 'bookmarks.njk' -%}
