@@ -8,8 +8,6 @@
 		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
 			» {{ post.pubDate | ordinalDate }}
 		</time>
-		<h5><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h5>
+		<h5><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(75) }}</a></h5>
 	</div>
 {% endfor %}
-
-<div class="more-button-style"><a href="https://reederapp.net/qotk31U8S5GNHl5LIJOaGw">View more</a></div>

@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Now
 
-#### Working on it
+#### What's going on
 
 <div class="now-block">
 	{%- include 'now.njk' -%}

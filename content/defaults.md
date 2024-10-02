@@ -7,7 +7,7 @@ eleventyNavigation:
 
 # Defaults
 
-#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get work done.
+#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done.
 
 ## Hardware
 
@@ -39,7 +39,7 @@ eleventyNavigation:
 - Calendar: Apple Calendar
 - Contacts: Apple Contacts
 - Photos: Apple Photos
-- Cloud storage: iCloud
+- Cloud storage: iCloud Drive
 - RSS client: Reeder
 - Read later: Matter
 - Browser: Arc

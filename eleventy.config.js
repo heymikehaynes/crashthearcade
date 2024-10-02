@@ -11,16 +11,12 @@ const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
-	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
 
-	// Run Eleventy when these files change:
-	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-
-	// Watch content images for the image pipeline.
+	// Watch content images for the image pipeline
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
 	// App plugins
@@ -49,6 +45,13 @@ module.exports = function(eleventyConfig) {
 			suffix = "rd";
 		}
 		return `${date.toFormat("LLLL")} ${day}${suffix}, ${date.toFormat("yyyy")}`;
+	});
+
+	eleventyConfig.addFilter("excerpt", (content, length = 200) => {
+		if (!content) return "";
+
+		let excerpt = content.replace(/(<([^>]+)>)/gi, ""); // Remove HTML tags
+		return excerpt.length > length ? excerpt.slice(0, length) + "..." : excerpt;
 	});
 
 	// Create a collection for tags
@@ -81,16 +84,14 @@ module.exports = function(eleventyConfig) {
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
-		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
 	});
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
 	});
 
-	// Get the first `n` elements of a collection.
+	// Get the first `n` elements of a collection
 	eleventyConfig.addFilter("head", (array, n) => {
 		if(!Array.isArray(array) || array.length === 0) {
 			return [];
@@ -124,17 +125,27 @@ module.exports = function(eleventyConfig) {
 		return (new Date()).toISOString();
 	})
 
-	// Features to make your build faster (when you need them)
+	// Custom Collection: Group Posts by Year for Archive Page
+	eleventyConfig.addCollection("postsByYear", function(collectionApi) {
+		let posts = collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust path if needed
+		let postsByYear = {};
 
-	// If your passthrough copy gets heavy and cumbersome, add this line
-	// to emulate the file copy on the dev server. Learn more:
-	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
+		posts.forEach(post => {
+			let year = post.date.getFullYear();
+			if (!postsByYear[year]) {
+				postsByYear[year] = [];
+			}
+			postsByYear[year].push(post);
+		});
+
+		return postsByYear;
+	});
+
+	// Features to make your build faster (when you need them)
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 	return {
-		// Control which files Eleventy will process
-		// e.g.: *.md, *.njk, *.html, *.liquid
 		templateFormats: [
 			"md",
 			"njk",
@@ -142,13 +153,9 @@ module.exports = function(eleventyConfig) {
 			"liquid",
 		],
 
-		// Pre-process *.md files with: (default: `liquid`)
 		markdownTemplateEngine: "njk",
-
-		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: "njk",
 
-		// These are all optional:
 		dir: {
 			input: "content",          // default: "."
 			includes: "../_includes",  // default: "_includes"
@@ -156,16 +163,6 @@ module.exports = function(eleventyConfig) {
 			output: "_site"
 		},
 
-		// -----------------------------------------------------------------
-		// Optional items:
-		// -----------------------------------------------------------------
-
-		// If your site deploys to a subdirectory, change `pathPrefix`.
-		// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
-
-		// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-		// it will transform any absolute URLs in your HTML to include this
-		// folder name and does **not** affect where things go in the output folder.
 		pathPrefix: "/",
 	};
 };

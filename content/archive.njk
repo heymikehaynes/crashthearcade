@@ -1,0 +1,21 @@
+---
+layout: layouts/home.njk
+permalink: /archive/
+---
+
+<h1>Archive</h1>
+
+<h4>Browse previous posts from this site</h4>
+
+{% for year, posts in collections.postsByYear %}
+	<h2>{{ year }}</h2>
+		{% for post in posts %}
+			<div class="archive-post">
+				<p class="bookmark-list-date">» {{ post.date | ordinalDate }}</p>
+				{% if post.data.title %}
+					<h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
+				{% endif %}
+				<p>{{ post.templateContent | excerpt(120) }}</p>
+			</div>
+		{% endfor %}
+{% endfor %}
