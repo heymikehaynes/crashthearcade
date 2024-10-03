@@ -1,5 +1,5 @@
 ---
-title: Silent Hill 2 remake ending leaked online
+title: Silent Hill 2 remake endings leaked online
 date: 2024-10-03T18:25:00-05:00
 tags:
     - Video games
