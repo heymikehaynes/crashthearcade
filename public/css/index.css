@@ -64,7 +64,7 @@ html {
 }
 
 .main-content {
-	margin-bottom: 36px;
+	margin-bottom: 46px;
 }
 
 header {
@@ -412,10 +412,6 @@ ul.socials li a i {
 .postlist-tags a:hover {
 	background: var(--primary-accent);
 	color: var(--primary-text);
-}
-
-.postlist-tags.single-tags {
-	margin-bottom: 80px;
 }
 
 footer {
