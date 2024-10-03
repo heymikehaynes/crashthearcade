@@ -8,4 +8,4 @@ tags:
 
 > Silent Hill 2‘s ending, as well as multiple secret endings, have been streamed on YouTube, with clips of the streams circulating social media.
 
-One could argue that the ending of the Silent Hill 2 remake was spoiled 23 years ago.
+One could argue that the endings were spoiled 23 years ago.
