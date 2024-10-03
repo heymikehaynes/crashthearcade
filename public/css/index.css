@@ -63,6 +63,10 @@ html {
 	overflow-y: scroll;
 }
 
+.main-content {
+	margin-bottom: 36px;
+}
+
 header {
 	border-right: 4px solid var(--secondary-bg);
 }
@@ -108,7 +112,7 @@ h1 a:hover {
 }
 
 h2 {
-	font-size: 42px;
+	font-size: 36px;
 	line-height: 1.6;
 	font-weight: bold;
 	border-bottom: 4px solid var(--secondary-bg);
@@ -457,7 +461,6 @@ footer a:hover {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: var(--secondary-text);
-	margin-bottom: 46px;
 }
 
 .more-button-style a:hover {
@@ -478,13 +481,13 @@ footer a:hover {
 .now-block {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	margin-top: 46px;
 }
 
 .now-playing-block, .now-reading-block {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	column-gap: 24px;
-	margin-bottom: 32px;
 }
 
 .now-playing-block p, .now-reading-block p {
