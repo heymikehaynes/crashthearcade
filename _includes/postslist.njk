@@ -1,7 +1,5 @@
 {% for post in postslist | reverse %}
-
 	<div class="post-item">
-
 		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
 			<a href="{{ post.url }}">» {{ post.date | ordinalDate }}</a>
 		</time>
@@ -12,19 +10,19 @@
 
 		{% if post.data.rating is defined %}
 		<div class="rating">
-				{% for i in range(1, post.data.rating | int + 1) %}
-						<i class="fas fa-star"></i>
-				{% endfor %}
-				{% if post.data.rating % 1 != 0 %}
-						<i class="fas fa-star-half-alt"></i>
-				{% endif %}
-				{% set filledStars = post.data.rating | int %}
-				{% if post.data.rating % 1 != 0 %}
-						{% set filledStars = filledStars + 1 %}
-				{% endif %}
-				{% for i in range(filledStars, 5) %}
-						<i class="far fa-star"></i>
-				{% endfor %}
+			{% for i in range(1, post.data.rating | int + 1) %}
+				<i class="fas fa-star"></i>
+			{% endfor %}
+			{% if post.data.rating % 1 != 0 %}
+				<i class="fas fa-star-half-alt"></i>
+			{% endif %}
+			{% set filledStars = post.data.rating | int %}
+			{% if post.data.rating % 1 != 0 %}
+				{% set filledStars = filledStars + 1 %}
+			{% endif %}
+			{% for i in range(filledStars, 5) %}
+				<i class="far fa-star"></i>
+			{% endfor %}
 		</div>
 		{% endif %}
 
@@ -42,9 +40,14 @@
 				{% endif %}
 			{% endfor %}
 		</div>
-
 	</div>
 
+	{% if loop.index == 1 %}
+		<!-- Custom block of content after the first post -->
+		<div class="tumblr-block">
+			{%- include 'tumblr.njk' -%}
+		</div>
+	{% endif %}
 {% endfor %}
 
 <div class="more-button-style"><a href="/archive">View archive</a></div>

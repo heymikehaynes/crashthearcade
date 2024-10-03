@@ -526,24 +526,21 @@ footer a:hover {
 
 /* tumblr block */
 .tumblr-block {
-	margin-bottom: 32px;
-	background: var(--secondary-bg);
-	padding: 16px 16px 0px 16px;
-	border-radius: 4px;
+	margin-bottom: 80px;
 }
 
 .tumblr-block-array {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 16px;
+	column-gap: 24px;
 }
 
 .tumblr-block-post img {
 	width: 100%;
 	height: 260px;
 	object-fit: cover;
-	border-radius: 4px;
-	margin-bottom: 12px;
+	border-radius: 2px;
+	margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1050px) {
