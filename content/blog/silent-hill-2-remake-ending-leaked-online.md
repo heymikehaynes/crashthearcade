@@ -6,6 +6,6 @@ tags:
 ---
 [Jordan Middler for VGC](https://www.videogameschronicle.com/news/silent-hill-2-remakes-ending-has-been-streamed-on-youtube-a-week-before-the-games-release/):
 
-> Silent Hill 2‘s ending, as well as multiple secret endings, have been streamed on YouTube, with clips of the streams circulating social media.
+> Silent Hill 2‘s ending, as well as multiple secret endings, have been streamed on YouTube, with clips of the streams circulating social media. It’s believed that the user streaming the game acquired a physical copy early.
 
 One could argue that the endings were spoiled 23 years ago.
