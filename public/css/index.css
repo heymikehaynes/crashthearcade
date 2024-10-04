@@ -117,7 +117,7 @@ h2 {
 	font-weight: bold;
 	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
-	margin-top: 36px;
+	margin-top: 42px;
 	font-family: 'Archivo', sans-serif;
 }
 
@@ -490,17 +490,9 @@ footer a:hover {
 	display: none;
 }
 
-.now-playing-block img {
-	height: 120px;
-	rotate: 0deg;
-	box-shadow: -1px 3px 5px #00000070;
+.now-playing-block img,  .now-reading-block img {
+	height: 132px;
 }
-
- .now-reading-block img {
-	height: 120px;
-	rotate: 0deg;
-	box-shadow: -1px 3px 5px #00000070;
- }
 
 .now-playing-block a, .now-reading-block a {
 	text-decoration: none;
@@ -512,7 +504,7 @@ footer a:hover {
 
 .vert-align-copy {
 	height: 100%;
-	align-content: center;
+	/* align-content: center; */
 }
 
 /* archive */
