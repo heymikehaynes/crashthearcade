@@ -495,6 +495,8 @@ footer a:hover {
 
 .now-playing-block img,  .now-reading-block img {
 	height: 116px;
+	width: 84px;
+	object-fit: cover;
 	border-radius: 2px 0 0 2px;
 	margin-bottom: -5px;
 }
@@ -595,6 +597,10 @@ footer a:hover {
 
 	.tumblr-block-array, .bookmark-block, .now-block {
 		grid-template-columns: 1fr;
+	}
+
+	.now-playing-block {
+		margin-top: 24px;
 	}
 
 	.nav {
