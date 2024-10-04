@@ -533,6 +533,11 @@ footer a:hover {
 	margin-bottom: 24px;
 }
 
+.tumblr-block-post img:not(:first-of-type) {
+	display: none;
+}
+
+
 .tumblr-block-array {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
