@@ -9,8 +9,8 @@ eleventyNavigation:
 
 #### This page is inspired by Derek Sivers' project, [nownownow.com](https://nownownow.com/about). It was last updated on October 4th, 2024.
 
-## Life
-I'm still recovering from a recent trip with my family to California at the end of September. It was great but *exhausting*.
+- I'm still recovering from a recent trip with my family to California at the end of September. It was great but *exhausting*. We visited Disneyland, Universal Studios, and caught a Dodgers game.
+- I'm excited for the MLB playoffs to start this weekend and hoping for a better end to the Dodgers season than last year.
 
 ## Books, games, etc
 I've finished over [215 books](https://www.goodreads.com/user_challenges/54484570) (mostly manga) so far this year but started slowing down now that I've run out of stuff to read. I haven't played much recently other than Zenless Zone Zero so I'm going to grab Silent Hill 2 next week. I never finished the original but I think I'm excited?

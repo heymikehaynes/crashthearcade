@@ -1,13 +1,13 @@
 <div class="now-reading-block">
 	{% for post in reading %}
 		<a href="{{ post.link }}" target="_blank"><div><img src="{{ post.image }}" alt="{{ post.title }}"></div></a>
-		<div class="vert-align-copy"><h3>» Now reading</h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></div>
+		<div class="vert-align-copy"><h3>» Now reading</h3><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(32) }}</a></div>
 	{% endfor %}
 </div>
 
 <div class="now-playing-block">
 	{% for post in playing %}
 		<a href="{{ post.link }}" target="_blank"><div><img src="{{ post.image }}" alt="{{ post.title }}"></div></a>
-		<div class="vert-align-copy"><h3>» Now playing</h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></div>
+		<div class="vert-align-copy"><h3>» Now playing</h3><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(32) }}</a></div>
 	{% endfor %}
 </div>
