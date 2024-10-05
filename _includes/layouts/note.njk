@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+<time class="postlist-date" datetime="{{ date | htmlDateString }}">
+	» {{ date | ordinalDate }}
+</time>
+
+<div class="postlist-content format-note">{{ content | safe }}</div>
+
+{% if update is defined %}
+	<div class="update-block">
+		<h3>Update</h3>
+		<p>{{ update | safe }}</p>
+	</div>
+{% endif %}
+
+<div class="postlist-tags single-tags">
+	{% for tag in tags %}
+		{% if tag != "posts" %}
+			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
