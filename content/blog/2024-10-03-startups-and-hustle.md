@@ -8,13 +8,9 @@ My friend sent me a post by a guy who works at a semi-local startup. In it, he t
 
 He confirms what many in the tech community here have assumed for years: that the people who work there get paid less to do more in a stress-filled environment with constantly changing priorities and directives from management.
 
-All in the name of&nbsp;*hustle*.
-
 The one thing I can appreciate about this post is that the guy was as open as I've ever heard someone in his position describe the working conditions at a startup. In my experience, founders and CEOs use smoke and mirrors to soften how terrible it is to work from them, saying, "We work hard and play hard" (you'll be putting in 12-hour days) or something equally offensive when asked about work-life balance.
 
-This guy did&nbsp;*less*&nbsp;of that.
-
-If you're new to the tech job market and wonder if this is just&nbsp;*how things are*, it's not. Know that there are other jobs out there that don't do this. Companies that acknowledge you as a person and treat you with respect, don't abuse your time or your mental health, and pay you what you're worth are harder to find, but they do exist.
+If you're new to the tech job market and wonder if this is just *how things are*, it's not. Know that there are other jobs out there that don't do this. Companies that acknowledge you as a person and treat you with respect, don't abuse your time or your mental health, and pay you what you're worth are harder to find, but they do exist.
 
 When you work for a company like the guy above, you build someone else's rocket ship. Their ultimate success will not translate to similar success for you, no matter how they're packaging it.
 

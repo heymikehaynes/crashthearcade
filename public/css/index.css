@@ -154,24 +154,28 @@ blockquote {
 	font-style: italic;
 }
 
-.format-quote blockquote {
+.format-quote blockquote, .quote-block blockquote {
 	padding-left: 0;
 	margin: 0;
 	border-left: 0;
 	font-style: normal;
 }
 
-.format-quote blockquote p {
+.quote-block {
+	margin-bottom: 100px;
+}
+
+.format-quote blockquote p, .quote-block blockquote p {
 	font-size: 32px;
 	line-height: 1.4;
 	text-indent: -12px;
 }
 
-.format-quote blockquote p:before {
+.format-quote blockquote p:before, .quote-block blockquote p:before {
 	content: "“";
 }
 
-.format-quote blockquote p:after {
+.format-quote blockquote p:after, .quote-block blockquote p:after {
 	content: "”";
 }
 
