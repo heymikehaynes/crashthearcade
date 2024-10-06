@@ -44,15 +44,13 @@
 
 	{% if loop.index == 1 and page.url == '/' %}
 			<div class="tumblr-block">
-					<h3>» Recently tumbl'd</h3>
-					{%- include 'tumblr.njk' -%}
-					<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More from Tumblr</a></div>
+				{%- include 'tumblr.njk' -%}
 			</div>
 	{% endif %}
 
 	{% if loop.index == 2 and page.url == '/' %}
 			<div class="mastodon-block">
-					{%- include 'mastodon.njk' -%}
+				{%- include 'mastodon.njk' -%}
 			</div>
 	{% endif %}
 {% endfor %}
