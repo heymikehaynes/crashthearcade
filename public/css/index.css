@@ -165,10 +165,14 @@ blockquote {
 	margin-bottom: 100px;
 }
 
-.format-quote blockquote p, .quote-block blockquote p {
+.format-quote blockquote p, .quote-block blockquote p, .mastodon-block .masto-post-body p {
 	font-size: 32px;
 	line-height: 1.4;
 	text-indent: -12px;
+}
+
+.mastodon-block .masto-post-body p {
+	text-indent: 0;
 }
 
 .format-quote blockquote p:before, .quote-block blockquote p:before {
@@ -242,7 +246,7 @@ code {
 }
 
 .home-link img {
-	width: 64px;
+	width: 70px;
 	height: auto;
 	border-radius: 100px;
 }
@@ -553,18 +557,57 @@ footer a:hover {
 }
 
 /* masto block */
+img.masto-avatar {
+	width: 70px;
+	background: var(--primary-accent);
+	border-radius: 100px;
+}
+
+.masto-header-info {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	column-gap: 24px;
+	align-items: center;
+}
+
+.masto-user-info p {
+	margin: 0;
+}
+
 .mastodon-block {
 	margin-bottom: 100px;
 }
 
+.fa-mastodon {
+	font-size: 36px;
+}
+
+a.masto-logo-link {
+	align-self: normal;
+	color: var(--secondary-text);
+}
+
+a.masto-logo-link:hover {
+	color: var(--primary-accent);
+}
+
+.mastodon-block .postlist-date {
+	margin: 28px 0 0 0;
+}
+
 .mastodon-block-post {
-	padding: 32px;
+	padding: 42px;
 	background-color: var(--secondary-bg);
-	background-image: url('/img/masto-bg.png');
-	background-position: center right;
-	background-repeat: no-repeat;
 	margin-bottom: 24px;
 	border-radius: 8px;
+}
+
+.masto-name {
+	font-weight: bold;
+}
+
+.masto-address {
+	color: var(--secondary-text);
 }
 
 /* pixelfed block */
@@ -635,7 +678,7 @@ footer a:hover {
 		grid-template-columns: 1fr auto;
 	}
 
-	.socials {
+	.socials, .masto-address {
 		display: none;
 	}
 

@@ -1,8 +1,16 @@
 <div class="mastodon-block-array">
 	{% for post in mastodon %}
 		<div class="mastodon-block-post">
+			<div class="masto-header-info">
+				<img class="masto-avatar" src="/img/avatar.gif">
+				<div class="masto-user-info">
+					<p class="masto-name"><a href="https://social.lol/@crashthearcade">Mike Haynes</a></p>
+					<p class="masto-address">@crashthearcade@social.lol</p>
+				</div>
+				<a href="https://social.lol/@crashthearcade" class="masto-logo-link"><i class="fa-brands fa-mastodon"></i></a>
+			</div>
+			<div class="masto-post-body">{{ post.description | safe }}</div>
 			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
-			<div>{{ post.description | safe }}</div>
 		</div>
 	{% endfor %}
 </div>
