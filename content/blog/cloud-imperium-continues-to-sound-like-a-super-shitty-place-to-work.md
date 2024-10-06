@@ -10,10 +10,8 @@ tags:
 
 This news should not come as a surprise to those who have been following the company. These are the same individuals who have, among other terrible things:
 
-\- <a href="https://robertsspaceindustries.com/funding-goals" target="_blank" rel="noopener">Raised over 700 million dollars</a> without shipping anything, <a href="https://www.rockpapershotgun.com/star-citizen-refund" target="_blank" rel="noopener">resulting in backers taking the company to court for refunds</a>.
-
-\- <a href="https://www.eurogamer.net/star-citizen-developer-ordered-to-pay-27k-to-disabled-worker-in-return-to-office-discrimination-claim" target="_blank" rel="noopener">Denying a disabled employee’s requests to work from home and then firing them</a>.
-
-\- <a href="https://www.gamedeveloper.com/business/report-star-citizen-dev-cig-laid-off-staff-following-studio-relocation" target="_blank" rel="noopener">Been accused of having a “highly toxic” workplace culture by a former producer</a>.
+- <a href="https://robertsspaceindustries.com/funding-goals" target="_blank" rel="noopener">Raised over 700 million dollars</a> without shipping anything, <a href="https://www.rockpapershotgun.com/star-citizen-refund" target="_blank" rel="noopener">resulting in backers taking the company to court for refunds</a>.
+- <a href="https://www.eurogamer.net/star-citizen-developer-ordered-to-pay-27k-to-disabled-worker-in-return-to-office-discrimination-claim" target="_blank" rel="noopener">Denying a disabled employee’s requests to work from home and then firing them</a>.
+- <a href="https://www.gamedeveloper.com/business/report-star-citizen-dev-cig-laid-off-staff-following-studio-relocation" target="_blank" rel="noopener">Been accused of having a “highly toxic” workplace culture by a former producer</a>.
 
 Who cares about Star Citizen when the company making it is *this* rotten?
