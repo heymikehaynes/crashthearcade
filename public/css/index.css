@@ -387,7 +387,7 @@ ul.socials li a i {
 }
 
 .bookmark-post h5 {
-	margin: 0 24px 24px 24px;
+	margin: 0 24px 20px 24px;
 	display: block;
 	font-weight: bold;
 }
@@ -550,6 +550,21 @@ footer a:hover {
 
 .archive-post p:last-of-type {
 	margin: 12px 0 52px 0;
+}
+
+/* masto block */
+.mastodon-block {
+	margin-bottom: 100px;
+}
+
+.mastodon-block-post {
+	padding: 32px;
+	background-color: var(--secondary-bg);
+	background-image: url('/img/masto-bg.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	margin-bottom: 24px;
+	border-radius: 8px;
 }
 
 /* pixelfed block */

@@ -1,0 +1,8 @@
+<div class="mastodon-block-array">
+	{% for post in mastodon %}
+		<div class="mastodon-block-post">
+			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
+			<div>{{ post.description | safe }}</div>
+		</div>
+	{% endfor %}
+</div>

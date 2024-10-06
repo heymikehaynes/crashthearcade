@@ -46,16 +46,16 @@
 		<div class="tumblr-block">
 			<h3>» Recently tumbl'd</h3>
 			{%- include 'tumblr.njk' -%}
-			<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">View more</a></div>
+			<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More from Tumblr</a></div>
 		</div>
 	{% endif %}
 
-	<!-- {% if loop.index == 2 %}
-		<div class="quote-block">
-			<h3>» Quoted</h3>
-			<p>This is an additional block that appears after the second post.</p>
+	{% if loop.index == 2 %}
+		<div class="mastodon-block">
+			{%- include 'mastodon.njk' -%}
+			<div class="more-button-style"><a href="https://social.lol/@crashthearcade">More from Mastodon</a></div>
 		</div>
-	{% endif %} -->
+	{% endif %}
 {% endfor %}
 
 <div class="more-button-style"><a href="/archive">View archive</a></div>
