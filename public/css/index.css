@@ -425,7 +425,17 @@ ul.socials li a i {
 	margin-right: -3px;
 }
 
-.postlist-tags a {
+.archive-navigation ul {
+	padding: 0;
+	margin: 0;
+}
+
+.archive-navigation li {
+	list-style: none;
+	display: inline;
+}
+
+.postlist-tags a, .archive-navigation li a {
 	margin: 36px 0 0 0;
 	padding: 16px 22px;
 	border-radius: 100px;
@@ -439,7 +449,11 @@ ul.socials li a i {
 	letter-spacing: 1.25px;
 }
 
-.postlist-tags a:hover {
+.archive-navigation li a {
+	margin: 0 12px 0 0;
+}
+
+.postlist-tags a:hover, .archive-navigation li a:hover {
 	background: var(--primary-accent);
 	color: var(--primary-text);
 }
