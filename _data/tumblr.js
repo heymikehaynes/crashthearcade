@@ -24,7 +24,7 @@ function extractImagesOnly(html) {
 async function downloadAndOptimizeImage(imageUrl, postTitle) {
 		try {
 				// Save images in the public/img/reeder folder
-				const imageDirectory = path.join(__dirname, "..", "public", "img", "bookmarks");
+				const imageDirectory = path.join(__dirname, "..", "public", "img", "tumblr");
 				await fs.ensureDir(imageDirectory); // Ensure the directory exists
 
 				// Create a safe filename by replacing invalid characters
@@ -51,7 +51,7 @@ async function downloadAndOptimizeImage(imageUrl, postTitle) {
 				}
 
 				// Return the relative public path to the image
-				return `/img/bookmarks/${fileName}`;
+				return `/img/tumblr/${fileName}`;
 		} catch (error) {
 				console.error(`Error downloading or optimizing image: ${imageUrl}`, error);
 				return null;
