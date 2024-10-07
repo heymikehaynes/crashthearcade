@@ -725,7 +725,7 @@ p.error-text {
 		display: none;
 	}
 
-	.tumblr-block-array, .bookmark-block, .now-block {
+	.tumblr-block-array, .bookmark-block, .now-block, .pixelfed-block-array {
 		grid-template-columns: 1fr;
 	}
 
