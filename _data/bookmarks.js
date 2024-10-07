@@ -11,9 +11,9 @@ async function downloadImage(imageUrl, postTitle) {
 				await fs.ensureDir(imageDirectory); // Ensure the directory exists
 
 				// Create a safe filename by replacing invalid characters and removing query parameters
-				const safeTitle = postTitle.replace(/[^a-zA-Z0-9]/g, "_");
+				const safeTitle = postTitle.replace(/[^a-zA-Z0-9]/g, "_"); // Sanitize post title
 				const urlObj = new URL(imageUrl);
-				const fileName = `${safeTitle}_${path.basename(urlObj.pathname)}`; // Only use the pathname for the filename
+				const fileName = `${safeTitle}_${path.basename(urlObj.pathname)}`; // Use only the pathname for the filename
 				const filePath = path.join(imageDirectory, fileName);
 
 				// Download the image if it doesn't exist
