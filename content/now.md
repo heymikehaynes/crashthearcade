@@ -24,7 +24,7 @@ I’ve finished over [215 books](https://www.goodreads.com/user_challenges/5448
 I’d spent the better part of a year convincing myself I was done with website tinkering, but here we are. I need a singular place to keep and share all my posts, bookmarks, notes, etc. I also hope to get back into pixel art sooner rather than later.
 
 <div class="pixelfed-block">
-	<h2>Recent photos</h2>
+	<h2>Camera roll</h2>
 	{%- include 'pixelfed.njk' -%}
-	<div class="more-button-style"><a href="https://pixelfed.social/@crashthearcade">View more</a></div>
+	<div class="more-button-style"><a href="https://pixelfed.social/@crashthearcade">More</a></div>
 </div>
