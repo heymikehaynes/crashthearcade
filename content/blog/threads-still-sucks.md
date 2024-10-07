@@ -4,9 +4,9 @@ date: 2024-10-07T08:35:00-05:00
 tags:
     - Threads
 ---
-Against my better judgment, I tried Threads again, and it’s only slightly better than I remember it being, which was pretty terrible. The main “For You” feed is filled with sexist comments and people asking generic, uninteresting questions that have been asked a million times in other places. Everything about it feels synthetic; people just try their best to post *something* for engagement.
+Against my better judgment, I decided to give Threads another try, and it’s only marginally better than I remembered, which was pretty awful. The main “For You” feed is filled with sexist comments and people asking generic, uninteresting questions that have been asked a million times in other places. Everything about it feels synthetic; people just try their best to post *something* for engagement.
 
-One change Meta made while I was using the app was burying the “Following” feed in a menu, making the whole thing practically unusable.
+One change Meta made while I was using the app was burying the “Following” feed, making the thing practically unusable. You’re forced to dig through Meta’s half-assed attempt to emulate Bluesky’s feeds menu to see the content you want to read.
 
 For example, a guy asks his followers what the female equivalent of video games is. It’s video games, you moron. It wouldn’t be such a big deal if it wasn’t so constant and if it wasn’t recommended to me based on some nebulous algorithm that clearly knows little to nothing about me other than that I like video games.
 
