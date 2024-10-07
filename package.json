@@ -43,6 +43,8 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy-fetch": "^4.0.1",
+		"fs-extra": "^11.2.0",
+		"image-downloader": "^4.3.0",
 		"markdown-it": "^14.1.0",
 		"rss-parser": "^3.13.0",
 		"sanitize-html": "^2.13.0",

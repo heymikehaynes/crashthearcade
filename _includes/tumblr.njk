@@ -5,7 +5,9 @@
 <div class="tumblr-block-array">
 	{% for post in tumblr %}
 		<div class="tumblr-block-post">
-			<a href="{{ post.link }}"><div>{{ post.description | safe }}</div></a>
+			<a href="{{ post.link }}">
+				<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
+			</a>
 		</div>
 	{% endfor %}
 </div>
