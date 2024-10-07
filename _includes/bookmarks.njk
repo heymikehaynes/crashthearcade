@@ -1,10 +1,12 @@
 {% for post in bookmarks %}
 	<div class="bookmark-post">
-		<a href="{{ post.link }}" target="_blank"><img
+		<a href="{{ post.link }}" target="_blank">
+			<img
 				src="{{ post.image }}"
 				alt="{{ post.title }}"
 				onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
-		></a>
+			>
+		</a>
 		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
 			<a href="{{ post.link }}" target="_blank">» {{ post.pubDate | ordinalDate }}</a>
 		</time>
