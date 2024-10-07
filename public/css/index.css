@@ -646,6 +646,10 @@ a.masto-logo-link:hover {
 }
 
 /* tumblr block */
+p.error-text {
+	margin-bottom: 32px;
+}
+
 .tumblr-block .tumblr-block-header img {
 	width: 160px;
 }
