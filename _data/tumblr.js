@@ -22,33 +22,40 @@ function extractImagesOnly(html) {
 
 // Function to download images locally and optimize them
 async function downloadAndOptimizeImage(imageUrl, postTitle) {
-	try {
-		// Save images in the public/img/posts folder
-		const imageDirectory = path.join(__dirname, "..", "public", "img", "tumblr");
-		await fs.ensureDir(imageDirectory); // Ensure the directory exists
+		try {
+				// Save images in the public/img/reeder folder
+				const imageDirectory = path.join(__dirname, "..", "public", "img", "bookmarks");
+				await fs.ensureDir(imageDirectory); // Ensure the directory exists
 
-		const fileName = `${postTitle.replace(/[^a-zA-Z0-9]/g, "_")}_${path.basename(imageUrl)}`;
-		const filePath = path.join(imageDirectory, fileName);
+				// Create a safe filename by replacing invalid characters
+				const safeTitle = (postTitle || "default").replace(/[^a-zA-Z0-9]/g, "_"); // Default title if undefined
+				const fileName = `${safeTitle}_${path.basename(imageUrl)}`;
+				const filePath = path.join(imageDirectory, fileName);
 
-		// Download and optimize the image if it doesn't exist
-		if (!fs.existsSync(filePath)) {
-			await imageDownloader.image({
-				url: imageUrl,
-				dest: filePath
-			});
+				// Download the image if it doesn't exist
+				if (!fs.existsSync(filePath)) {
+						await imageDownloader.image({
+								url: imageUrl,
+								dest: filePath
+						});
 
-			await sharp(filePath)
-				.resize(800)
-				.jpeg({ quality: 80 })
-				.toFile(filePath);
+						// Optimize the image and save it with a different name
+						const optimizedFilePath = path.join(imageDirectory, `optimized_${fileName}`); // Different output filename
+						await sharp(filePath)
+								.resize(800)
+								.jpeg({ quality: 80 })
+								.toFile(optimizedFilePath);
+
+						// Return the optimized image path
+						return `/img/bookmarks/optimized_${fileName}`; // Return the path of the optimized image
+				}
+
+				// Return the relative public path to the image
+				return `/img/bookmarks/${fileName}`;
+		} catch (error) {
+				console.error(`Error downloading or optimizing image: ${imageUrl}`, error);
+				return null;
 		}
-
-		// Return the relative public path to the image
-		return `/img/tumblr/${fileName}`;
-	} catch (error) {
-		console.error(`Error downloading or optimizing image: ${imageUrl}`, error);
-		return null;
-	}
 }
 
 module.exports = async function () {
