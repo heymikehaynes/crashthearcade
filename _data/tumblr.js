@@ -44,7 +44,7 @@ async function downloadAndOptimizeImage(imageUrl, postTitle) {
 		}
 
 		// Return the relative public path to the image
-		return `/img/posts/${fileName}`;
+		return `/img/tumblr/${fileName}`;
 	} catch (error) {
 		console.error(`Error downloading or optimizing image: ${imageUrl}`, error);
 		return null;
