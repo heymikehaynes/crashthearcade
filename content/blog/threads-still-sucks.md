@@ -4,7 +4,7 @@ date: 2024-10-07T08:35:00-05:00
 tags:
     - Social media
 ---
-Against my better judgment, I decided to give Threads another try, and it’s only marginally better than I remembered, which was pretty awful. The main “For You” feed is filled with generic, uninteresting, often offensive comments and bland questions that have been asked a million times in other places or shouldn’t be asked *anywhere*. It all feels synthetic; people post something, *anything* for engagement.
+Against my better judgment, I decided to give Threads another try, and it’s only marginally better than I remembered, which was pretty awful. The main “For You” feed is filled with generic, uninteresting, often offensive comments and bland questions that have been asked a million times in other places or shouldn’t be asked *anywhere*. It all feels so synthetic; people posting something, *anything* for engagement.
 
 One change Meta made while I was using the app was burying the “Following” feed, making the thing practically unusable. You’re forced to dig through Meta’s half-assed attempt to emulate Bluesky’s feeds menu to see the content you **want** to read.
 
