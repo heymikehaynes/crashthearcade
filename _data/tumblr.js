@@ -47,7 +47,7 @@ async function downloadAndOptimizeImage(imageUrl, postTitle) {
 								.toFile(optimizedFilePath);
 
 						// Return the optimized image path
-						return `/img/bookmarks/optimized_${fileName}`; // Return the path of the optimized image
+						return `/img/tumblr/optimized_${fileName}`; // Return the path of the optimized image
 				}
 
 				// Return the relative public path to the image

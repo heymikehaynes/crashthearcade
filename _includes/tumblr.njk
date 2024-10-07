@@ -1,5 +1,5 @@
 <div class="tumblr-block-header">
-	<img src="/img/tumblr-logo.png">
+	<img src="/img/tumblr-logo-v2.png" alt="Tumblr Logo">
 	<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More</a></div>
 </div>
 <div class="tumblr-block-array">
@@ -7,11 +7,15 @@
 		{% for post in tumblr %}
 			<div class="tumblr-block-post">
 				<a href="{{ post.link }}">
-					<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
+					{% if post.imageUrl %}
+						<img src="{{ post.imageUrl }}" alt="{{ post.title }}">
+					{% else %}
+						<p>No image available</p>
+					{% endif %}
 				</a>
 			</div>
 		{% endfor %}
-		{% else %}
+	{% else %}
 		<p class="error-text">No posts available.</p>
 	{% endif %}
 </div>
