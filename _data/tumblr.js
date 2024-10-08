@@ -46,8 +46,12 @@ async function downloadAndOptimizeImage(imageUrl, postTitle) {
 								.jpeg({ quality: 80 })
 								.toFile(optimizedFilePath);
 
-						// Return the optimized image path
-						return `/img/tumblr/optimized_${fileName}`; // Return the path of the optimized image
+						// Get the base URL from environment variables or use an empty string for relative paths
+						const siteBaseUrl = process.env.SITE_BASE_URL || ""; // Use empty string for local development
+						const imageUrlPath = `/img/tumblr/optimized_${fileName}`;
+
+						// Return absolute path if the base URL is set, otherwise return the relative path
+						return `${siteBaseUrl}${imageUrlPath}`;
 				}
 
 				// Return the relative public path to the image
