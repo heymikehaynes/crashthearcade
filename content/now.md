@@ -15,20 +15,12 @@ eleventyNavigation:
 
 I’ve finished over&nbsp;[215 books](https://www.goodreads.com/user_challenges/54484570)&nbsp;(mostly manga) this year but started slowing down now that I’ve run out of stuff to read. I haven’t played much recently besides Zenless Zone Zero, so I’ll grab Silent Hill 2 next week. I never finished the original game but enjoyed the Resident Evil remakes, which many are comparing it to. I’m excited.
 
-&nbsp;
-
 <div class="now-block">
 	{%- include 'now.njk' -%}
 </div>
-
-&nbsp;
-
-&nbsp;
 
 <div class="pixelfed-block">
 	<h2>Camera roll</h2>
 	{%- include 'pixelfed.njk' -%}
 	<div class="more-button-style"><a href="https://pixelfed.social/@crashthearcade">More</a></div>
 </div>
-
-&nbsp;
