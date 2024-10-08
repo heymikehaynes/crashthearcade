@@ -1,5 +1,5 @@
 ---
-title: Some thoughts on Webmentions
+title: Thoughts on Webmentions
 date: 2024-03-24T00:00:00Z
 tags:
     - Internet
