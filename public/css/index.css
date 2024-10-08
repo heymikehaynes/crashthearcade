@@ -722,7 +722,7 @@ p.error-text {
 		grid-template-columns: 1fr auto;
 	}
 
-	.socials, .masto-address {
+	.socials, .masto-logo-link, .masto-avatar {
 		display: none;
 	}
 
