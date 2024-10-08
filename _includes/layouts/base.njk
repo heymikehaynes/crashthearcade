@@ -6,7 +6,16 @@
 		<title>{{ title or metadata.title }}</title>
 		<link rel="icon" type="image/png" href="/img/cta-logo-reverse.png">
 		<link rel="me" href="https://social.lol/@crashthearcade">
+		<meta content="@crashthearcade@social.lol" name="fediverse:creator">
 		<meta name="description" content="{{ description or metadata.description }}">
+
+		{#- Opengraph #}
+		<meta property="og:title" content="{{ title | stripTags }}">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="{{ metadata.siteUrl }}/{{ page.url }}">
+		<meta property="og:image" content="{{ metadata.siteUrl }}/img/cta-logo-reverse.png">
+		<meta property="og:description" content="{{ description | stripTags }}">
+		<meta property="og:site_name" content="{{ metadata.siteName }}">
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
