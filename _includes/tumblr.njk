@@ -7,11 +7,7 @@
 		{% for post in tumblr %}
 			<div class="tumblr-block-post">
 				<a href="{{ post.link }}">
-					{% if post.imageUrl %}
-						<img src="{{ post.imageUrl }}">
-					{% else %}
-						<p>No image available</p>
-					{% endif %}
+					{{ post.description | safe }}
 				</a>
 			</div>
 		{% endfor %}
