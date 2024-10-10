@@ -9,6 +9,13 @@
 				</div>
 				<a href="https://social.lol/@crashthearcade" class="masto-logo-link"><i class="fa-brands fa-mastodon"></i></a>
 			</div>
+
+			{% if post.imageUrl %}
+				<div class="masto-post-image">
+					<img src="{{ post.imageUrl }}" alt="Mastodon Post Image">
+				</div>
+			{% endif %}
+
 			<div class="masto-post-body">{{ post.description | safe }}</div>
 			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
 		</div>
