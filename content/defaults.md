@@ -20,7 +20,7 @@ eleventyNavigation:
 * Phone: iPhone 16 Plus, 128GB, Black
 * Watch: Apple Watch Series 7, 45mm, Midnight
 * Tablet: iPad Air, 11", 6th gen, Space Grey
-  * Mouse: Logitech Pebble i345, White
+  * Mouse: Logitech Pebble i345, Black
 * Headphones:
   * Apple AirPods, 3rd gen
   * Apple AirPods Max, Space Grey
@@ -48,11 +48,11 @@ eleventyNavigation:
 * Passwords: Apple Passwords
 * Code editor: Nova
 * Design: Figma
-* Art: Aseprite
+* Art: [Aseprite](https://www.aseprite.org/)
 
 ## Miscellaneous
 
-* Turntable: Audio-Technica AT-LP60XSPBT-BK
-  * Speaker: Audio-Technica AT-SP65XBT
-* Drums: Alesis Nitro Max Kit
-  * Throne: Mapex MPX-T675
+* Turntable: [Audio-Technica AT-LP60XSPBT-BK](https://www.audio-technica.com/en-us/at-lp60xspbt)
+  * Speaker: [Audio-Technica AT-SP65XBT](https://www.audio-technica.com/en-us/at-lp60xspbt)
+* Drums: [Alesis Nitro Max Kit](https://www.alesis.com/products/view2/nitro-max-kit)
+  * Throne: [Mapex MPX-T675](https://mapexdrums.com/international/products/drums/hardware/thrones/600-series-thrones)
