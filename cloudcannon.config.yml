@@ -1,15 +1,24 @@
+_schema: _schema
+paths:
+  uploads: uploads
+  static: ''
 collections_config:
-  pages:
-    path: content
-    name: Pages
-    icon: wysiwyg
   blog:
     path: content/blog
     name: Blog
     icon: event_available
-paths:
-  static: ''
-  uploads: uploads
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: content
+    name: Pages
+    icon: wysiwyg
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
 timezone: America/Winnipeg
 markdown:
   engine: commonmark
