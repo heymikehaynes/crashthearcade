@@ -59,6 +59,12 @@ body {
 	background-color: var(--primary-bg);
 }
 
+body {
+	background-image: url("/img/site-bg.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
 html {
 	overflow-y: scroll;
 }
@@ -580,7 +586,7 @@ img.masto-avatar {
 
 .masto-header-info {
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-template-columns: auto 1fr;
 	column-gap: 24px;
 	align-items: center;
 }
@@ -613,6 +619,9 @@ a.masto-logo-link:hover {
 .mastodon-block-post {
 	padding: 32px 32px 42px 32px;
 	background-color: var(--secondary-bg);
+	background-image: url("/img/masto-bg.png");
+	background-position: top right;
+	background-repeat: no-repeat;
 	margin-bottom: 24px;
 	border-radius: 8px;
 }
