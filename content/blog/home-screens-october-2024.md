@@ -6,7 +6,7 @@ tags:
 ---
 ![iPad and iPhone home screens](/uploads/homescreens.png)
 
-I haven't done one of these in a while and figured it was time. I keep my devices fairly tidy, so I felt like I could get away with covering both my iPhone and iPad, as there's a lot of overlap in the two.
+I haven't done one of these in a while and figured it was time. I keep my devices fairly tidy, so I think I can get away with covering both my iPhone and iPad, since there's a lot of overlap in the two.
 
 ## iPhone and iPad
 
