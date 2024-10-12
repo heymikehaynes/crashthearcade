@@ -42,17 +42,17 @@ eleventyNavigation:
 * RSS client: Reeder
 * Read later: Reeder
 * Browser: Arc
-* Chat: iMessage
-* Music: Spotify
+* Chat: Messages
+* Music: Apple Music
 * Podcasts: Reeder
 * Passwords: Apple Passwords
 * Code editor: Nova
 * Design: Figma
-* Art: [Aseprite](https://www.aseprite.org/)
+* Art: Aseprite
 
 ## Miscellaneous
 
-* Turntable: [Audio-Technica AT-LP60XSPBT-BK](https://www.audio-technica.com/en-us/at-lp60xspbt)
-  * Speaker: [Audio-Technica AT-SP65XBT](https://www.audio-technica.com/en-us/at-lp60xspbt)
-* Drums: [Alesis Nitro Max Kit](https://www.alesis.com/products/view2/nitro-max-kit)
-  * Throne: [Mapex MPX-T675](https://mapexdrums.com/international/products/drums/hardware/thrones/600-series-thrones)
+* Turntable: Audio-Technica AT-LP60XSPBT-BK
+  * Speaker: Audio-Technica AT-SP65XBT
+* Drums: Alesis Nitro Max Kit
+  * Throne: Mapex MPX-T675

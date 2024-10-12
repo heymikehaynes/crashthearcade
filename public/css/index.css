@@ -92,7 +92,7 @@ p {
 
 h1 {
 	font-size: 62px;
-	line-height: 110%;
+	line-height: 1.1;
 	font-weight: bold;
 	text-wrap: balance;
 	font-family: 'Archivo', sans-serif;
@@ -102,13 +102,12 @@ h1 {
 h1 a {
 	text-decoration: none;
 	color: var(--primary-text);
-	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
 h1 a:hover {
 	text-decoration: none;
 	color: var(--primary-text);
-	box-shadow: inset 0 -16px 0 var(--secondary-accent);
+	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
 h2 {
