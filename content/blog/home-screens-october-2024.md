@@ -10,9 +10,9 @@ I haven't done one of these in a while and figured it was time. I keep my device
 
 ## iPhone and iPad
 
-**Reeder**<br>Reeder is quickly become my everything app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of my website as well, like my bookmarks page. It is, without question, my most-used app at the moment.
+**Reeder**<br>Reeder is quickly become my *everything* app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of this website as well, like my [bookmarks](/bookmarks) page. It is, without question, the app I use the most.
 
-**Tumblr**<br>Tumblr is by far the social network I've used the longest. Granted, I've deleted my blogs over the years a couple of times for various reasons, I've always had at least one running. In terms of art and general absurdity, there are few places better than Tumblr.
+**Tumblr**<br>I've used Tumblr for a long time. Granted, I've deleted several of my blogs over the years a couple of times for various reasons, I've always had at least *one* running. In terms of art and general absurdity, there are few places better than Tumblr, which the app helps me keep on top of.
 
 **Spotify**<br>I do not like the Spotify app or the company itself. The only reason it's on my home screens is that I have a family plan and use it to listen to music. I'm constantly working to move my family over to Apple Music but, for now, it lives here.
 
