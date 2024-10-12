@@ -6,37 +6,29 @@ tags:
 ---
 ![iPad and iPhone home screens](/uploads/homescreens.png)
 
-I haven't done one of these in a while and figured it was time. I keep my devices fairly tidy, so I figured I could get away with covering both my iPhone and iPad, as there's a lot of overlap in the two.
+I haven't done one of these in a while and figured it was time. I keep my devices fairly tidy, so I felt like I could get away with covering both my iPhone and iPad, as there's a lot of overlap in the two.
 
 ## iPhone and iPad
 
-**Reeder**
-Reeder is quickly become my everything app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of my website as well, like my bookmarks page. It is, without question, my most-used app at the moment.
+**Reeder** Reeder is quickly become my everything app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of my website as well, like my bookmarks page. It is, without question, my most-used app at the moment.
 
-**Tumblr**
-Tumblr is by far the social network I've used the longest. Granted, I've deleted my blogs over the years a couple of times for various reasons, I've always had at least one running. In terms of art and general absurdity, there are few places better than Tumblr.
+**Tumblr** Tumblr is by far the social network I've used the longest. Granted, I've deleted my blogs over the years a couple of times for various reasons, I've always had at least one running. In terms of art and general absurdity, there are few places better than Tumblr.
 
-**Spotify**
-I do not like the Spotify app or the company itself. The only reason it's on my home screens is that I have a family plan and use it to listen to music. I'm constantly working to move my family over to Apple Music but, for now, it lives here.
+**Spotify** I do not like the Spotify app or the company itself. The only reason it's on my home screens is that I have a family plan and use it to listen to music. I'm constantly working to move my family over to Apple Music but, for now, it lives here.
 
-**Arc Search**
-I stuck with Safari for a long time but switched to Arc on my Mac earlier this year. It took a bit for the sidebar to grow on me, but it has. With that in mind, it only makes sense that I use the Arc Search app on my phone and tablet to keep everything synced up. The app is snappy and well-designed. I like the summarize feature for news articles and the fact that it has a built-in ad-blocker.
+**Arc Search** I stuck with Safari for a long time but switched to Arc on my Mac earlier this year. It took a bit for the sidebar to grow on me, but it has. With that in mind, it only makes sense that I use the Arc Search app on my phone and tablet to keep everything synced up. The app is snappy and well-designed. I like the summarize feature for news articles and the fact that it has a built-in ad-blocker.
 
-**Mail and Messages**
-I've tried other Mail apps and usually grow bored with the design or features. Apple's app is simple and does the job for me. As for Messages, iMessage is the only messaging service I use besides the occasional Discord chat.
+**Mail and Messages** I've tried other Mail apps and usually grow bored with the design or features. Apple's app is simple and does the job for me. As for Messages, iMessage is the only messaging service I use besides the occasional Discord chat.
 
-**Apple Passwords**
-I switched to Apple's password app when it debuted in iOS 18 earlier this year and never looked back. I'd been having progressively more issues with 1Password and, like many other third-party apps, never felt like it properly integrated with the system. Passwords is always there when I need it and, as a big user of the other stock Apple apps, I find the experience familiar and simple.
+**Apple Passwords** I switched to Apple's password app when it debuted in iOS 18 earlier this year and never looked back. I'd been having progressively more issues with 1Password and, like many other third-party apps, never felt like it properly integrated with the system. Passwords is always there when I need it and, as a big user of the other stock Apple apps, I find the experience familiar and simple.
 
 ## iPhone
 
-**Slack**
-I basically live in Slack for my day job, so it feels weird not to have it on the home screen of my phone.
+**Slack** I basically live in Slack for my day job, so it feels weird not to have it on the home screen of my phone.
 
 ## iPad
 
-**Panels**
-The go-to app for reading digital comics and manga, Panels has been a mainstay on my iPad since it launched.
+**Panels** The go-to app for reading digital comics and manga, Panels has been a mainstay on my iPad since it launched.
 
 ## Widgets
 
