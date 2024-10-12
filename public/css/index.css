@@ -361,9 +361,13 @@ ul.socials li a i {
 
 .postlist-content img {
 	width: 100%;
+}
+
+/* .postlist-content img {
+	width: 100%;
 	height: 400px;
 	object-fit: cover;
-}
+} */
 
 .postlist-item-active .postlist-link {
 	font-weight: bold;
