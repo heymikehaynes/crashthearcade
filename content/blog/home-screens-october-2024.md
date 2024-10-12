@@ -4,7 +4,7 @@ date: 2024-10-12T15:58:00-05:00
 tags:
     - General
 ---
-![iPad and iPhone home screens](/uploads/homescreens.png)
+![iPad and iPhone home screens](/public/uploads/homescreens.png)
 
 I haven't done one of these in a while and figured it was time. I keep my devices fairly tidy so I figured I could get away with covering both my iPhone and iPad. There's also a lot of overlap in the apps but i'll cover some of the reasons why one version may be more helpful on one device than the other.
 
