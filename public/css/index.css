@@ -697,6 +697,10 @@ p.error-text {
 		margin: 50px auto 24px auto;
 	}
 
+	h1 {
+		font-size: 52px;
+	}
+
 	#container {
 		display: block;
 	}
@@ -753,6 +757,11 @@ p.error-text {
 		cursor: pointer;
 		color: var(--primary-text);
 		height: 75px;
+		padding: 0;
+	}
+
+	.nav-toggle:hover {
+		color: var(--primary-accent);
 	}
 
 	.nav-toggle:focus {
