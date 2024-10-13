@@ -1,0 +1,41 @@
+_schema: _schema
+paths:
+  uploads: public/uploads
+  static: ''
+collections_config:
+  blog:
+    path: content/blog
+    name: Blog
+    icon: event_available
+    disable_url: false
+    description: ''
+    _enabled_editors:
+    _inputs:
+      title:
+        type: text
+        cascade: true
+      date:
+        type: datetime
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas:
+  pages:
+    path: content
+    name: Pages
+    icon: wysiwyg
+    disable_url: false
+    description: ''
+    _enabled_editors:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+base_url: uploads
+editor:
+  default_path:
+timezone: America/Winnipeg
+markdown:
+  engine: commonmark
+  options:
+    html: true
