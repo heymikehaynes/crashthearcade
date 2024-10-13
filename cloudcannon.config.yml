@@ -14,40 +14,13 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     schemas:
-      Posts:
-        path:
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        name: New post
-        icon: notes
-        preview:
-        _editables:
-        _enabled_editors:
-        _inputs:
-          title:
-            type: text
-            cascade: true
-          date:
-            type: datetime
-            options:
-              timezone: America/Winnipeg
-              empty_type: 'null'
-            instance_value: NOW
-            cascade: true
-          tags:
-            type: array
-            cascade: true
-        _select_data:
-        _structures:
-        create:
-        new_preview_url:
   pages:
     path: content
     name: Pages
     icon: wysiwyg
     disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
