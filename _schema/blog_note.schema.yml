@@ -1,8 +1,8 @@
 date:
-	type: datetime
-	label: "Date"
-	default: now
+  type: datetime
+  label: "Date"
+  default: now
 
 content:
-	type: markdown
-	label: "Note Content"
+  type: markdown
+  label: "Note Content"
