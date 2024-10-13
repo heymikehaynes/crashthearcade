@@ -1,0 +1,14 @@
+title:
+  type: text
+  label: "Title"
+  default: ""
+
+date:
+  type: datetime
+  label: "Date"
+  default: now
+
+tags:
+  type: list
+  label: "Tags"
+  default: ""

@@ -644,20 +644,21 @@ p.error-text {
 	height: 32px;
 }
 
-.tumblr-block .tumblr-block-header .more-button-style a {
+.tumblr-block .more-button-style a {
 	padding: 16px 22px;
 	background: var(--primary-bg);
 	letter-spacing: 1px;
+	margin-bottom: 24px;
 }
 
-.tumblr-block .tumblr-block-header .more-button-style a:hover {
+.tumblr-block .more-button-style a:hover {
 	background: var(--primary-accent);
 }
 
 .tumblr-block-header {
 	display: grid;
 	grid-template-columns: 1fr auto;
-	margin-bottom: 24px;
+	margin-bottom: 28px;
 	align-items: center;
 }
 
