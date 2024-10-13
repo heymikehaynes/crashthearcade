@@ -15,7 +15,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       Post:
-        path: _schema/post
+        path: _schema/blog_post.yml
         reorder_inputs: true
         hide_extra_inputs: false
         remove_empty_inputs: false
