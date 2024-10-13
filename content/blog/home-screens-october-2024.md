@@ -10,7 +10,7 @@ I haven't done one of these in a while and figured it was time. I keep my device
 
 ## iPhone and iPad
 
-**Reeder**<br>Reeder is quickly become my *everything* app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of this website as well, like my [bookmarks](/bookmarks) page. It is, without question, the app I use the most.
+**Reeder**<br>Reeder is quickly become my *everything* app. I use it to keep up with my social media, RSS feeds, podcasts, and more. I have it baked into parts of this website as well, like my [bookmarks](/bookmarks) page. It is, unquestionably, my most-used app at the moment.
 
 **Tumblr**<br>I've used Tumblr for a long time. Granted, I've deleted several of my blogs over the years a couple of times for various reasons, I've always had at least *one* running. In terms of art and general absurdity, there are few places better than Tumblr, which the app helps me keep on top of.
 
@@ -28,11 +28,11 @@ I haven't done one of these in a while and figured it was time. I keep my device
 
 ## iPad
 
-**Panels**<br>The go-to app for reading digital comics and manga, Panels has been a mainstay on my iPad since it launched.
+**Panels**<br>Panels has been a mainstay on my iPad since it launched. It's difficult to stress just how good the app is and how much it's improved over the years. If you read digital comics or manga on an iPad, this app is a **must**.
 
 ## Widgets
 
-At the moment, I have a smart stack on my phone that shows me the weather, since it changes at a moment's notice here, and a calendar to keep track of my work meetings. I've dabbled in them on iPad but, at the moment, I keep things lean and mean.
+Currently, I have a smart stack on my phone that shows me the weather, since it changes at a moment's notice here, and a calendar to keep track of my work meetings. I've dabbled in them on iPad but, at the moment, I keep things lean and mean.
 
 ## Wrap-up
 
