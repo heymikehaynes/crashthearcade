@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 eleventyNavigation:
   key: Now
-  order: 4
+  order: 3
 ---
 # Now
 
