@@ -13,15 +13,13 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    entries:
-      - name: "Post"
-        schema: _schema/post.schema.yml
-        defaults:
-          layout: "post"
-      - name: "Note"
-        schema: _schema/note.schema.yml
-        defaults:
-          layout: "note"
+    schemas:
+      post:
+        name: Post
+        schema: blog_post
+      note:
+        name: Note
+        schema: blog_note
   pages:
     path: content
     name: Pages
