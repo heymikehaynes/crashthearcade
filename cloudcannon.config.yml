@@ -20,7 +20,7 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        name:
+        name: New post
         icon: notes
         preview:
         _editables:
