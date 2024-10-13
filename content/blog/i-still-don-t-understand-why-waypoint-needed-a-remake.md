@@ -13,6 +13,5 @@ I'm not sure if you could draw a clearer parallel to the people who decided to b
 
 **Related:**
 
-\- <a href="https://wavelengths.online/posts/waypoint-is-people" target="_blank" rel="noopener">Waypoint is People</a>
-
-\- <a href="https://aftermath.site/waypoint-vice-remap" target="_blank" rel="noopener">Bad News, There’s Blogs On Waypoint Again</a>
+* <a href="https://wavelengths.online/posts/waypoint-is-people" target="_blank" rel="noopener">Waypoint is People</a>
+* <a href="https://aftermath.site/waypoint-vice-remap" target="_blank" rel="noopener">Bad News, There’s Blogs On Waypoint Again</a>
