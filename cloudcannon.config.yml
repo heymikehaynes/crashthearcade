@@ -13,9 +13,16 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    schemas:
-      post: _schema/blog_post.schema.yml
-      note: _schema/blog_note.schema.yml
+    entry_type:
+      field: layout  # You can choose any field name, e.g., layout or type
+      name: "Blog Entry Type"
+      options:
+        - label: "Post"
+          value: "post"
+          schema: _schema/post.schema.yml
+        - label: "Note"
+          value: "note"
+          schema: _schema/note.schema.yml
   pages:
     path: content
     name: Pages
