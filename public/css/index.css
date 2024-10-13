@@ -263,10 +263,20 @@ code {
 }
 
 /* Nav */
-.nav {
+/* .nav {
 	padding: 0;
 	margin: 32px 0;
 	list-style: none;
+} */
+
+.nav {
+	list-style: none;
+	padding: 0;
+	margin: 32px 0;
+}
+
+.nav-toggle {
+	display: none;
 }
 
 .nav li {
@@ -293,39 +303,6 @@ code {
 	color: var(--primary-text);
 	box-shadow: inset 0 -8px 0 var(--primary-accent);
 	padding-bottom: 4px;
-}
-
-ul.socials {
-	margin: 0;
-	padding: 0;
-}
-
-ul.socials li {
-	list-style: none;
-	margin-bottom: 16px;
-}
-
-ul.socials li a {
-	background: var(--secondary-bg);
-	color: var(--secondary-text);
-	font-size: 16px;
-	border-radius: 100px;
-	padding: 12px 22px;
-	text-align: center;
-	font-family: 'Departure', nonospace;
-	text-transform: uppercase;
-	display: inline-block;
-	letter-spacing: 1.25px;
-	text-decoration: none;
-}
-
-ul.socials li a:hover {
-	background: var(--primary-accent);
-	color: var(--primary-text);
-}
-
-ul.socials li a i {
-	width: 30px;
 }
 
 /* Posts list */
@@ -748,7 +725,38 @@ p.error-text {
 	}
 
 	.nav {
-		margin: 0;
+		display: none;
+		flex-direction: column;
+	}
+
+	.sidebar {
+		padding-right: 0;
+	}
+
+	/* Show the nav when active */
+	.nav.active {
+		display: flex;
+		position: absolute;
+		right: 0px;
+		background: var(--secondary-bg);
+		padding: 18px 32px 12px 32px;
+		top: 32px;
+		border-radius: 4px;
+	}
+
+	/* Style the button */
+	.nav-toggle {
+		display: initial;
+		background: none;
+		border: none;
+		font-size: 28px;
+		cursor: pointer;
+		color: var(--primary-text);
+		height: 75px;
+	}
+
+	.nav-toggle:focus {
+		outline: none;
 	}
 
 	footer {

@@ -3,10 +3,20 @@
 
 {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 <nav>
-	<ul class="nav">
-	{%- for entry in collections.all | eleventyNavigation %}
-		<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-	{%- endfor %}
+	<!-- Mobile menu button -->
+	<button class="nav-toggle" aria-label="Toggle navigation">
+		<i class="fa-solid fa-bars"></i>
+	</button>
+
+	<!-- Navigation menu -->
+	<ul class="nav" id="nav-menu">
+		{%- for entry in collections.all | eleventyNavigation %}
+			<li class="nav-item">
+				<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
+					{{ entry.title }}
+				</a>
+			</li>
+		{%- endfor %}
 		<li class="nav-item"><a href="feed/feed.xml">RSS</a></li>
 	</ul>
 </nav>
