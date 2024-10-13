@@ -1,6 +1,6 @@
 _schema: _schema
 paths:
-  uploads: uploads
+  uploads: public/uploads
   static: ''
 collections_config:
   blog:
@@ -19,6 +19,7 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+base_url: uploads
 timezone: America/Winnipeg
 markdown:
   engine: commonmark
