@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: Defaults
+  key: Uses
   order: 3
 ---
-# Defaults
+# Uses
 
 #### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done.
 
