@@ -14,6 +14,34 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     schemas:
+      Post:
+        path: _schema
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        name: New post
+        icon: notes
+        preview:
+        _editables:
+        _enabled_editors:
+        _inputs:
+          title:
+            type: text
+            label: Title
+            cascade: true
+          date:
+            type: datetime
+            label: Date
+            cascade: true
+          tags:
+            type: array
+            label: Tags
+            cascade: true
+        _select_data:
+        _structures:
+        create:
+        new_preview_url:
   pages:
     path: content
     name: Pages
