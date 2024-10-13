@@ -1,0 +1,21 @@
+title:
+	type: text
+	label: "Post Title"
+	placeholder: "Enter your post title"
+
+date:
+	type: datetime
+	label: "Date"
+	default: now
+
+categories:
+	type: list
+	label: "Categories"
+	options:
+		- News
+		- Updates
+		- Tutorials
+
+content:
+	type: markdown
+	label: "Post Content"
