@@ -18,7 +18,7 @@ collections_config:
         type: datetime
         cascade: true
     disable_add: false
-    disable_add_folder: false
+    disable_add_folder: true
     disable_file_actions: false
     schemas:
   pages:
