@@ -1,6 +1,6 @@
 ---
 title: I Still Don’t Understand Why ‘Waypoint’ Needed A Remake
-date: 2022-07-24T19:00:00-05:00
+date: 2024-10-13T07:20:00-05:00
 tags:
     - Video games
     - Internet
