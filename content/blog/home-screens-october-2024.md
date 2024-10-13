@@ -2,7 +2,7 @@
 title: 'Home screens: October 2024'
 date: 2024-10-12T15:58:00-05:00
 tags:
-    - General
+    - Home screen
 ---
 ![iPad and iPhone home screens](/uploads/homescreens.png)
 
@@ -33,7 +33,3 @@ I haven't done one of these in a while and figured it was time. I keep my device
 ## Widgets
 
 Currently, I have a smart stack on my phone that shows me the weather, since it changes at a moment's notice here, and a calendar to keep track of my work meetings. I've dabbled in them on iPad but, at the moment, I keep things lean and mean.
-
-## Wrap-up
-
-I'd like to do these on a more regular cadence. My home screens don't change that often, but they do change. It would be nice to track that somewhere.
