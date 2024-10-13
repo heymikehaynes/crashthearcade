@@ -28,7 +28,7 @@ I haven't done one of these in a while and figured it was time. I keep my device
 
 ## iPad
 
-<a href="https://apps.apple.com/us/app/panels-comic-reader/id1236567663" target="_blank" rel="noopener"><strong>Panels</strong></a><br>Panels has been a mainstay on my iPad since it launched. It's difficult to stress just how good the app is and how much it's improved over the years. If you read digital comics or manga on an iPad, this app is a **must**.
+<a href="https://apps.apple.com/us/app/panels-comic-reader/id1236567663" target="_blank" rel="noopener"><strong>Panels</strong></a><br>Panels has been a mainstay on my iPad since it launched. It's difficult to stress just how good the app is and how much it's improved over the years. If you read comics or manga on an iPad, this app is a **must**.
 
 ## Widgets
 
