@@ -26,18 +26,6 @@ collections_config:
         _editables:
         _enabled_editors:
         _inputs:
-          title:
-            type: text
-            label: Title
-            cascade: true
-          date:
-            type: datetime
-            label: Date
-            cascade: true
-          tags:
-            type: array
-            label: Tags
-            cascade: true
         _select_data:
         _structures:
         create:
