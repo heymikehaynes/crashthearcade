@@ -13,13 +13,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    schemas:
-      post:
-        name: Post
-        schema: blog_post
-      note:
-        name: Note
-        schema: blog_note
   pages:
     path: content
     name: Pages
