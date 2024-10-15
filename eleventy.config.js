@@ -127,7 +127,7 @@ module.exports = function(eleventyConfig) {
 
 	// Custom Collection: Group Posts by Year for Archive Page
 	eleventyConfig.addCollection("postsByYear", function(collectionApi) {
-			let posts = collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust path if needed
+			let posts = collectionApi.getFilteredByGlob("content/blog/**/*.md"); // Adjust path if needed
 			let postsByYear = {};
 
 			// Group posts by year
