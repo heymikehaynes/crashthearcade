@@ -10,12 +10,7 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 
 		{#- Opengraph #}
-		<meta property="og:title" content="{{ title | safe }}">
-		<meta property="og:type" content="article">
-		<meta property="og:url" content="{{ metadata.siteUrl }}/{{ page.url }}">
-		<meta property="og:image" content="{{ metadata.siteUrl }}/img/cta-logo-reverse.png">
-		<meta property="og:description" content="{{ description | safe }}">
-		<meta property="og:site_name" content="{{ metadata.siteName }}">
+		{% include 'head/opengraph.njk' %}
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -46,7 +41,6 @@
 	<footer>
 		<div class="footer-01">©2022–2024, crash the arcade <a href="https://www.11ty.dev/docs/versions/">v2.0.1</a>.</div>
 		<div class="footer-02">
-			<div class="footer-links"><a href="https://crashthearcade.bsky.social">Bluesky</a></div>
 			<div class="footer-links"><a href="https://social.lol/@crashthearcade">Mastodon</a></div>
 			<div class="footer-links"><a href="https://pixelfed.social/@crashthearcade">Pixelfed</a></div>
 			<div class="footer-links"><a href="https://www.threads.net/@crashthearcade">Threads</a></div>
