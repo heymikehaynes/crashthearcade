@@ -54,6 +54,11 @@ module.exports = function(eleventyConfig) {
 		return excerpt.length > length ? excerpt.slice(0, length) + "..." : excerpt;
 	});
 
+	// Create a collection for the blog
+	eleventyConfig.addCollection("blog", function(collectionApi) {
+		return collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust the glob pattern as needed
+	});
+
 	// Create a collection for tags
 	eleventyConfig.addCollection("tagList", function(collectionApi) {
 		const tagSet = new Set();

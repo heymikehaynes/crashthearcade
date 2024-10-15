@@ -3,7 +3,6 @@ title: Instagram moderation is broken
 date: 2024-10-10T08:10:00-05:00
 tags:
     - Social media
-og:image: "{% screenshot '/blog/og-image/' + page.fileSlug, 1200, 630 %}"
 ---
 <a href="https://www.theverge.com/2024/10/9/24266096/instagram-threads-moderation-account-post-deleted-limited" target="_blank" rel="noopener">Umar Shakir for The Verge</a>:
 

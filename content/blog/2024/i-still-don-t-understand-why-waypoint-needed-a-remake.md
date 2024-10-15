@@ -4,7 +4,6 @@ date: 2024-10-13T07:20:00-05:00
 tags:
     - Video games
     - Internet
-og:image: "{% screenshot '/blog/og-image/' + page.fileSlug, 1200, 630 %}"
 ---
 Much has been said of the empty husk masquerading as a new version of the much-beloved Vice site Waypoint, but <a href="https://www.vice.com/en/article/i-still-dont-understand-why-until-dawn-needed-a-remake/" target="_blank" rel="noopener">this article</a> in particular is a perfect encapsulation of why bringing the site back is a bad idea.
 
