@@ -1,10 +1,9 @@
 ---
-title: 'Gizmodo&#8217;s take on Apple this year is unsurprisingly negative'
-date: '2016-01-01T01:21:00+00:00'
+title: Gizmodo's take on Apple this year is unsurprisingly negative
+date: 2015-12-31T19:21:00-06:00
 tags:
     - Apple
 ---
-
 [Mario Aguilar for Gizmodo](https://gizmodo.com/everything-apple-introduced-this-year-kinda-sucked-1749308570):
 
 > In 2015, Apple made a series of flashy new introductions of both hardware and software. Several seemed amazing at first, but on closer inspection, they were all disappointing. Here is the year in Apple things that sucked.
