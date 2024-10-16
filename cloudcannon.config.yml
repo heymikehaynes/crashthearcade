@@ -32,9 +32,13 @@ collections_config:
         preview:
         _enabled_editors:
         _inputs:
-          image:
-            type: image
-            cascade: true
+        create:
+          path:
+          extra_data:
+          publish_to:
+          _inputs:
+          _select_data:
+          _structures:
   pages:
     path: content
     name: Pages
