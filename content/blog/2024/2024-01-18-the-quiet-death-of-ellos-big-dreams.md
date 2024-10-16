@@ -2,7 +2,8 @@
 title: Remember Ello?
 date: 2024-01-18
 tags:
-    - Social media
+- Ello
+- Social media
 ---
 
 [Andy Baio](https://waxy.org/2024/01/the-quiet-death-of-ellos-big-dreams/):

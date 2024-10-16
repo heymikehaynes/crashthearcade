@@ -2,7 +2,8 @@
 title: It runs Android, so what?
 date: 2024-05-01T00:00:00Z
 tags:
-  - Technology
+- Android
+- Technology
 ---
 [Ron Amadeo for Ars](https://arstechnica.com/gadgets/2024/05/rabbit-r1-ai-box-is-just-an-android-app-and-the-software-can-run-on-a-phone/):
 

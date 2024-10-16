@@ -2,7 +2,7 @@
 title: Some thoughts on saving links
 date: 2024-01-23T00:00:00Z
 tags:
-    - Blogging
+- Blogging
 ---
 Seeing [Andy Bell](https://piccalil.li/blog/piccalilli-links/) and [Sophie Koonin’s](https://localghost.dev/blog/automated-weekly-links-posts-with-raindrop-io-and-eleventy/) posts about their link post setups made me think I’ve been doing links wrong for a while now. I actually have two post types for sharing links that I often use interchangeably, “posts” and “links”.
 

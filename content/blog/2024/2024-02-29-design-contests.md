@@ -2,7 +2,7 @@
 title: Design contests
 date: 2024-02-29T00:00:00Z
 tags:
-  - Design
+- Design
 ---
 If you’re a company considering a design contest where you solicit free work from trained designers for your websites, apps, icons, or logos, stop. It’s insulting to an entire profession and makes me think less of you, your company, and your product.
 

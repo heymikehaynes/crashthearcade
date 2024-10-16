@@ -2,7 +2,7 @@
 title: You need dev tools and a command-line to fix the Pixel’s storage bug
 date: 2024-02-01T00:00:00Z
 tags:
-    - Google
+- Android
 ---
 <a href="https://arstechnica.com/gadgets/2024/02/googles-pixel-storage-issue-fix-requires-developer-tools-and-a-terminal/" target="_blank" rel="noopener">Ron Amadeo for Ars Technica</a>:
 

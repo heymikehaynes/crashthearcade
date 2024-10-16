@@ -1,9 +1,9 @@
 ---
 title: WWDC24 and Apple Intelligence
 date: 2024-06-14T00:00:00Z
-type: post
 tags:
-  - Apple
+- WWDC
+- Apple
 ---
 I found <a href="https://www.apple.com/ca/newsroom/2024/06/wwdc24-highlights/" target="_blank" rel="noopener">WWDC24</a> to be a mixed bag.
 

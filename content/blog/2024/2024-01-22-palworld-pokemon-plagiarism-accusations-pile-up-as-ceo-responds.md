@@ -2,7 +2,9 @@
 title: Devs weigh-in as Palworld Pokémon plagiarism accusations worsen
 date: 2024-01-22
 tags:
-    - Video games
+- Pokemon
+- Palworld
+- Video games
 ---
 
 [Andy Robinson for VGC](https://www.videogameschronicle.com/news/palworld-pokemon-plagiarism-accusations-pile-up-as-ceo-responds/):

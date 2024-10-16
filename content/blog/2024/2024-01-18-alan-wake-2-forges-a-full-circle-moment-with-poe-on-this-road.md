@@ -2,7 +2,8 @@
 title: Poe’s history with Alan Wake goes far beyond the games'
 date: 2024-01-18
 tags:
-    - Video games
+- Alan Wake
+- Video games
 ---
 
 [Eric Van Allen for Destructoid](https://www.destructoid.com/alan-wake-2-poe-this-road-interview-sam-lake-remedy/):

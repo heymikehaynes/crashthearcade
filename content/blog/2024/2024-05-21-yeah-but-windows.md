@@ -2,7 +2,8 @@
 title: Yeah but Windows
 date: 2024-05-21T00:00:00Z
 tags:
-  - Technology
+- Windows
+- Technology
 ---
 [Tom Warren for The Verge](https://www.theverge.com/2024/5/20/24160463/microsoft-windows-laptops-copilot-arm-chips-m1):
 

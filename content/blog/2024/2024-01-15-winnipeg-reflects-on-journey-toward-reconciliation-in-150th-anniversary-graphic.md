@@ -2,7 +2,8 @@
 title: Winnipeg unveils 150th anniversary graphic
 date: 2024-01-15
 tags:
-    - Design
+- Winnipeg
+- Design
 ---
 
 [Arturo Chang for CBC](https://www.cbc.ca/news/canada/manitoba/winnipeg-150-graphic-unveiled-1.7084154?cmp=rss):
