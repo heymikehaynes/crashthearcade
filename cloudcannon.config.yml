@@ -27,8 +27,9 @@ collections_config:
         hide_extra_inputs: false
         remove_empty_inputs: false
         remove_extra_inputs: true
-        name: NEW
+        name: new blog post
         icon: notes
+        preview:
         _enabled_editors:
   pages:
     path: content
