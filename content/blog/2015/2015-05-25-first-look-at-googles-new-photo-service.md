@@ -1,10 +1,9 @@
 ---
-title: 'First look at Google&#8217;s new photo service'
-date: '2015-05-25T01:37:17+00:00'
+title: First look at Google's new photo service
+date: 2015-05-24T20:37:17-05:00
 tags:
     - Google
 ---
-
 [Liam Spradlin for Android Police](https://www.androidpolice.com/2015/05/24/an-exclusive-early-look-at-the-new-google-photos-app/):
 
 > We’ve been hearing for a very long time (…) that Photos would be splitting off from Google’s social/sign-in platform. We’ve heard vague rumblings, and even seen some baby steps toward this split, but now we have something a bit more substantial to go on – an exclusive early look at Google’s new Photos app, separate from Google+ and improved in a number of ways.
