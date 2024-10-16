@@ -4,9 +4,10 @@ paths:
   static: ''
 collections_config:
   blog:
-    path: 'content/blog/{{slugify(title || content | slice: 0, 50)}}.md'
+    path: content/blog
     name: Blog
     icon: event_available
+    url: 'content/blog/{{slugify(title || content | slice: 0, 50)}}.md'
     disable_url: false
     description: ''
     _enabled_editors:
