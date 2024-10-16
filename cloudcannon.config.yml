@@ -22,7 +22,7 @@ collections_config:
     disable_file_actions: false
     schemas:
       default:
-        path: content/schemas/post.md
+        path: schemas/post.md
   pages:
     path: content
     name: Pages
