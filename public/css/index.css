@@ -422,7 +422,7 @@ code {
 	display: inline;
 }
 
-.postlist-tags a, .archive-navigation li a {
+.postlist-tags a, .archive-navigation li a, a.tag-cluster-item {
 	margin: 36px 8px 0 0;
 	padding: 16px 22px;
 	border-radius: 100px;
@@ -436,11 +436,19 @@ code {
 	letter-spacing: 1.25px;
 }
 
+a.tag-cluster-item {
+	margin: 12px 6px 0 0;
+}
+
+.tags-cluster {
+	margin-top: 36px;
+}
+
 .archive-navigation li a {
 	margin: 0 12px 0 0;
 }
 
-.postlist-tags a:hover, .archive-navigation li a:hover {
+.postlist-tags a:hover, .archive-navigation li a:hover, a.tag-cluster-item:hover {
 	background: var(--primary-accent);
 	color: var(--primary-text);
 }
@@ -648,7 +656,7 @@ p.error-text {
 	padding: 16px 22px;
 	background: var(--primary-bg);
 	letter-spacing: 1px;
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
 .tumblr-block .more-button-style a:hover {

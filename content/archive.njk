@@ -1,11 +1,16 @@
 ---
 layout: layouts/home.njk
 permalink: /archive/
+eleventyNavigation:
+  key: Archive
+  order: 2
 ---
 
 <h1>Archive</h1>
 
 <h4>Not sure where to start? Here’s a smattering of posts from over the years that’ll give you an idea of what this is all about.</h4>
+
+<h2>Browse by year</h2>
 
 <nav class="archive-navigation">
 	<ul>
@@ -14,6 +19,14 @@ permalink: /archive/
 		{% endfor %}
 	</ul>
 </nav>
+
+<h2>Browse by tag</h2>
+
+<div class="tags-cluster">
+	{% for tag in collections.tagList | sort  %}
+			<a href="/tags/{{ tag | slugify }}/" class="tag-cluster-item">#{{ tag }}</a>
+	{% endfor %}
+</div>
 
 {% for entry in collections.postsByYear %}
 	<h2 id="year-{{ entry.year }}">{{ entry.year }}</h2>

@@ -2,7 +2,7 @@
 title: On startup culture
 date: 2024-10-03T00:00:00Z
 tags:
-  - Startups
+- Startups
 ---
 My friend sent me a post by a guy who works at a semi-local startup. In it, he talks about how tough but rewarding it is to be a part of a demanding, fast-moving, chaotic startup.
 

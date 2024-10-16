@@ -2,7 +2,8 @@
 title: Cloud Imperium continues to sound like a super shitty place to work
 date: 2024-10-06T15:10:00-05:00
 tags:
-    - Video games
+- Video games
+- Star Citizen
 ---
 <a href="https://www.rockpapershotgun.com/cloud-imperium-quietly-steal-star-citizen-developers-weekends-from-under-them-with-mandated-overtime-in-the-lead-up-to-citizencon" target="_blank" rel="noopener">Nic Reuben for Rock Paper Shotgun</a>:
 

@@ -2,7 +2,8 @@
 title: 'Home screens: October 2024'
 date: 2024-10-12T15:58:00-05:00
 tags:
-    - Home screen
+- Home screen
+- Apple
 ---
 ![iPad and iPhone home screens](/uploads/homescreens.png)
 
