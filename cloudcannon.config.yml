@@ -7,7 +7,7 @@ collections_config:
     path: content/blog
     name: Blog
     icon: event_available
-    url: 'content/blog/{{slugify(title || content | slice: 0, 50)}}.md'
+    url:
     disable_url: false
     description: ''
     _enabled_editors:
