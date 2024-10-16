@@ -2,4 +2,5 @@
 title:
 date:
 tags:
+type:
 ---
