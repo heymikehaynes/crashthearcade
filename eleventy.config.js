@@ -55,8 +55,14 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Create a collection for the blog
+	const slugify = require("slugify"); // Make sure you have this installed or a custom slugify function
+
 	eleventyConfig.addCollection("blog", function(collectionApi) {
-		return collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust the glob pattern as needed
+		return collectionApi.getFilteredByGlob("content/blog/*.md").map((post) => {
+			let title = post.data.title || post.templateContent.slice(0, 50); // Title fallback to content
+			post.data.permalink = `/blog/${slugify(title, { lower: true })}.html`; // Dynamically set permalink
+			return post;
+		});
 	});
 
 	// Create a collection for tags

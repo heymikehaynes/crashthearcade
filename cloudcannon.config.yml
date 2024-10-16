@@ -4,7 +4,7 @@ paths:
   static: ''
 collections_config:
   blog:
-    path: content/blog
+    path: 'content/blog/{{slugify(title || content | slice: 0, 50)}}.md'
     name: Blog
     icon: event_available
     disable_url: false
