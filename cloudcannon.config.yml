@@ -4,7 +4,7 @@ paths:
   static: ''
 collections_config:
   blog:
-    path: 'content/blog/{{slugify(title || content | slice: 0, 50)}}.md'
+    path: content/blog
     name: Blog
     icon: event_available
     disable_url: false
@@ -25,7 +25,7 @@ collections_config:
         path: schemas/post.md
         reorder_inputs: true
         hide_extra_inputs: false
-        remove_empty_inputs: true
+        remove_empty_inputs: false
         remove_extra_inputs: true
         name: new blog post
         icon: notes
