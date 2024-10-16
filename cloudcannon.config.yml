@@ -23,6 +23,13 @@ collections_config:
     schemas:
       default:
         path: schemas/post.md
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        name: NEW
+        icon: notes
+        _enabled_editors:
   pages:
     path: content
     name: Pages
