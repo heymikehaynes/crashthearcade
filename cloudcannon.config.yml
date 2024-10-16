@@ -31,6 +31,10 @@ collections_config:
         icon: notes
         preview:
         _enabled_editors:
+        _inputs:
+          image:
+            type: image
+            cascade: true
   pages:
     path: content
     name: Pages
