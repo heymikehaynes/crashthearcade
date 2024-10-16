@@ -1,7 +1,7 @@
 ---
-title: On the Rocksteady layoffs
+title: Thoughts on the Rocksteady layoffs
 date: 2024-09-02T00:00:00Z
-type: post
+type:
 tags:
   - Video games
 ---

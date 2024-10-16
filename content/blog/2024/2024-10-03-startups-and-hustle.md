@@ -1,5 +1,5 @@
 ---
-title: On startup culture
+title: Startup culture
 date: 2024-10-03T00:00:00Z
 tags:
   - Startups

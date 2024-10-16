@@ -1,11 +1,9 @@
 ---
 title: People voted for some pretty weird stuff during this year’s Steam Awards
-date: 2024-01-04
+date: 2024-01-04T00:00:00Z
 tags:
-  - VGAs
   - Video games
 ---
-
 [Graham Smith for RPS](https://www.rockpapershotgun.com/players-voted-for-some-of-the-worst-choices-possible-in-the-steam-awards):
 
 > The player-voted Steam Awards have reached their conclusion, and the results are about as weird as the nominees. In fact, I’d go so far as to say that the weirdest game possible won in several categories, such as Red Dead Redemption 2 for the Labor Of Love award and Starfield for “Most Innovative Gameplay”.
