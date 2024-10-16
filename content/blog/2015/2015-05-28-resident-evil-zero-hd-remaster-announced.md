@@ -1,13 +1,9 @@
 ---
-id: 1794
 title: 'Resident Evil Zero HD remaster announced'
 date: '2015-05-28T02:44:14+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/05/27/resident-evil-zero.html'
-permalink: /2015/05/28/resident-evil-zero-hd-remaster-announced/
-categories:
-    - Note
+tags:
+    - Video games
+    - Resident Evil
 ---
 
 [Alice O’Connor for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/05/26/spooky-voice-resident-evil-zero-hd-remaster-announced/):

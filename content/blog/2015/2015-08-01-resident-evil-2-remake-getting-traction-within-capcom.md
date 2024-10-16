@@ -1,13 +1,9 @@
 ---
-id: 1804
 title: 'Resident Evil 2 remake getting traction within Capcom'
 date: '2015-08-01T05:02:40+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/08/01/resident-evil-remake.html'
-permalink: /2015/08/01/resident-evil-2-remake-getting-traction-within-capcom/
-categories:
-    - Note
+tags:
+    - Video games
+    - Resident Evil
 ---
 
 [Capcom’s “H” via Polygon](https://www.polygon.com/2015/7/31/9078733/resident-evil-2-remake):

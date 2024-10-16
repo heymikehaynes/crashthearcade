@@ -1,13 +1,9 @@
 ---
-id: 1823
 title: 'Google and Ford working together on self-driving cars'
 date: '2015-12-27T23:09:08+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/12/27/google-and-ford.html'
-permalink: /2015/12/27/google-and-ford-working-together-on-self-driving-cars/
-categories:
-    - Note
+tags:
+    - Google
+    - Cars
 ---
 
 [Ron Amadeo for Ars Technica](https://arstechnica.com/cars/2015/12/google-and-ford-reportedly-team-up-to-build-self-driving-cars/):

@@ -1,13 +1,8 @@
 ---
-id: 1811
 title: 'Konami done with AAA games, despite success of Metal Gear Solid V'
 date: '2015-09-21T07:08:36+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/09/21/konami-done-with.html'
-permalink: /2015/09/21/konami-done-with-aaa-games-despite-success-of-metal-gear-solid-v/
-categories:
-    - Note
+tags:
+    - Video games
 ---
 
 [Alec Meer for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/09/18/mgs-vi):

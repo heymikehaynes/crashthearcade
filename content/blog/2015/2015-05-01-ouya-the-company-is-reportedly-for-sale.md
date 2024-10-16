@@ -1,13 +1,9 @@
 ---
-id: 1792
 title: 'Ouya (the company) is reportedly for sale'
 date: '2015-05-01T03:12:40+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/04/30/ouya-the-company.html'
-permalink: /2015/05/01/ouya-the-company-is-reportedly-for-sale/
-categories:
-    - Note
+tags:
+    - Video games
+    - Ouya
 ---
 
 [Adi Robertson for The Verge](http://www.theverge.com/2015/4/28/8509005/ouya-android-microconsole-reportedly-seeking-buyer-debt):

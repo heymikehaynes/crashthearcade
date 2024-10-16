@@ -1,13 +1,9 @@
 ---
-id: 1797
 title: 'Google Hangouts for iOS gets a redesign'
 date: '2015-06-30T08:30:50+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/06/30/google-hangouts-for.html'
-permalink: /2015/06/30/google-hangouts-for-ios-gets-a-redesign/
-categories:
-    - Note
+tags:
+    - Google
+    - Design
 ---
 
 [Billy Steele for Engadget](https://www.engadget.com/2015-06-29-google-hangouts-ios-update.html):

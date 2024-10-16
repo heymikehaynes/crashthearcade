@@ -1,13 +1,9 @@
 ---
-id: 1785
 title: 'Superman and Wonder Woman getting new costumes'
 date: '2015-03-13T02:49:32+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/03/12/superman-and-wonder.html'
-permalink: /2015/03/13/superman-and-wonder-woman-getting-new-costumes/
-categories:
-    - Note
+tags:
+    - Comics books
+    - Design
 ---
 
 [Jesse Schedeen for IGN](http://ca.ign.com/articles/2015/03/12/superman-and-wonder-woman-get-new-costumes-in-june):

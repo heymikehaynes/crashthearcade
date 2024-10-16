@@ -1,13 +1,9 @@
 ---
-id: 1790
 title: 'The Batman v Superman trailer has leaked'
 date: '2015-04-17T20:21:33+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/04/17/the-batman-v.html'
-permalink: /2015/04/17/the-batman-v-superman-trailer-has-leaked/
-categories:
-    - Note
+tags:
+    - Comic books
+    - Movies
 ---
 
 [Alex Abad-Santos for Vox](http://www.vox.com/2015/4/16/8438743/batman-superman-dawn-of-justice-trailer):

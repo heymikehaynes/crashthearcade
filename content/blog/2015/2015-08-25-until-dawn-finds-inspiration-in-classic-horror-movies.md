@@ -1,13 +1,8 @@
 ---
-id: 1805
 title: 'Until Dawn finds inspiration in classic horror movies'
 date: '2015-08-25T09:24:24+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/08/25/until-dawn-finds.html'
-permalink: /2015/08/25/until-dawn-finds-inspiration-in-classic-horror-movies/
-categories:
-    - Note
+tags:
+    - Video games
 ---
 
 [Andrew Webster for The Verge](https://www.theverge.com/2015/8/24/9187447/until-dawn-review-playstation-4):

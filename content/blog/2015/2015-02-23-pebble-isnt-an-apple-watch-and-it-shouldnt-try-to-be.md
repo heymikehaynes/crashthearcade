@@ -1,15 +1,8 @@
 ---
-id: 1780
 title: 'Pebble isn&#8217;t an Apple Watch and it shouldn&#8217;t try to be'
 date: '2015-02-23T19:43:00+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/02/23/pebble-isnt-an.html'
-permalink: /2015/02/23/pebble-isnt-an-apple-watch-and-it-shouldnt-try-to-be/
-categories:
-    - Post
 tags:
-    - pebble
+    - Pebble
 ---
 
 With the [rumoured](http://www.theverge.com/2015/2/23/8089725/pebble-color-display-smartwatch-leaks) new watch from Pebble with a colour e-paper display, the company has been able to completely change my outlook on their future. When I first got my Pebble watch, I was pretty convinced that something like the Apple Watch would eventually come along and completely overtake them. Really, that was my assumption until very recently when I realized that the company has chosen some pretty clever ways to outdo their overpowered rivals.

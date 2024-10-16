@@ -1,13 +1,8 @@
 ---
-id: 1799
 title: 'The Verge is turning off comments'
 date: '2015-07-11T02:50:06+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/07/10/the-verge-is.html'
-permalink: /2015/07/11/the-verge-is-turning-off-comments/
-categories:
-    - Note
+tags:
+    - Internet
 ---
 
 [Nilay Patel for The Verge](https://www.theverge.com/2015/7/6/8901115/were-turning-comments-off-for-a-bit):

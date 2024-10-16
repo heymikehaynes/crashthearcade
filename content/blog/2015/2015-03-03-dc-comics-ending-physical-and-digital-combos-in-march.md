@@ -1,13 +1,8 @@
 ---
-id: 1781
 title: 'DC Comics ending physical and digital combos in March'
 date: '2015-03-03T20:00:55+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/03/03/dc-comics-ending.html'
-permalink: /2015/03/03/dc-comics-ending-physical-and-digital-combos-in-march/
-categories:
-    - Note
+tags:
+    - Comic books
 ---
 
 [Rich Johnston for Bleeding Cool](http://www.bleedingcool.com/2015/03/03/dc-comics-to-end-combo-digital-editions-in-march-aside-from-sandman-overture/):

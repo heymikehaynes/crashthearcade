@@ -1,13 +1,8 @@
 ---
-id: 1801
 title: 'Remembering City Of Heroes'
 date: '2015-07-12T23:15:28+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/07/12/remembering-city-of.html'
-permalink: /2015/07/12/remembering-city-of-heroes/
-categories:
-    - Note
+tags:
+    - Video games
 ---
 
 [John Walker for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/07/02/city-of-heroes-retrospective/):

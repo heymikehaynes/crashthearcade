@@ -2,7 +2,7 @@
 title: Mobile carrier apps rife with trackers
 date: 2022-12-18
 tags:
-    - privacy
+    - Privacy
 ---
 
 [Jonathan Lamont for MobileSyrup](https://mobilesyrup.com/2022/11/25/rogers-bell-telus-apps-trackers-facebook-google/):

@@ -1,13 +1,8 @@
 ---
-id: 1793
 title: 'First look at Google&#8217;s new photo service'
 date: '2015-05-25T01:37:17+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/05/24/first-look-at.html'
-permalink: /2015/05/25/first-look-at-googles-new-photo-service/
-categories:
-    - Note
+tags:
+    - Google
 ---
 
 [Liam Spradlin for Android Police](https://www.androidpolice.com/2015/05/24/an-exclusive-early-look-at-the-new-google-photos-app/):

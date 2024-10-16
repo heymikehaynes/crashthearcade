@@ -1,13 +1,8 @@
 ---
-id: 1812
 title: 'Pebble debuts the Pebble Time Round smartwatch'
 date: '2015-09-25T18:08:15+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/09/25/pebble-debuts-the.html'
-permalink: /2015/09/25/pebble-debuts-the-pebble-time-round-smartwatch/
-categories:
-    - Note
+tags:
+    - Pebble
 ---
 
 [Greg Kumparak for TechCrunch](https://techcrunch.com/2015/09/23/pebble-debuts-its-first-round-smartwatch-with-the-pebble-time-round/):

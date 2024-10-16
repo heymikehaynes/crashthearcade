@@ -1,13 +1,8 @@
 ---
-id: 1803
 title: 'Odin Sphere HD remaster coming to PlayStation consoles'
 date: '2015-07-31T17:36:12+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/07/31/odin-sphere-hd.html'
-permalink: /2015/07/31/odin-sphere-hd-remaster-coming-to-playstation-consoles/
-categories:
-    - Note
+tags:
+    - Video games
 ---
 
 [Michael McWhertor for Polygon](https://www.polygon.com/2015/7/20/9003985/odin-sphere-hd-playstation-4-ps3-vita-vanillaware-atlus):

@@ -1,16 +1,8 @@
 ---
-id: 1788
 title: 'Adam Hughes reflects on his Women of DC poster'
 date: '2015-04-08T00:58:22+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/04/07/adam-hughes-reflects.html'
-permalink: /2015/04/08/adam-hughes-reflects-on-his-women-of-dc-poster/
-categories:
-    - Essential
-    - Post
 tags:
-    - 'Comic books'
+    - Comic books
 ---
 
 [Andrew Wheeler for ComicsAlliance](http://comicsalliance.com/adam-hughes-real-power-dc-universe-poster/):

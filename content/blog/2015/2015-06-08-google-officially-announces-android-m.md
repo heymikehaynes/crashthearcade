@@ -1,13 +1,8 @@
 ---
-id: 1796
 title: 'Google officially announces Android M'
 date: '2015-06-08T17:51:38+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/06/08/google-officially-announces.html'
-permalink: /2015/06/08/google-officially-announces-android-m/
-categories:
-    - Note
+tags:
+    - Android
 ---
 
 [Molly McHugh and David Pierce for WIRED](https://www.wired.com/2015/05/google-officially-announces-android-m-latest-os/):

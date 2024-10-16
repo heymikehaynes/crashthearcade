@@ -1,13 +1,8 @@
 ---
-id: 1817
 title: 'Sony is working on PS2 emulation for the PS4'
 date: '2015-11-24T09:59:36+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/11/24/sony-is-working.html'
-permalink: /2015/11/24/sony-is-working-on-ps2-emulation-for-the-ps4/
-categories:
-    - Note
+tags:
+    - Video games
 ---
 
 [James Vincent for The Verge](https://www.theverge.com/2015/11/20/9768266/ps4-ps2-emulation):

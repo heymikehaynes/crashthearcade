@@ -1,13 +1,8 @@
 ---
-id: 1809
 title: 'Artist Kevin Wada shares Scarlet Witch design process'
 date: '2015-09-03T21:43:36+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/09/03/artist-kevin-wada.html'
-permalink: /2015/09/03/artist-kevin-wada-shares-scarlet-witch-design-process/
-categories:
-    - Note
+tags:
+    - Comic books
 ---
 
 [George Marston for Newsarama](http://web.archive.org/web/20150906013240/http://www.newsarama.com/25758-kevin-wada-opens-up-about-scarlet-witch-design-process.html):

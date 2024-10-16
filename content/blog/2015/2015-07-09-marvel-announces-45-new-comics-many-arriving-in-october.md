@@ -1,13 +1,8 @@
 ---
-id: 1798
 title: 'Marvel announces 45 new comics, many arriving in October'
 date: '2015-07-09T05:41:34+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/07/09/marvel-announces-new.html'
-permalink: /2015/07/09/marvel-announces-45-new-comics-many-arriving-in-october/
-categories:
-    - Note
+tags:
+    - Comic books
 ---
 
 [Jamie Lovett for Comic Book](https://comicbook.com/news/marvel-announces-45-all-new-all-different-series/):

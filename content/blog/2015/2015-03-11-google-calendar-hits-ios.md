@@ -1,13 +1,9 @@
 ---
-id: 1783
 title: 'Google Calendar hits iOS'
 date: '2015-03-11T02:31:03+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/03/10/google-calendar-hits.html'
-permalink: /2015/03/11/google-calendar-hits-ios/
-categories:
-    - Note
+tags:
+    - Design
+    - Google
 ---
 
 [Jon Fingas for Engadget](http://www.engadget.com/2015/03/10/google-calendar-for-iphone/):

@@ -1,13 +1,8 @@
 ---
-id: 1806
 title: 'DC pushing &#8220;back to basics&#8221; approach to writers'
 date: '2015-08-27T07:27:10+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/08/27/dc-pushing-back.html'
-permalink: /2015/08/27/dc-pushing-back-to-basics-approach-to-writers/
-categories:
-    - Note
+tags:
+    - Comic books
 ---
 
 [Rich Johnston for Bleeding Cool](https://bleedingcool.com/comics/dc-tells-editors-stop-batgirling-go-back-to-meat-and-potatoes/):

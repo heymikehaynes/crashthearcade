@@ -1,13 +1,8 @@
 ---
-id: 1786
 title: 'Reports suggest new Apple TV with App Store, Siri coming in June'
 date: '2015-03-21T13:34:09+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/03/21/reports-suggest-new.html'
-permalink: /2015/03/21/reports-suggest-new-apple-tv-with-app-store-siri-coming-in-june/
-categories:
-    - Note
+tags:
+    - Apple
 ---
 
 [Jacob Kastrenakes for The Verge](http://www.theverge.com/2015/3/20/8264699/apple-tv-app-store-siri-june-wwdc-report):

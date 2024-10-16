@@ -1,13 +1,9 @@
 ---
-id: 1810
 title: 'iPhone 6S and iPhone 6S Plus features new 3D Touch'
 date: '2015-09-10T05:37:39+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/09/10/iphone-s-and.html'
-permalink: /2015/09/10/iphone-6s-and-iphone-6s-plus-features-new-3d-touch/
-categories:
-    - Note
+tags:
+    - Apple
+    - iPhone
 ---
 
 [Dieter Bohn for The Verge](http://www.theverge.com/apple/2015/9/9/9277881/iphone-6s-plus-hands-on-photos-video-camera):

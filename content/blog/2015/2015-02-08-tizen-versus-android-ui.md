@@ -1,13 +1,6 @@
 ---
-id: 1779
 title: 'Tizen vs. Android UI'
 date: '2015-02-08T23:07:00+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/02/08/tizen-versus-android.html'
-permalink: /2015/02/08/tizen-versus-android-ui/
-categories:
-    - Post
 tags:
     - Design
 ---

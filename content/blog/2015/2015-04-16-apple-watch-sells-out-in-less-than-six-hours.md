@@ -1,13 +1,8 @@
 ---
-id: 1789
 title: 'Apple Watch sells out in less than six hours'
 date: '2015-04-16T00:42:51+00:00'
-author: root
-layout: post
-guid: 'http://mikehaynes.micro.blog/2015/04/15/apple-watch-sells.html'
-permalink: /2015/04/16/apple-watch-sells-out-in-less-than-six-hours/
-categories:
-    - Note
+tags:
+    - Apple
 ---
 
 [Joe Rossignol for MacRumors](http://www.macrumors.com/2015/04/10/apple-watch-sold-out-launch-day/):
