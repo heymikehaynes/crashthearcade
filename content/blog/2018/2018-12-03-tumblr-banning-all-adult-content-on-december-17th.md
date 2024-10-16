@@ -1,0 +1,19 @@
+---
+id: 1592
+title: 'Tumblr banning all adult content on December 17th'
+date: '2018-12-03T19:00:00+00:00'
+author: root
+layout: post
+guid: 'http://mikehaynes.micro.blog/2018/12/03/tumblr-banning-all.html'
+permalink: /2018/12/03/tumblr-banning-all-adult-content-on-december-17th/
+categories:
+    - Note
+---
+
+[Shannon Liao for The Verge](https://www.theverge.com/2018/12/3/18123752/tumblr-adult-content-porn-ban-date-explicit-changes-why-safe-mode):
+
+> Banned content includes photos, videos, and GIFs of human genitalia, female-presenting nipples, and any media involving sex acts, including illustrations.
+
+My longtime Tumblr blog isn’t affected by the [update](https://staff.tumblr.com/post/180758987165/a-better-more-positive-tumblr) to their content guidelines. That said, I find it infuriating that neo-nazis, white supremacists, and other hate groups are allowed to remain on their platform as photos of “female-presenting nipples” are being flagged and removed left and right.
+
+Based on how well users are taking the news, they might as well just shut the site down.
