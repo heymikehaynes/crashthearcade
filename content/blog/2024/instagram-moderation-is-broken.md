@@ -1,6 +1,7 @@
 ---
 title: Instagram moderation is broken
 date: 2024-10-10T08:10:00-05:00
+type: post
 tags:
   - Social media
 ---

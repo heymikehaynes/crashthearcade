@@ -1,6 +1,7 @@
 ---
 title: Cloud Imperium continues to sound like a super shitty place to work
 date: 2024-10-06T15:10:00-05:00
+type: post
 tags:
   - Video games
 ---

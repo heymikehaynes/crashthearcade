@@ -1,6 +1,7 @@
 ---
 title: 'Home screens: October 2024'
 date: 2024-10-12T15:58:00-05:00
+type: post
 tags:
   - Home screen
   - Apple

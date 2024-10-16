@@ -1,6 +1,7 @@
 ---
 title: Threads still sucks
 date: 2024-10-07T08:35:00-05:00
+type: post
 tags:
   - Social media
 ---

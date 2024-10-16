@@ -2,5 +2,5 @@
 title:
 date:
 tags:
-type:
+type: post
 ---
