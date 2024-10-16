@@ -422,7 +422,7 @@ code {
 	display: inline;
 }
 
-.postlist-tags a, .archive-navigation li a, a.tag-cluster-item {
+.postlist-tags a, a.tag-cluster-item {
 	margin: 36px 8px 0 0;
 	padding: 16px 22px;
 	border-radius: 100px;
@@ -448,7 +448,7 @@ a.tag-cluster-item {
 	margin: 0 12px 0 0;
 }
 
-.postlist-tags a:hover, .archive-navigation li a:hover, a.tag-cluster-item:hover {
+.postlist-tags a:hover, a.tag-cluster-item:hover {
 	background: var(--primary-accent);
 	color: var(--primary-text);
 }

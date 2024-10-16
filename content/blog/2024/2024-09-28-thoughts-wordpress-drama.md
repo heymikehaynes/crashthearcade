@@ -3,7 +3,6 @@ title: Thoughts on the WordPress drama
 date: 2024-09-28
 tags:
   - WordPress
-  - Web Dev
 ---
 
 [Jyolsna for WP Tavern](https://wptavern.com/highlights-from-matt-mullenwegs-spiciest-word-camp-presentation-at-wordcamp-us-2024):

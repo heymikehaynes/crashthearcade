@@ -3,7 +3,6 @@ title: Turned up to 11ty
 date: 2024-10-02T18:00:00-05:00
 tags:
   - 11ty
-  - Web Dev
 ---
 This is a quick update: I've rebuilt my site using&nbsp;[11ty](https://11ty.dev). I'm sorry if you're seeing duplicate entries in your RSS reader.
 
