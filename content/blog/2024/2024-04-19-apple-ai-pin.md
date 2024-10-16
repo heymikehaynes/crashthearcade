@@ -3,8 +3,7 @@ title: Apple AI pin
 date: 2024-04-19T00:00:00Z
 tags:
   - Apple
-  - ai
-  - Humane
+  - AI
 ---
 Watching reviews for Humane’s AI pin, I can’t help but wonder why someone hasn’t just clipped an Apple Watch to a shirt.
 
