@@ -2,7 +2,8 @@
 title: Thoughts on Webmentions
 date: 2024-03-24T00:00:00Z
 tags:
-- Internet
+  - Indieweb
+  - Internet
 ---
 I read <a href="https://shkspr.mobi/blog/2022/12/the-ethics-of-syndicating-comments-using-webmentions/" target="_blank" rel="noopener">Terence’s post</a> about webmentions and thought I’d add my two cents. I removed webmentions, <a href="http://brid.gy/" target="_blank" rel="noopener">brid.gy</a>, and any ActivityPub functionality a few months ago for a few reasons.
 

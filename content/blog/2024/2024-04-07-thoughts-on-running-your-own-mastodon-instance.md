@@ -2,7 +2,7 @@
 title: Thoughts on running your own Mastodon instance
 date: 2024-04-07
 tags:
-- Mastodon
+  - Mastodon
 ---
 
 This past week, after much deliberation and [a post by Mike at Shellsharks](https://shellsharks.com/own-my-social), I decided to spin up my own Mastodon instance. I had some reservations about the whole thing but it’s been pretty painless so far. I wanted to go over some of the pros and cons for people considering going down this path.

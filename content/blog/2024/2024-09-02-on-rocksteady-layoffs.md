@@ -3,8 +3,8 @@ title: On the Rocksteady layoffs
 date: 2024-09-02T00:00:00Z
 type: post
 tags:
-- Arkham Asylum
-- Video games
+  - Arkham Asylum
+  - Video games
 ---
 Here are some quick thoughts on this situation and broader layoffs across the gaming industry. If I’ve missed or misunderstood something, please let me know. I’m happy to be wrong.
 

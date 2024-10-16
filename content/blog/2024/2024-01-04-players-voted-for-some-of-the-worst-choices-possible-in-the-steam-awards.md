@@ -2,8 +2,8 @@
 title: People voted for some pretty weird stuff during this year’s Steam Awards
 date: 2024-01-04
 tags:
-- VGAs
-- Video games
+  - VGAs
+  - Video games
 ---
 
 [Graham Smith for RPS](https://www.rockpapershotgun.com/players-voted-for-some-of-the-worst-choices-possible-in-the-steam-awards):

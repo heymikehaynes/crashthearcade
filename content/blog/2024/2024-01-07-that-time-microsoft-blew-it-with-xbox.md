@@ -2,8 +2,8 @@
 title: Microsoft’s disastrous Xbox One reveal
 date: 2024-01-07
 tags:
-- Xbox
-- Video games
+  - Xbox
+  - Video games
 ---
 
 It was remarkable how badly it went from the very beginning.

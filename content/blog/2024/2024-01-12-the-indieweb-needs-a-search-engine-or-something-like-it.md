@@ -2,8 +2,8 @@
 title: The indieweb needs a search engine
 date: 2024-01-12T00:00:00Z
 tags:
-- Indieweb
-- Internet
+  - Indieweb
+  - Internet
 ---
 Follow me on a journey. This post is essentially a brain dump, but there’s a point and an idea somewhere, I think.
 
