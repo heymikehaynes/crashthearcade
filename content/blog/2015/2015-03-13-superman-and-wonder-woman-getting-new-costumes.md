@@ -1,11 +1,12 @@
 ---
-title: 'Superman and Wonder Woman getting new costumes'
-date: '2015-03-13T02:49:32+00:00'
+_schema: default
+title: Superman and Wonder Woman getting new costumes
+date: 2015-03-12T21:49:32-05:00
 tags:
-    - Comics books
+    - Comic books
     - Design
+type: post
 ---
-
 [Jesse Schedeen for IGN](http://ca.ign.com/articles/2015/03/12/superman-and-wonder-woman-get-new-costumes-in-june):
 
 > A handful of upcoming comic book covers have revealed new costumes for both Superman and Wonder Woman. These costumes will debut in June as part of DC’s major post-Convergence relaunch.

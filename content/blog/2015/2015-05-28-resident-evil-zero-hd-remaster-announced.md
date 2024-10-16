@@ -1,11 +1,11 @@
 ---
-title: 'Resident Evil Zero HD remaster announced'
-date: '2015-05-28T02:44:14+00:00'
+_schema: default
+title: Resident Evil Zero HD remaster announced
+date: 2015-05-27T21:44:14-05:00
 tags:
     - Video games
-    - Resident Evil
+type: post
 ---
-
 [Alice O’Connor for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/05/26/spooky-voice-resident-evil-zero-hd-remaster-announced/):
 
 > Capcom announced this morning that they’re giving the 2002 prequel to Resident Evil the old updatearoo. They say this new version will be a modern update similar to this year’s enhanced REmake.
