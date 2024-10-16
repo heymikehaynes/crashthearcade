@@ -21,6 +21,8 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     schemas:
+      default:
+        path: content/schemas/post.md
   pages:
     path: content
     name: Pages
