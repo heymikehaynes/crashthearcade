@@ -2,7 +2,6 @@
 title: Apple AI pin
 date: 2024-04-19T00:00:00Z
 tags:
-  - AI
   - Apple
   - Humane
 ---
