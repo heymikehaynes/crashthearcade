@@ -1,6 +1,6 @@
 ---
 title:
-date:
+date: [now]
 tags:
 type:
 ---
