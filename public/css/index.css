@@ -167,6 +167,10 @@ blockquote {
 	font-style: normal;
 }
 
+.format-quote .postlist-title, .archive-post.format-quote h5 {
+	display: none;
+}
+
 .quote-block {
 	margin-bottom: 100px;
 }
