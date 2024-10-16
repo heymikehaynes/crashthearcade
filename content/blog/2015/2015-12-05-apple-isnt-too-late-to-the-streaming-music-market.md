@@ -1,11 +1,10 @@
 ---
-title: 'Apple isn&#8217;t too late to the streaming music market'
-date: '2015-12-05T21:22:18+00:00'
+title: Apple isn't too late to the streaming music market
+date: 2015-12-05T15:22:18-06:00
 tags:
     - Apple
     - Music
 ---
-
 [Micah Singleton for The Verge](https://www.theverge.com/2015/12/5/9851482/apple-music-streaming-wars-spotify-youtube):
 
 > Let’s lay out just how large the head start its competitors have. Apple Music is essentially in fourth place, miles behind Pandora, Spotify, and YouTube, and all the companies ahead of Apple are only getting bigger and better. Pandora, which has 78 million active users, just bought Rdio and has plans to launch an on-demand service late next year, giving its users an in-house option and push it into direct competition with Apple Music.
