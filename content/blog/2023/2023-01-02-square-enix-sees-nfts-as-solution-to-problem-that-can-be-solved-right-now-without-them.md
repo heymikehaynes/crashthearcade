@@ -1,10 +1,14 @@
 ---
-title: Square Enix sees NFTs as solution to problem that can be solved right now without them
-date: 2023-01-02
+_schema: default
+title: >-
+    Square Enix sees NFTs as solution to problem that can be solved right now
+    without them
+date: 2023-01-02T00:00:00Z
 tags:
     - NFTs
+    - Video games
+type: post
 ---
-
 [Jonathan Bolding for PC Gamer](https://www.pcgamer.com/square-enix-president-knows-people-who-play-to-have-fun-dislike-nfts-but-he-wants-them-anyway/):
 
 > \[SE President Yosuke Matsuda\] is unreservedly enthusiastic about the idea that “token economies” will provide those who ‘play to contribute’ with an explicit incentive beyond “such inconsistent personal feelings as goodwill and volunteer spirit.”

@@ -1,11 +1,11 @@
 ---
+_schema: default
 title: Remember Ello?
-date: 2024-01-18
+date: 2024-01-18T00:00:00Z
 tags:
-  - Ello
   - Social media
+type: post
 ---
-
 [Andy Baio](https://waxy.org/2024/01/the-quiet-death-of-ellos-big-dreams/):
 
 > Digging through SEC filings, I discovered that the newly-launched indie social network had taken nearly half a million in seed funding from a venture capital firm, which seemed counter to its indie manifesto.

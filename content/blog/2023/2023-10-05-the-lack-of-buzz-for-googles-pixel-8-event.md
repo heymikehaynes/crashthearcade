@@ -1,11 +1,11 @@
 ---
-title: 'The buzz (or lack of) for Google&#8217;s Pixel 8 event'
-date: '2023-10-05T21:54:29+00:00'
-type: post
+_schema: default
+title: The buzz (or lack of) for Google's Pixel 8 event
+date: 2023-10-05T16:54:29-05:00
 tags:
     - Google
+type: post
 ---
-
 [John Gruber at Daring Fireball](https://daringfireball.net/2023/10/googles_pixel_8_event):
 
 > It’s also impossible not to comment on just how much less interest there is in Google’s Pixel ecosystem. Google’s event garnered only a sliver of the attention Apple’s did, and their devices, similarly, have only a fraction of the sales Apple’s do.

@@ -1,12 +1,11 @@
 ---
+_schema: default
 title: Devs weigh-in as Palworld Pokémon plagiarism accusations worsen
-date: 2024-01-22
+date: 2024-01-22T00:00:00Z
 tags:
-  - Pokemon
-  - Palworld
   - Video games
+type: post
 ---
-
 [Andy Robinson for VGC](https://www.videogameschronicle.com/news/palworld-pokemon-plagiarism-accusations-pile-up-as-ceo-responds/):
 
 > According to two experienced AAA game artists who spoke to VGC, the model comparisons on X are likely evidence that Palworld’s character models were indeed based on Pokémon assets.

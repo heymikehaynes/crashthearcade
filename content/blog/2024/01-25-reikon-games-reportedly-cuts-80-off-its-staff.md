@@ -1,9 +1,10 @@
 ---
+_schema: default
 title: Reikon reportedly cuts 80% of staff
 date: 2024-01-25T00:00:00Z
 tags:
-  - Ruiner
   - Video games
+type: post
 ---
 [Chris Scullion for VGC](https://www.videogameschronicle.com/news/ruiner-studio-reikon-games-has-reportedly-laid-off-around-80-off-its-staff/):
 
