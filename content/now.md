@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 # Now
 
-#### This page is inspired by Derek Sivers' project, [nownownow.com](https://nownownow.com/about). It was last updated on October 4th, 2024.
+#### This page is inspired by Derek Sivers' project, [nownownow.com](https://nownownow.com/about) and was last updated on October 17th, 2024.
 
 * I’m recovering from a recent trip with my family to California at the end of September. It was great but&nbsp;*exhausting*. We visited Disneyland, Universal Studios, and caught a Dodgers game.
 * I recently switched my WordPress site back and forth from Ghost to Tumblr and back again before finally settling on Eleventy. I’ve been enjoying learning something new, and the community is excellent.

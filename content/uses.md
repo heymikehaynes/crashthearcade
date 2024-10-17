@@ -1,9 +1,6 @@
 ---
 layout: layouts/base.njk
 permalink: /uses/
-eleventyNavigation:
-  key: Uses
-  order: 5
 ---
 # Uses
 
