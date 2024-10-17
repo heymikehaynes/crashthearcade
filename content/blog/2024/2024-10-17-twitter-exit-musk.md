@@ -1,6 +1,6 @@
 ---
-title
-date: 10/17/24
+title:
+date: 2024-10-17
 type: note
 tags:
     - Social media
