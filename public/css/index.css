@@ -1,32 +1,64 @@
 /* Styles */
+
+/* Archivo */
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Regular.woff);
+	src: url(/fonts/archivo/Archivo-Regular.woff2);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Italic.woff);
+	src: url(/fonts/archivo/Archivo-Italic.woff2);
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Bold.woff);
+	src: url(/fonts/archivo/Archivo-Bold.woff2);
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-BoldItalic.woff);
+	src: url(/fonts/archivo/Archivo-BoldItalic.woff2);
 	font-weight: bold;
 	font-style: italic;
 }
 
+/* Archivo Narrow */
+@font-face {
+	font-family: Archivo Narrow;
+	src: url(/fonts/archivo-narrow/ArchivoNarrow-Regular.woff2);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo Narrow;
+	src: url(/fonts/archivo-narrow/ArchivoNarrow-Italic.woff2);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Archivo Narrow;
+	src: url(/fonts/archivo-narrow/ArchivoNarrow-Bold.woff2);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Archivo Narrow;
+	src: url(/fonts/archivo-narrow/ArchivoNarrow-BoldItalic.woff2);
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Departure */
 @font-face {
 	font-family: Departure;
 	src: url(/fonts/departure/DepartureMono-Regular.woff);
@@ -60,6 +92,8 @@ body {
 }
 
 body {
+	max-width: 1020px;
+	margin: 80px auto 24px auto;
 	background-image: url("/img/site-bg.png");
 	background-position: top right;
 	background-repeat: no-repeat;
@@ -77,11 +111,6 @@ header {
 	border-right: 4px solid var(--secondary-bg);
 }
 
-body {
-	max-width: 1020px;
-	margin: 100px auto 24px auto;
-}
-
 #container {
 	display: grid;
 	grid-template-columns: auto 746px;
@@ -97,7 +126,7 @@ p {
 }
 
 h1 {
-	font-size: 62px;
+	font-size: 64px;
 	line-height: 1.1;
 	font-weight: bold;
 	text-wrap: balance;
@@ -138,14 +167,14 @@ h3 {
 }
 
 h4 {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 1.4;
 	font-weight: normal;
 	margin-bottom: 52px;
 }
 
 h5 {
-	font-size: 24px;
+	font-size: 28px;
 	line-height: 1.3;
 	font-weight: bold;
 	margin: 12px 0;
@@ -283,12 +312,13 @@ code {
 }
 
 .nav-item a {
-	font-family: 'Archivo', sans-serif;
-	font-size: 32px;
+	font-family: 'Departure', sans-serif;
+	font-size: 24px;
 	line-height: 80%;
 	text-decoration: none;
 	color: var(--primary-text);
 	display: inline-block;
+	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -394,7 +424,7 @@ code {
 .bookmark-list-date {
 	margin: 24px 24px 12px 24px;
 	font-family: 'Departure', monospace;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
 	display: block;
@@ -431,7 +461,7 @@ code {
 	color: var(--secondary-text);
 	display: inline-block;
 	font-size: 16px;
-	letter-spacing: 1.25px;
+	letter-spacing: 1px;
 }
 
 a.tag-cluster-item {
@@ -505,9 +535,12 @@ footer a:hover {
 /* sidebar */
 .sidebar {
 	position: sticky;
-	top: 52px;
+	top: 80px;
 	width: 220px;
 	padding-right: 32px;
+	height: 86vh;
+	display: grid;
+	grid-template-rows: 1fr auto;
 }
 
 /* now */
@@ -568,7 +601,7 @@ footer a:hover {
 /* masto block */
 img.masto-avatar {
 	width: 70px;
-	background: var(--primary-accent);
+	background: var(--primary-text);
 	border-radius: 100px;
 }
 
@@ -759,6 +792,7 @@ p.error-text {
 
 	.sidebar {
 		padding-right: 0;
+		height: initial;
 	}
 
 	/* Show the nav when active */
