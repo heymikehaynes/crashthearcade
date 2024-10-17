@@ -4,6 +4,7 @@ title: Resident Evil Zero HD remaster announced
 date: 2015-05-27T21:44:14-05:00
 tags:
     - Video games
+    - Resident Evil
 type: post
 ---
 [Alice O’Connor for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/05/26/spooky-voice-resident-evil-zero-hd-remaster-announced/):

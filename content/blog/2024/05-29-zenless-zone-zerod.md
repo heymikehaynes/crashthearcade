@@ -1,8 +1,11 @@
 ---
+_schema: default
 title: Zenless Zone Zero'd
 date: 2024-05-29T00:00:00Z
 tags:
   - Video games
+  - Zenless Zone Zero
+type: post
 ---
 <a href="https://www.igdb.com/games/zenless-zone-zero" target="_blank" rel="noopener">Zenless Zone Zero</a> is a game I’m excited to play, but things have changed recently. During the last round of beta testing, I was banned for trying to run the game on my M1 iMac.
 

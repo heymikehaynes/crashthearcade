@@ -4,6 +4,7 @@ title: Final Fantasy IX is coming to PC via Steam
 date: 2016-01-05T20:21:08-06:00
 tags:
     - Video games
+    - Final Fantasy
 type: post
 ---
 [Tom Sykes for PC Gamer](https://www.pcgamer.com/final-fantasy-9-is-finally-coming-to-pc/):

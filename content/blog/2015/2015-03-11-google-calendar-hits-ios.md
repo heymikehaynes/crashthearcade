@@ -4,6 +4,7 @@ title: Google Calendar hits iOS
 date: 2015-03-10T21:31:03-05:00
 tags:
     - Google
+    - iOS
 type: post
 ---
 [Jon Fingas for Engadget](http://www.engadget.com/2015/03/10/google-calendar-for-iphone/):

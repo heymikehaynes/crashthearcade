@@ -3,8 +3,8 @@ _schema: default
 title: 'iOS 8 adoption: 72%, Android Lollipop: 1.6%'
 date: 2015-02-03T14:49:00-06:00
 tags:
+    - iOS
     - Android
-    - Apple
 type: post
 ---
 > [Juli Clover for MacRumors](http://www.macrumors.com/2015/02/03/ios-8-adoption-rate-hits-72-percent/):

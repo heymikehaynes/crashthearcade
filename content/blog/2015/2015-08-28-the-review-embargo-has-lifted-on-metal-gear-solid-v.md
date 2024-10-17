@@ -4,6 +4,7 @@ title: The review embargo has lifted on Metal Gear Solid V
 date: 2015-08-28T15:51:48-05:00
 tags:
     - Video games
+    - Metal Gear Solid
 type: post
 ---
 [Michael McWhertor for Polygon](https://www.polygon.com/2015/8/27/9207599/metal-gear-solid-5-the-phantom-pain-review-ps4-xbox-one-PC):

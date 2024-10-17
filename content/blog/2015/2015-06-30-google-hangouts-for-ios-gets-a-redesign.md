@@ -4,6 +4,7 @@ title: Google Hangouts for iOS gets a redesign
 date: 2015-06-30T03:30:50-05:00
 tags:
     - Google
+    - iOS
 type: post
 ---
 [Billy Steele for Engadget](https://www.engadget.com/2015-06-29-google-hangouts-ios-update.html):

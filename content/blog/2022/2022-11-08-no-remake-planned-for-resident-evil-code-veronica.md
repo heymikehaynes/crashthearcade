@@ -1,10 +1,12 @@
 ---
-title: "No remake planned for Resident Evil: Code Veronica"
-date: 2022-11-08
+_schema: default
+title: 'No remake planned for Resident Evil: Code Veronica'
+date: 2022-11-08T00:00:00Z
 tags:
     - Video games
+    - Resident Evil
+type: post
 ---
-
 [Andy Robinson for Video Games Chronicle](https://www.videogameschronicle.com/news/resident-evil-producer-says-currently-no-plans-for-code-veronica-remake/):
 
 > Speaking to website Noisy Pixel, series producer Yoshiaki Hirabayashi said that there were no concrete plans to develop a Resident Evil Code: Veronica Remake, but didn’t totally rule out the opportunity, stating that if the “opportunity comes, maybe.

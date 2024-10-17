@@ -3,6 +3,7 @@ _schema: default
 title: iOS 9 beta users can no longer review apps
 date: 2015-07-23T03:35:56-05:00
 tags:
+    - iOS
     - Apple
 type: post
 ---
