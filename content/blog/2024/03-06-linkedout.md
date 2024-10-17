@@ -1,9 +1,10 @@
 ---
+_schema: default
 title: Linkedout
 date: 2024-03-06T00:00:00Z
 tags:
-  - Linkedin
   - Social media
+type: post
 ---
 I’ve been spending an uncomfortable amount of time on LinkedIn lately, which is to say more than 5 minutes, and I’ve noticed some things.
 
