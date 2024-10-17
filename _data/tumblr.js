@@ -28,7 +28,7 @@ module.exports = async function () {
 
 		let feed = await parser.parseString(xml);
 
-		return feed.items.slice(0, 6).map(item => {
+		return feed.items.slice(0, 8).map(item => {
 			let description = item.content || item['content:encoded'] || item.description;
 
 			// Extract only images from the description
