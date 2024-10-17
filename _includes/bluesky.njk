@@ -1,0 +1,22 @@
+<div class="mastodon-block-array">
+	{% for post in bluesky %}
+		<div class="mastodon-block-post bluesky-variant">
+			<div class="masto-header-info">
+				<img class="masto-avatar" src="/img/avatar.gif">
+				<div class="masto-user-info">
+					<p class="masto-name"><a href="https://bsky.app/profile/crashthearcade.bsky.social">Mike Haynes</a></p>
+					<p class="masto-address">@crashthearcade.bsky.social</p>
+				</div>
+			</div>
+
+			{% if post.imageUrl %}
+				<div class="masto-post-image">
+					<img src="{{ post.imageUrl }}" alt="Mastodon Post Image">
+				</div>
+			{% endif %}
+
+			<div class="masto-post-body bluesky-variant">{{ post.description | safe }}</div>
+			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
+		</div>
+	{% endfor %}
+</div>

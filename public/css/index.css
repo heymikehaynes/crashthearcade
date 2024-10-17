@@ -651,6 +651,14 @@ a.masto-logo-link:hover {
 	border-radius: 8px;
 }
 
+.mastodon-block-post.bluesky-variant {
+	background-image: url("/img/bsky-bg.png");
+}
+
+.masto-post-body.bluesky-variant {
+		margin: 28px 0 0 0;
+}
+
 .masto-name {
 	font-weight: bold;
 }
