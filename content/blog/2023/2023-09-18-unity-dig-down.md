@@ -1,11 +1,11 @@
 ---
-title: 'Unity can&#8217;t seem to help but dig down'
-date: '2023-09-18T08:16:44+00:00'
-type: post
+_schema: default
+title: Unity can't seem to help but dig down
+date: 2023-09-18T03:16:44-05:00
 tags:
-    - 'Video games'
+    - Video games
+type: post
 ---
-
 [Sophie McEvoy for GamesIndustry.biz](https://www.gamesindustry.biz/unity-reportedly-told-dev-planned-parenthood-and-childrens-hospital-are-not-not-valid-charities):
 
 > Developers of indie puzzle game Orgynizer have claimed that Unity said organisations like Planned Parenthood are “not valid charities” and are instead “political groups.”

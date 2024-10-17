@@ -1,10 +1,11 @@
 ---
+_schema: default
 title: GM’s in-car software is about as good as many people expected
-date: 2023-12-27
+date: 2023-12-27T00:00:00Z
 tags:
-    - Software
+    - Cars
+type: post
 ---
-
 GM pissed a lot of people off when they [announced](https://www.theverge.com/2023/4/18/23688122/gm-software-scott-miller-interview-carplay-android-auto) they were moving away from CarPlay and Android Auto. When the rubber hit the road (literally), would it be worth it? Would GM achieve the “holistic integration” they envisioned?
 
 Not so much.

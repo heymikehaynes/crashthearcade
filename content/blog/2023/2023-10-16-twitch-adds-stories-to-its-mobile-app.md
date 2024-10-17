@@ -1,10 +1,11 @@
 ---
+_schema: default
 title: Twitch is adding stories to their mobile app
-date: 2023-10-16
+date: 2023-10-16T00:00:00Z
 tags:
-    - Live streaming
+    - Streaming
+type: post
 ---
-
 [Ash Parrish for The Verge](https://www.theverge.com/2023/10/16/23919304/twitch-stories-roll-out-twitchcon-2023):
 
 > Stories on Twitch will function just like the feature does on other social media apps. Qualified users can post pictures, text messages, or clips that will disappear after 48 hours. Viewers will be able to see stories from the creators they follow in a dedicated space at the top of the Twitch app.

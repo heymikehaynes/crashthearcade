@@ -1,10 +1,11 @@
 ---
+_schema: default
 title: The problem with Mammoth
-date: 2023-02-26
+date: 2023-02-26T00:00:00Z
 tags:
-    - Mastodon
+    - Apps
+type: post
 ---
-
 Mammoth, a new app for Mastodon, launched in the iOS App Store this past week and something about it hasn’t been sitting right with me.
 
 Until recently, the team working on the project was noted within the app itself as a single person: Shihab Mehboob, creator of Aviary for Twitter and Mast, another Mastodon app. While working on Mammoth, Shihab [asked people to consider donating to him](https://mastodon.social/@JPEGuin/109466732307938287) to support development which, given that he appeared to be the only one working on it, made sense.

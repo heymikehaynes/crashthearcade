@@ -3,7 +3,7 @@ _schema: default
 title: 'Home screens: October 2024'
 date: 2024-10-12T15:58:00-05:00
 tags:
-  - Phones
+  - Apps
 type: post
 ---
 ![iPad and iPhone home screens](/uploads/homescreens.png)
