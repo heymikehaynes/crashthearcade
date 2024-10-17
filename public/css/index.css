@@ -300,7 +300,7 @@ code {
 .nav {
 	list-style: none;
 	padding: 0;
-	margin: 32px 0;
+	margin: 0 0 46px 0;
 }
 
 .nav-toggle {
@@ -538,7 +538,7 @@ footer a:hover {
 	top: 80px;
 	width: 220px;
 	padding-right: 32px;
-	height: 86vh;
+	height: 88vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
 }
@@ -596,6 +596,10 @@ footer a:hover {
 
 .archive-post p:last-of-type {
 	margin: 12px 0 52px 0;
+}
+
+.archive-post.format-:last-of-type {
+	margin-bottom: -62px;
 }
 
 /* masto block */
