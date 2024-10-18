@@ -1,10 +1,12 @@
 ---
+_schema: default
 title: Microsoft is adding a crypto wallet to Edge for some reason
-date: 2023-03-21
+date: 2023-03-21T00:00:00Z
 tags:
     - Crypto
+    - Microsoft
+type: post
 ---
-
 [Tom Warren for The Verge](https://www.theverge.com/2023/3/21/23649834/microsoft-edge-cryptocurrency-wallet-feature):
 
 > Microsoft Edge will advertise the ability to purchase cryptocurrency from Coinbase and MoonPay through \[a\] built-in crypto wallet. It will also include the ability to connect decentralized apps to the wallet feature and support collecting and storing non-fungible tokens (NFTs).

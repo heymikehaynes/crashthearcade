@@ -1,9 +1,11 @@
 ---
+_schema: default
 title: Threads still sucks
 date: 2024-10-07T08:35:00-05:00
-type: post
 tags:
   - Social media
+  - Threads
+type: post
 ---
 Against my better judgment, I decided to give Threads another try, and it’s only marginally better than I remembered, which was pretty awful. The main “For You” feed is filled with generic, uninteresting, often offensive comments and bland questions that have been asked a million times in other places or shouldn’t be asked *anywhere*. It all feels so synthetic; people posting something, *anything* for engagement.
 

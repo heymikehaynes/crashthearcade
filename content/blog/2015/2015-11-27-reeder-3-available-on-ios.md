@@ -1,8 +1,11 @@
 ---
+_schema: default
 title: Reeder 3 available on iOS
 date: 2015-11-27T16:20:09-06:00
 tags:
     - Apps
+    - iOS
+type: post
 ---
 [Chance Miller for 9to5Mac](https://9to5mac.com/2015/11/24/reeder-3-ipad-pro-ios/):
 

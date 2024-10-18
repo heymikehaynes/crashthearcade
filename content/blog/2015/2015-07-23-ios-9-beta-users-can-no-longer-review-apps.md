@@ -1,11 +1,12 @@
 ---
-title: 'iOS 9 beta users can no longer review apps'
-date: '2015-07-23T08:35:56+00:00'
+_schema: default
+title: iOS 9 beta users can no longer review apps
+date: 2015-07-23T03:35:56-05:00
 tags:
-    - Apple
     - iOS
+    - Apple
+type: post
 ---
-
 [Juli Clover for MacRumors](https://www.macrumors.com/2015/07/22/ios-9-beta-app-store-reviews-disabled/):
 
 > This is a much needed change that will prevent developers from having their App Store ratings and reviews affected by beta-related problems that are out of their control.

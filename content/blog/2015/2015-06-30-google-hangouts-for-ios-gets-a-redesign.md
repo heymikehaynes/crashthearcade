@@ -1,11 +1,12 @@
 ---
-title: 'Google Hangouts for iOS gets a redesign'
-date: '2015-06-30T08:30:50+00:00'
+_schema: default
+title: Google Hangouts for iOS gets a redesign
+date: 2015-06-30T03:30:50-05:00
 tags:
     - Google
-    - Design
+    - iOS
+type: post
 ---
-
 [Billy Steele for Engadget](https://www.engadget.com/2015-06-29-google-hangouts-ios-update.html):
 
 > Frustrated with the Google Hangouts app on iOS from time to time? Us too. Mountain View updated the mobile software today with a refreshed UI and more. First, you’ll likely notice the new coat of Material Design paint that tidies things up a bit. Heck, even the dialer got a redesign.

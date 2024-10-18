@@ -1,8 +1,11 @@
 ---
+_schema: default
 title: Silent Hill 2 remake endings streamed online
 date: 2024-10-03T18:25:00-05:00
 tags:
   - Video games
+  - Silent Hill
+type: post
 ---
 [Jordan Middler for VGC](https://www.videogameschronicle.com/news/silent-hill-2-remakes-ending-has-been-streamed-on-youtube-a-week-before-the-games-release/):
 

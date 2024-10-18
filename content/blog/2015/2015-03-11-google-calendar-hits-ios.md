@@ -1,11 +1,12 @@
 ---
-title: 'Google Calendar hits iOS'
-date: '2015-03-11T02:31:03+00:00'
+_schema: default
+title: Google Calendar hits iOS
+date: 2015-03-10T21:31:03-05:00
 tags:
-    - Design
     - Google
+    - iOS
+type: post
 ---
-
 [Jon Fingas for Engadget](http://www.engadget.com/2015/03/10/google-calendar-for-iphone/):
 
 > Do you prefer the iPhone, but would like to use Google’s calendar app to keep track of your life rather than Apple’s own? That’s finally an option. Google Calendar has launched for the iPhone, giving you the same schedule view, Gmail events and broad account support (including Exchange and iCloud) as your Android-toting buddies.

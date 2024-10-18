@@ -4,6 +4,7 @@ title: The Silent Hill 2 remake has sold 1 million copies
 date: 2024-10-17T11:40:00-05:00
 tags:
     - Video games
+    - Silent Hill
 type: post
 ---
 [Justin Carter for Game Developer](https://www.gamedeveloper.com/business/silent-hill-2-remake-sells-over-1-million-copies-within-launch-week):

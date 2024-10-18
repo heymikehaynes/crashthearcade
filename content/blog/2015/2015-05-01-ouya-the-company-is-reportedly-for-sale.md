@@ -1,11 +1,11 @@
 ---
-title: 'Ouya (the company) is reportedly for sale'
-date: '2015-05-01T03:12:40+00:00'
+_schema: default
+title: Ouya (the company) is reportedly for sale
+date: 2015-04-30T22:12:40-05:00
 tags:
     - Video games
-    - Ouya
+type: post
 ---
-
 [Adi Robertson for The Verge](http://www.theverge.com/2015/4/28/8509005/ouya-android-microconsole-reportedly-seeking-buyer-debt):
 
 > Embattled gaming company Ouya might be in even more trouble: according to a leaked memo, it’s putting itself up for sale in order to cut back its debt. Fortune reports that Ouya CEO Julie Uhrman sent a memo to investors and advisers earlier this month, saying that the company had failed to satisfy one of its investors’ conditions and that renegotiation over the debt had been unsuccessful.
