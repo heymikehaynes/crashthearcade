@@ -538,7 +538,7 @@ footer a:hover {
 	top: 80px;
 	width: 220px;
 	padding-right: 32px;
-	height: 88vh;
+	height: 86vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
 }

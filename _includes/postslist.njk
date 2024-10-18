@@ -50,9 +50,9 @@
 
 	{% if loop.index == 2 and page.url == '/' %}
 			<div class="mastodon-block">
-				{%- include 'bluesky.njk' -%}
+				{%- include 'mastodon.njk' -%}
 			</div>
 	{% endif %}
 {% endfor %}
 
-<div class="more-button-style"><a href="/archive">Post archive</a></div>
+<div class="more-button-style"><a href="/archive">Archive »</a></div>
