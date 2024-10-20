@@ -7,4 +7,4 @@ tags:
 
 > The new video released by Google shows a phony advertisement for the ‘iPager’ device, a clear dig at Apple’s practice of continuing to fall back to SMS and MMS messages for messages sent iPhone to Android.
 
-“Roast” in the loosest possible sense.
+Google has had ample opportunity to address their messaging situation over the years. Making it Apple's problem (again) is tired and lazy.
