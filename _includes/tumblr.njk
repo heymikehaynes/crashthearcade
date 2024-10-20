@@ -1,8 +1,8 @@
 <div class="tumblr-block-header">
 	<!-- <div class-"tumblr-block-title"><h5>Recently tumbl'd</h5></div> -->
 	<img src="/img/tumblr-logo.png" alt="Tumblr Logo">
-	<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More »</a></div>
 </div>
+
 <div class="tumblr-block-array">
 	{% if tumblr and tumblr.length > 0 %}
 		{% for post in tumblr %}
@@ -16,3 +16,5 @@
 		<p class="error-text">No posts available.</p>
 	{% endif %}
 </div>
+
+<div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More »</a></div>
