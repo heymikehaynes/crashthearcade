@@ -4,7 +4,7 @@ title: Sony introduces its accessibility controller kit, Project Leonardo
 date: 2023-01-04T00:00:00Z
 tags:
     - Video games
-    - Accessibilty
+    - Accessibility
 type: post
 ---
 [PlayStation Blog](https://blog.playstation.com/2023/01/04/introducing-project-leonardo-for-playstation-5-a-highly-customizable-accessibility-controller-kit/):
