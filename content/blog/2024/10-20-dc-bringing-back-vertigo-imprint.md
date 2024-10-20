@@ -6,8 +6,6 @@ tags: Comic books
 type: post
 ---
 
-![DC Vertigo Logo](/public/uploads/dc-vertigo.jpg)
-
 <a href="https://screenrant.com/dc-vertigo-comics-return-2024/" target="_blank" rel="noopener">Taylor Mills for ScreenRant</a>:
 
 > After nearly five years since retiring the imprint, DC Comics has officially announced at NYCC 2024 the highly anticipated return of VERTIGO. This marks a major moment for the publisher, reigniting one of its most iconic imprints known for groundbreaking, mature storytelling.
