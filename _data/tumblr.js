@@ -22,7 +22,7 @@ module.exports = async function () {
 
 	try {
 		let xml = await EleventyFetch(rssUrl, {
-			duration: "1h", // Cache for 1 hour
+			duration: "1m", // Cache for 1 hour
 			type: "text"
 		});
 
