@@ -1,7 +1,8 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const Parser = require("rss-parser");
+const OAuth = require("oauth-1.0a");
+const crypto = require("crypto-js");
+const axios = require("axios");
 const sanitizeHtml = require("sanitize-html");
-const parser = new Parser();
 
 // Function to extract only images
 function extractImagesOnly(html) {
@@ -10,38 +11,66 @@ function extractImagesOnly(html) {
 		allowedAttributes: {
 			'img': ['src', 'alt', 'title'] // Allow relevant attributes for <img>
 		},
-		// Remove all text nodes
 		textFilter: function(text) {
-			return ''; // Return empty string for all text content
+			return ''; // Remove all text nodes
 		}
 	});
 }
 
+// OAuth setup using environment variables
+const oauth = OAuth({
+	consumer: {
+		key: process.env.TUMBLR_CONSUMER_KEY, // From Vercel env vars
+		secret: process.env.TUMBLR_CONSUMER_SECRET, // From Vercel env vars
+	},
+	signature_method: "HMAC-SHA1",
+	hash_function(base_string, key) {
+		return crypto.HmacSHA1(base_string, key).toString(crypto.enc.Base64);
+	},
+});
+
+const token = {
+	key: process.env.TUMBLR_ACCESS_TOKEN, // From Vercel env vars
+	secret: process.env.TUMBLR_ACCESS_TOKEN_SECRET // From Vercel env vars
+};
+
 module.exports = async function () {
-	let rssUrl = "https://crashthearcade.tumblr.com/rss"; // Replace with your RSS feed URL
+	const blogIdentifier = "crashthearcade.tumblr.com"; // Your Tumblr blog identifier
+	const apiUrl = `https://api.tumblr.com/v2/blog/${blogIdentifier}/posts`;
+
+	const requestData = {
+		url: `${apiUrl}?limit=8`,
+		method: "GET",
+	};
 
 	try {
-		let xml = await EleventyFetch(rssUrl, {
-			duration: "1h", // Cache for 1 hour
-			type: "text"
+		// Sign the request using OAuth
+		const headers = oauth.toHeader(oauth.authorize(requestData, token));
+
+		// Make the request to Tumblr's API
+		const response = await axios.get(apiUrl, {
+			params: {
+				api_key: process.env.TUMBLR_CONSUMER_KEY, // Tumblr API key from env
+				limit: 8
+			},
+			headers: headers
 		});
 
-		let feed = await parser.parseString(xml);
+		// Access the posts from the response
+		const posts = response.data.response.posts;
 
-		return feed.items.slice(0, 8).map(item => {
-			let description = item.content || item['content:encoded'] || item.description;
-
-			// Extract only images from the description
-			let imagesOnly = extractImagesOnly(description);
+		return posts.map(post => {
+			const description = post.body || post.caption || ''; // Adjust based on post types
+			const imagesOnly = extractImagesOnly(description);
 
 			return {
-				...item,
-				pubDate: new Date(item.pubDate),
-				description: imagesOnly // Use only images
+				...post,
+				pubDate: new Date(post.date),
+				description: imagesOnly
 			};
 		});
 	} catch (error) {
-		console.error("Error fetching RSS feed:", error);
+		console.error("Error fetching Tumblr posts:", error);
 		return [];
 	}
 };

@@ -91,8 +91,8 @@ export default function (eleventyConfig) {
 	});
 
 	// Tumblr collection
-	eleventyConfig.addShortcode("tumblr-v2", async () => {
-			const tumblrData = await import(path.resolve(__dirname, '_data/tumblr-v2.js'));
+	eleventyConfig.addShortcode("tumblr", async () => {
+			const tumblrData = await import(path.resolve(__dirname, '_data/tumblr.js'));
 			return await tumblrData.default(); // Call the exported function from the tumblr-v2 module
 	});
 
