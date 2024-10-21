@@ -4,8 +4,8 @@ title: DC bringing back Vertigo imprint
 date: 2024-10-19T18:20:00-05:00
 tags: Comic books
 type: post
+update: Testing updates.
 ---
-
 <a href="https://screenrant.com/dc-vertigo-comics-return-2024/" target="_blank" rel="noopener">Taylor Mills for ScreenRant</a>:
 
 > After nearly five years since retiring the imprint, DC Comics has officially announced at NYCC 2024 the highly anticipated return of VERTIGO. This marks a major moment for the publisher, reigniting one of its most iconic imprints known for groundbreaking, mature storytelling.
