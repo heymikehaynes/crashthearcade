@@ -8,8 +8,18 @@ import pluginDrafts from "./eleventy.config.drafts.js";
 import pluginImages from "./eleventy.config.images.js";
 import EleventyPluginOgImage from 'eleventy-plugin-og-image';
 import fs from 'fs';
+import { EventEmitter } from 'events';
+
+// Set the maximum number of listeners globally
+EventEmitter.defaultMaxListeners = 200;
 
 export default function (eleventyConfig) {
+	// Use 'once' to prevent the listener from being added multiple times
+	eleventyConfig.once('eleventy.templateModified', () => {
+		// Your handler code (if any) for template modification events
+		console.log('Template modified!');
+	});
+
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
