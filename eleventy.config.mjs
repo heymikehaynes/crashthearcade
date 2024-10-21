@@ -10,6 +10,13 @@ import EleventyPluginOgImage from 'eleventy-plugin-og-image';
 import fs from 'fs';
 import { EventEmitter } from 'events';
 
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Helper to get the directory name of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 // Set the maximum number of listeners globally
 EventEmitter.defaultMaxListeners = 200;
 
@@ -81,6 +88,12 @@ export default function (eleventyConfig) {
 
 		let excerpt = content.replace(/(<([^>]+)>)/gi, ""); // Remove HTML tags
 		return excerpt.length > length ? excerpt.slice(0, length) + "..." : excerpt;
+	});
+
+	// Tumblr collection
+	eleventyConfig.addShortcode("tumblr-v2", async () => {
+			const tumblrData = await import(path.resolve(__dirname, '_data/tumblr-v2.js'));
+			return await tumblrData.default(); // Call the exported function from the tumblr-v2 module
 	});
 
 	// Create a collection for the blog
