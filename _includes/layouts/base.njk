@@ -9,7 +9,7 @@
 		<meta content="@crashthearcade@social.lol" name="fediverse:creator">
 		<meta name="description" content="{{ description or metadata.description }}">
 
-		{% ogImage "./og-image.og.njk", { title: "Hello!" } %}
+		{% ogImage "./og-image.og.njk", { title: title } %}
 
 		{#- Opengraph #}
 		<meta property="og:title" content="{{ title | safe }}">
