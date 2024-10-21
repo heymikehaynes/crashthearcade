@@ -6,12 +6,33 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginDrafts from "./eleventy.config.drafts.js";
 import pluginImages from "./eleventy.config.images.js";
+import EleventyPluginOgImage from 'eleventy-plugin-og-image';
+import fs from 'fs';
 
 export default function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
+	});
+
+	eleventyConfig.addPlugin(EleventyPluginOgImage, {
+		satoriOptions: {
+			fonts: [
+				{
+					name: 'Departure',
+					data: fs.readFileSync('public/fonts/departure/DepartureMono-Regular.woff'),
+					weight: 400,
+					style: 'normal',
+				},
+				{
+					name: 'Archivo Bold',
+					data: fs.readFileSync('public/fonts/archivo/Archivo-Bold.woff'),
+					weight: 700,
+					style: 'normal',
+				},
+			],
+		},
 	});
 
 	// Watch content images for the image pipeline
