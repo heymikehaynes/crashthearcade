@@ -4,7 +4,6 @@ title: DC bringing back Vertigo imprint
 date: 2024-10-19T18:20:00-05:00
 tags: Comic books
 type: post
-update:
 ---
 <a href="https://screenrant.com/dc-vertigo-comics-return-2024/" target="_blank" rel="noopener">Taylor Mills for ScreenRant</a>:
 
