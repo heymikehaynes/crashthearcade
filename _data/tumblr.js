@@ -59,7 +59,8 @@ module.exports = async function () {
 		// Access the posts from the response
 		const posts = response.data.response.posts;
 
-		return posts.map(post => {
+		// Map posts to include necessary details
+		const mappedPosts = posts.map(post => {
 			const description = post.body || post.caption || ''; // Adjust based on post types
 			const imagesOnly = extractImagesOnly(description);
 
@@ -69,8 +70,17 @@ module.exports = async function () {
 				description: imagesOnly
 			};
 		});
+
+		// Return an object containing both the blog identifier and the posts
+		return {
+			blogIdentifier,
+			posts: mappedPosts
+		};
 	} catch (error) {
 		console.error("Error fetching Tumblr posts:", error);
-		return [];
+		return {
+			blogIdentifier,
+			posts: [] // Return an empty array if there's an error
+		};
 	}
 };

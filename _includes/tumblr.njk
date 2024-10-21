@@ -3,17 +3,17 @@
 </div>
 
 <div class="tumblr-block-array">
-	{% if tumblr and tumblr.length > 0 %}
-		{% for post in tumblr %}
-			<div class="tumblr-block-post">
-				<a href="https://crashthearcade.tumblr.com/post/{{ post.id }}">
-					{{ post.description | safe }}
-				</a>
-			</div>
-		{% endfor %}
-	{% else %}
-		<p class="error-text">No posts available.</p>
-	{% endif %}
+		{% if tumblr-v2.posts and tumblr-v2.posts.length > 0 %}
+				{% for post in tumblr-v2.posts %}
+						<div class="tumblr-block-post">
+								<a href="https://{{ tumblr-v2.blogIdentifier }}.tumblr.com/post/{{ post.id }}">
+										{{ post.description | safe }}
+								</a>
+						</div>
+				{% endfor %}
+		{% else %}
+				<p class="error-text">No posts available.</p>
+		{% endif %}
 </div>
 
 <div class="more-button-style"><a href="https://crashthearcade.tumblr.com/archive">More »</a></div>
