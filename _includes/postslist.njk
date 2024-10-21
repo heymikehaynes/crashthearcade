@@ -42,12 +42,6 @@
 		</div>
 	</div>
 
-	{% if loop.index == 1 and page.url == '/' %}
-			<div class="tumblr-block">
-				{%- include 'tumblr.njk' -%}
-			</div>
-	{% endif %}
-
 	{% if loop.index == 2 and page.url == '/' %}
 			<div class="mastodon-block">
 				{%- include 'mastodon.njk' -%}
