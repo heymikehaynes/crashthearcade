@@ -3,10 +3,10 @@
 </div>
 
 <div class="tumblr-block-array">
-		{% if tumblr-v2.posts and tumblr-v2.posts.length > 0 %}
-				{% for post in tumblr-v2.posts %}
+		{% if tumblr.posts and tumblr.posts.length > 0 %}
+				{% for post in tumblr.posts %}
 						<div class="tumblr-block-post">
-								<a href="https://{{ tumblr-v2.blogIdentifier }}.tumblr.com/post/{{ post.id }}">
+								<a href="https://{{ tumblr.blogIdentifier }}.tumblr.com/post/{{ post.id }}">
 										{{ post.description | safe }}
 								</a>
 						</div>
