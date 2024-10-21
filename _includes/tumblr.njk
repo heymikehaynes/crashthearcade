@@ -4,7 +4,7 @@
 
 <div class="tumblr-block-array">
 	{% if tumblr and tumblr.length > 0 %}
-		{% for post in tumblr %}
+		{% for post in tumblr-v2 %}
 			<div class="tumblr-block-post">
 				<a href="{{ post.link }}">
 					{{ post.description | safe }}

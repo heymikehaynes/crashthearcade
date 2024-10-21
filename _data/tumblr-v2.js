@@ -1,96 +1,76 @@
-const express = require('express');
-const OAuth = require('oauth-1.0a');
-const crypto = require('crypto-js');
-const axios = require('axios');
-const qs = require('querystring');
+const EleventyFetch = require("@11ty/eleventy-fetch");
+const OAuth = require("oauth-1.0a");
+const crypto = require("crypto-js");
+const axios = require("axios");
+const sanitizeHtml = require("sanitize-html");
 
-// Set up OAuth
+// Function to extract only images
+function extractImagesOnly(html) {
+	return sanitizeHtml(html, {
+		allowedTags: ['img'], // Allow only <img> tags
+		allowedAttributes: {
+			'img': ['src', 'alt', 'title'] // Allow relevant attributes for <img>
+		},
+		textFilter: function(text) {
+			return ''; // Remove all text nodes
+		}
+	});
+}
+
+// OAuth setup using environment variables
 const oauth = OAuth({
 	consumer: {
-		key: 'h0jSqNI2YwI2Ujt6OR7id4lTfwCcaeZ0vXEROZnsAAOFqvNyDk', // Your app's consumer key
-		secret: 'CbU1Db37txr8cBssfNzYjEmCLP5eqcj4RbgM8mbEqeraPUed0e', // Your app's consumer secret
+		key: process.env.TUMBLR_CONSUMER_KEY, // From Vercel env vars
+		secret: process.env.TUMBLR_CONSUMER_SECRET, // From Vercel env vars
 	},
-	signature_method: 'HMAC-SHA1',
+	signature_method: "HMAC-SHA1",
 	hash_function(base_string, key) {
 		return crypto.HmacSHA1(base_string, key).toString(crypto.enc.Base64);
 	},
 });
 
-const token = {}; // No token for initial request
+const token = {
+	key: process.env.TUMBLR_ACCESS_TOKEN, // From Vercel env vars
+	secret: process.env.TUMBLR_ACCESS_TOKEN_SECRET // From Vercel env vars
+};
 
-const app = express();
+module.exports = async function () {
+	const blogIdentifier = "crashthearcade.tumblr.com"; // Your Tumblr blog identifier
+	const apiUrl = `https://api.tumblr.com/v2/blog/${blogIdentifier}/posts`;
 
-// Step 1: Request Token
-app.get('/auth/request_token', async (req, res) => {
 	const requestData = {
-		url: 'https://www.tumblr.com/oauth/request_token',
-		method: 'POST',
-		data: {
-			oauth_callback: 'https://crashthearcade.com/auth/callback', // Replace with your callback URL
-		},
+		url: `${apiUrl}?limit=8`,
+		method: "GET",
 	};
 
 	try {
+		// Sign the request using OAuth
 		const headers = oauth.toHeader(oauth.authorize(requestData, token));
 
-		// Send the POST request to get the request token
-		const response = await axios.post(requestData.url, qs.stringify(requestData.data), {
-			headers: {
-				...headers,
-				'Content-Type': 'application/x-www-form-urlencoded',
+		// Make the request to Tumblr's API
+		const response = await axios.get(apiUrl, {
+			params: {
+				api_key: process.env.TUMBLR_CONSUMER_KEY, // Tumblr API key from env
+				limit: 8
 			},
+			headers: headers
 		});
 
-		// Extract the oauth_token and oauth_token_secret from response
-		const { oauth_token, oauth_token_secret } = qs.parse(response.data);
+		// Access the posts from the response
+		const posts = response.data.response.posts;
 
-		// Store these tokens in session (for demonstration purposes, I'm storing in memory)
-		token.oauth_token = oauth_token;
-		token.oauth_token_secret = oauth_token_secret;
+		return posts.map(post => {
+			const description = post.body || post.caption || ''; // Adjust based on post types
+			const imagesOnly = extractImagesOnly(description);
 
-		// Step 2: Redirect user to the Tumblr authorization page
-		const authUrl = `https://www.tumblr.com/oauth/authorize?oauth_token=${oauth_token}`;
-		res.redirect(authUrl);
-	} catch (error) {
-		console.error('Error obtaining request token:', error);
-		res.send('Error obtaining request token.');
-	}
-});
-
-// Step 2: Callback after user authorizes
-app.get('/auth/callback', async (req, res) => {
-	const { oauth_token, oauth_verifier } = req.query;
-
-	// Step 3: Exchange the request token for an access token
-	const requestData = {
-		url: 'https://www.tumblr.com/oauth/access_token',
-		method: 'POST',
-		data: {
-			oauth_verifier, // The verifier we received from Tumblr
-		},
-	};
-
-	try {
-		const headers = oauth.toHeader(oauth.authorize(requestData, token));
-
-		// Send the POST request to exchange the request token for an access token
-		const response = await axios.post(requestData.url, qs.stringify(requestData.data), {
-			headers: {
-				...headers,
-				'Content-Type': 'application/x-www-form-urlencoded',
-			},
+			return {
+				...post,
+				pubDate: new Date(post.date),
+				description: imagesOnly
+			};
 		});
-
-		// Extract the access_token and access_token_secret
-		const { oauth_token, oauth_token_secret } = qs.parse(response.data);
-
-		res.send(`Access Token: ${oauth_token}<br>Access Token Secret: ${oauth_token_secret}`);
 	} catch (error) {
-		console.error('Error obtaining access token:', error);
-		res.send('Error obtaining access token.');
+		console.error("Error fetching Tumblr posts:", error);
+		return [];
 	}
-});
-
-app.listen(3000, () => {
-	console.log('App running on https://crashthearcade.com');
-});
+};
