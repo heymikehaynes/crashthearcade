@@ -175,13 +175,13 @@ blockquote {
 	margin-bottom: 100px;
 }
 
-.format-quote blockquote p, .quote-block blockquote p, .mastodon-block .masto-post-body p {
+.format-quote blockquote p, .quote-block blockquote p, .mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
 	font-size: 32px;
 	line-height: 1.4;
 	text-indent: -12px;
 }
 
-.mastodon-block .masto-post-body p {
+.mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
 	text-indent: 0;
 }
 
