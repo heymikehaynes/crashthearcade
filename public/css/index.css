@@ -3,57 +3,28 @@
 /* Archivo */
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Regular.woff2);
+	src: url(/fonts/archivo/Archivo-Regular.woff);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Italic.woff2);
+	src: url(/fonts/archivo/Archivo-Italic.woff);
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-Bold.woff2);
+	src: url(/fonts/archivo/Archivo-Bold.woff);
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Archivo;
-	src: url(/fonts/archivo/Archivo-BoldItalic.woff2);
-	font-weight: bold;
-	font-style: italic;
-}
-
-/* Archivo Narrow */
-@font-face {
-	font-family: Archivo Narrow;
-	src: url(/fonts/archivo-narrow/ArchivoNarrow-Regular.woff2);
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Archivo Narrow;
-	src: url(/fonts/archivo-narrow/ArchivoNarrow-Italic.woff2);
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: Archivo Narrow;
-	src: url(/fonts/archivo-narrow/ArchivoNarrow-Bold.woff2);
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: Archivo Narrow;
-	src: url(/fonts/archivo-narrow/ArchivoNarrow-BoldItalic.woff2);
+	src: url(/fonts/archivo/Archivo-BoldItalic.woff);
 	font-weight: bold;
 	font-style: italic;
 }
