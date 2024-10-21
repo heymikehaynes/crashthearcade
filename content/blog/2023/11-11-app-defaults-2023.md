@@ -3,7 +3,7 @@ title: App defaults 2023
 date: 2023-11-11
 tags:
     - Apps
-update: "I've started keeping an up-to-date list of my defaults <a href='/defaults'>here</a>."
+update: "I've started keeping an up-to-date list of my defaults <a href='/uses'>here</a>."
 ---
 
 Some background on this post: I saw [Manuel Moreale’s list](https://manuelmoreale.com/app-defaults) earlier today and thought it was a neat little idea. After a bit of digging, it’s actually a neat **big** idea with over [120 others sharing their own](https://defaults.rknight.me). So, here’s mine, with a couple adjustments.
