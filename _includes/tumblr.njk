@@ -6,7 +6,7 @@
 	{% if tumblr and tumblr.length > 0 %}
 		{% for post in tumblr %}
 			<div class="tumblr-block-post">
-				<a href="{{ post.link }}">
+				<a href="https://crashthearcade.tumblr.com/post/{{ post.id }}">
 					{{ post.description | safe }}
 				</a>
 			</div>
