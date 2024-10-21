@@ -517,9 +517,10 @@ footer a:hover {
 /* now */
 .now-block {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	margin-top: 38px;
 	column-gap: 24px;
+	row-gap: 24px;
 }
 
 .now-playing-block, .now-reading-block {
@@ -536,8 +537,8 @@ footer a:hover {
 }
 
 .now-playing-block img,  .now-reading-block img {
-	height: 132px;
-	width: 90px;
+	height: 180px;
+	width: 120px;
 	object-fit: cover;
 	border-radius: 2px 0 0 2px;
 	margin-bottom: -5px;

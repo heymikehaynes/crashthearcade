@@ -1,7 +1,11 @@
 ---
 layout: layouts/base.njk
 permalink: /uses/
+eleventyNavigation:
+  key: Uses
+  order: 5
 ---
+
 # Uses
 
 #### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done.
@@ -37,12 +41,11 @@ permalink: /uses/
 * Contacts: Apple Contacts
 * Photos: Apple Photos
 * Cloud storage: iCloud Drive
-* RSS client: Reeder
-* Read later: Reeder
+* RSS/Podcast client: Reeder
+* Read later: Omnivore
 * Browser: Arc
 * Chat: Messages
 * Music: Apple Music
-* Podcasts: Reeder
 * Passwords: Apple Passwords
 * Code editor: Nova
 * Design: Figma
