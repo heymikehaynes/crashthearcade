@@ -10,7 +10,7 @@ update:
 
 > In February 2025, writer Charles Soule and artist Jesús Saíz will team up for a new ongoing series appropriately entitled Eddie Brock: Carnage, in which he serially kills serial killers. Paying his debt to society, and all.
 
-Nothing is certain, except death, taxes, and monthly comics starring some version of Carnage.
+Nothing is certain, except death, taxes, and monthly comics from Marvel starring some version of Carnage.
 
 **Related:**
 
