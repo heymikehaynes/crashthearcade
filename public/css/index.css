@@ -417,6 +417,7 @@ code {
 
 .bookmark-block-home h5 {
 	font-size: 24px;
+	min-height: 130px;
 }
 
 .bookmark-block-home .bookmark-post {
@@ -811,7 +812,7 @@ p.error-text {
 		display: initial;
 	}
 
-	.bookmark-block, .now-block, .pixelfed-block-array {
+	.bookmark-block, .now-block, .pixelfed-block-array, .bookmark-block-home {
 		grid-template-columns: 1fr;
 	}
 
