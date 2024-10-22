@@ -12,6 +12,6 @@ update:
 
 Netflix's gaming vertical has never made sense and is doomed to fail, in my opinion. The shuttering of Blue after only two years doesn't help.
 
-Worst of all, I constantly see people from Netflix Games on LinkedIn promoting positions they're hiring for, which feels dishonest when stuff like this happens a few days later. It makes it seem like the importance of games at the company is constantly changing, creating an environment that's detrimental to the employees.
+I'm regularly seeing people from Netflix Games on LinkedIn promoting positions they're hiring for, which feels dishonest when something like this happens a few days later. It makes it seem like the importance of games at the company is constantly changing, creating an environment that's harmful to employees.
 
 Hoping everyone finds work as soon as possible.
