@@ -1,8 +1,9 @@
 ---
+_schema: default
 title:
-date: '2023-03-21T00:22:50+00:00'
+date: 2023-03-20T19:22:50-05:00
 tags:
-    - 'Comic books'
+    - Comic books
+type: note
 ---
-
-Marvel, please, for the love of god, enough with the symbiotes.
+Marvel, please, for the love of god, **enough** with the symbiotes.
