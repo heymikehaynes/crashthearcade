@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Netlfix shuts down another gaming studio
+title: Netlfix shuts down AAA gaming studio
 date: 2024-10-22T08:10:00-05:00
 tags:
     - Video games
