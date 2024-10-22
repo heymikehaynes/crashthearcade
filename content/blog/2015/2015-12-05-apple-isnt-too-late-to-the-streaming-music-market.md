@@ -1,6 +1,6 @@
 ---
 title: Apple isn't too late to the streaming music market
-date: 2015-12-05T15:22:18-06:00
+date: 2015-12-05T15:22:18-05:00
 tags:
     - Apple
     - Music
