@@ -2,7 +2,9 @@
 _schema: default
 title: Netlfix shuts down another gaming studio
 date: 2024-10-22T08:10:00-05:00
-tags: Video games
+tags:
+    - Video games
+    - Netflix
 type: post
 update:
 ---
