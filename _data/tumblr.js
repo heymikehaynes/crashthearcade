@@ -65,8 +65,7 @@ module.exports = async function () {
 			const imagesOnly = extractImagesOnly(description);
 
 			return {
-				id: post.id,
-				...post,
+				id_string: post.id_string,
 				pubDate: new Date(post.date),
 				description: imagesOnly
 			};
