@@ -42,13 +42,22 @@
 		</div>
 	</div>
 
-	{% if loop.index == 1 and page.url == '/' %}
+	{% if loop.index == 2 and page.url == '/' %}
 			<div class="tumblr-block">
 				{%- include 'tumblr.njk' -%}
 			</div>
 	{% endif %}
 
-	{% if loop.index == 2 and page.url == '/' %}
+	{% if loop.index == 4 and page.url == '/' %}
+		<div class="homemarks-block">
+			<h1>Latest bookmarks</h1>
+			<div class="bookmark-block-home">
+				{%- include 'homemarks.njk' -%}
+			</div>
+		</div>
+	{% endif %}
+
+	{% if loop.index == 6 and page.url == '/' %}
 			<div class="mastodon-block">
 				{%- include 'bluesky.njk' -%}
 			</div>

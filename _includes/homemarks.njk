@@ -1,0 +1,15 @@
+{% for post in homemarks %}
+	<div class="bookmark-post">
+		<a href="{{ post.link }}" target="_blank">
+			<img
+				src="{{ post.image }}"
+				alt="{{ post.title }}"
+				onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
+			>
+		</a>
+		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
+			<a href="{{ post.link }}" target="_blank">» {{ post.pubDate | ordinalDate }}</a>
+		</time>
+		<h5><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(75) }}</a></h5>
+	</div>
+{% endfor %}

@@ -354,7 +354,7 @@ code {
 	margin-top: -24px;
 }
 
-.bookmark-block {
+.bookmark-block, .bookmark-block-home {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	column-gap: 24px;
@@ -373,7 +373,7 @@ code {
 
 .bookmark-post {
 	background: var(--secondary-bg);
-	border-radius: 2px;
+	border-radius: 4px;
 	margin-bottom: 24px;
 	display: block;
 }
@@ -400,6 +400,23 @@ code {
 	color: var(--primary-accent);
 	display: block;
 	letter-spacing: 0.6px;
+}
+
+.homemarks-block {
+	background:
+	url("/img/bookmarks-bg.png") no-repeat top right,  /* Image on top */
+	linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
+	padding: 32px;
+	border-radius: 8px;
+	margin-bottom: 100px;
+}
+
+.homemarks-block h1, .tumblr-block-header h1 {
+	font-size: 32px;
+}
+
+.bookmark-block-home h5 {
+	font-size: 24px;
 }
 
 .rating {
