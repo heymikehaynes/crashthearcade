@@ -808,10 +808,6 @@ p.error-text {
 		display: none;
 	}
 
-	.tumblr-block-array {
-		display: initial;
-	}
-
 	.bookmark-block, .now-block, .pixelfed-block-array, .bookmark-block-home {
 		grid-template-columns: 1fr;
 	}
