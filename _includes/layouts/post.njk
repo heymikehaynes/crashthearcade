@@ -30,10 +30,10 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
-{% if update is defined %}
+{% if post.data.update %}
 	<div class="update-block">
 		<h3>Update</h3>
-		<p>{{ update | safe }}</p>
+		<p>{{ post.data.update | safe }}</p>
 	</div>
 {% endif %}
 
