@@ -419,6 +419,10 @@ code {
 	font-size: 24px;
 }
 
+.bookmark-block-home .bookmark-post {
+	box-shadow: var(--primary-bg) 0px 3px 20px;
+}
+
 .rating {
 	margin-top: 28px;
 	font-size: 28px;
@@ -698,7 +702,6 @@ p.error-text {
 .tumblr-block-header {
 	display: grid;
 	grid-template-columns: 1fr auto;
-	margin-bottom: 32px;
 	align-items: center;
 }
 
