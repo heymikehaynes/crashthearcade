@@ -14,4 +14,4 @@ Not so much.
 
 > GM has paused sales of its brand-new Chevy Blazer EV following reports of significant issues. \[…\] Chevrolet vice president Scott Bell said, “We’re aware that a limited number of customers have experienced software-related quality issues with their Blazer EV.
 
-I’m curious how *limited* the issue is. They have to not only pause sales but schedule appointments for people to come in and update the software in their vehicles like it’s 2005. That seems like a pretty big deal?
+I’m curious how *limited* the issue is. They have to not only pause sales but schedule appointments for people to come in and update the software in their vehicles like it’s 2005. Seems like a pretty big deal.
