@@ -11,4 +11,4 @@ update:
 
 > PlayStation 1 inspired horror title Crow Country has sold 100,000 copies since May. A week after Crow Country's release on Nintendo Switch, London-based developer SFB Games announced that it had reached the impressive milestone.
 
-This is exciting news. I had a [fantastic time](https://ggapp.io/crashthearcade/reviews/crow-country/WLM1jovg) with Crow Country. It's a creepy, nostalgic blend of survival horror and puzzles that’s perfect for Halloween. If that sounds like your kind of game, it’s definitely worth checking out.
+This is exciting news. I had a [fantastic time](https://ggapp.io/crashthearcade/reviews/crow-country/WLM1jovg) with Crow Country. It's a creepy, nostalgic blend of survival horror and puzzles that’s perfect for Halloween. It’s definitely worth checking out.
