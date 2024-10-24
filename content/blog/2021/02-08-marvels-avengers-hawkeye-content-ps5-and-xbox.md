@@ -1,10 +1,13 @@
 ---
-title: 'Marvel&#8217;s Avengers Hawkeye content, PS5, and Xbox Series X/S info coming next week'
-date: '2021-02-08T05:02:00+00:00'
+_schema: default
+title: >-
+    Marvel's Avengers Hawkeye content, PS5, and Xbox Series X/S info coming next
+    week
+date: 2021-02-07T23:02:00-06:00
 tags:
-    - 'Video games'
+    - Video games
+type: post
 ---
-
 [Adam Bankhurst for IGN](https://www.ign.com/articles/marvels-avengers-hawkeye-content-ps5-and-xbox-series-x-versions-to-be-shown-next-month):
 
 > Marvel’s Avengers next War Table will take place on February 16, 2021, and it will showcase both Hawkeye and the delayed PS5 and Xbox Series X/S versions.

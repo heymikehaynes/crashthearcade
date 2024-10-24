@@ -1,10 +1,13 @@
 ---
-title: 'Elza Walker&#8217;s biker outfit will be a alternative costume in the Resident Evil 2 remake'
-date: '2018-11-18T23:31:00+00:00'
+_schema: default
+title: >-
+    Elza Walker's biker outfit will be a alternative costume in the Resident
+    Evil 2 remake
+date: 2018-11-18T17:31:00-06:00
 tags:
-    - 'Video games'
+    - Video games
+type: post
 ---
-
 [Jenni Lada for Siliconera](http://www.siliconera.com/2018/10/22/see-the-resident-evil-2-claire-elza-walker-costume-in-action/):
 
 > Elza Walker was a Ducati bike rider who attended Raccoon University. She was in the Resident Evil 1.5 build, before being redesigned and turned into Claire Redfield in Resident Evil 2. This costume is a nod to what could have been.
