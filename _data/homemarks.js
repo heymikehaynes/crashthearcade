@@ -11,7 +11,7 @@ module.exports = async function () {
 		});
 
 		// Extract the latest item from the JSON feed
-		return jsonFeed.items.slice(0, 4).map(item => {
+		return jsonFeed.items.slice(0, 6).map(item => {
 			// Extract the image from the _reeder.media[0].url or image field
 			let imageUrl = item._reeder?.media?.[0]?.url || item.image;
 
