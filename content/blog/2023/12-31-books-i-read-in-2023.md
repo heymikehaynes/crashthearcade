@@ -28,6 +28,4 @@ I Can’t Believe I Slept with You was charming and fun. I was caught off guard 
 
 I’m intrigued by the new volume of Heavenly Delusion. Besides that, Smoking Behind the Supermarket with You has caught my interest. I love a good slice-of-life story. Also, Honey Trap Shared House is raunchy fun and a nice chance of pace.
 
-\[book\_list display=”grid” tag=”most-anticipated-2024″ order=”ASC”\]
-
-You can view all the books I read in 2023 [here](https://now.mkhyns.com/book-list/books-2023/).
+You can view all the books I read in 2023 [here](https://www.goodreads.com/user/year_in_books/2023/178761663).
