@@ -545,6 +545,12 @@ footer a:hover {
 	row-gap: 24px;
 }
 
+.reading-playing-image {
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+}
+
 .now-playing-block, .now-reading-block {
 	display: grid;
 	grid-template-columns: auto 1fr;
@@ -559,8 +565,8 @@ footer a:hover {
 }
 
 .now-playing-block img,  .now-reading-block img {
-	height: 180px;
-	width: 120px;
+	height: 140px;
+	width: 140px;
 	object-fit: cover;
 	border-radius: 2px 0 0 2px;
 	margin-bottom: -5px;
@@ -818,6 +824,11 @@ p.error-text {
 
 	.bookmark-block, .now-block, .pixelfed-block-array, .bookmark-block-home {
 		grid-template-columns: 1fr;
+	}
+
+	.now-block {
+		column-gap: 0;
+		row-gap: 0;
 	}
 
 	.now-playing-block {
