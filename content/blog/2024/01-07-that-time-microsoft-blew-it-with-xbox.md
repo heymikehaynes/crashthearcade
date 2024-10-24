@@ -1,11 +1,13 @@
 ---
+_schema: default
 title: Microsoft’s disastrous Xbox One reveal
-date: 2024-01-07
+date: 2024-01-07T00:00:00Z
 tags:
   - Xbox
   - Video games
+  - Microsoft
+type: post
 ---
-
 It was remarkable how badly it went from the very beginning.
 
 [Steven Asarch for Kotaku](https://kotaku.com/xbox-one-microsoft-10th-anniversary-1851102984):

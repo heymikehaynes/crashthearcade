@@ -5,6 +5,7 @@ date: 2023-03-21T00:00:00Z
 tags:
     - Crypto
     - Microsoft
+    - Windows
 type: post
 ---
 [Tom Warren for The Verge](https://www.theverge.com/2023/3/21/23649834/microsoft-edge-cryptocurrency-wallet-feature):
