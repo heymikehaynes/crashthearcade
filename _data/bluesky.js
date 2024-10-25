@@ -5,11 +5,18 @@ const parser = new Parser();
 
 // Function to preserve basic text formatting (images handled separately)
 function preserveTextAndLinks(html) {
-	return sanitizeHtml(html, {
-		allowedTags: ['p', 'a', 'strong', 'em', 'br'], // Allow text and basic formatting
+	// Regular expression to find URLs
+	const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+	// Replace URLs in plain text with HTML anchor tags
+	let linkedHtml = html.replace(urlRegex, (url) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`);
+
+	return sanitizeHtml(linkedHtml, {
+		allowedTags: ['p', 'a', 'strong', 'em', 'br'], // Allow basic formatting
 		allowedAttributes: {
-			'a': ['href'] // Allow links
-		}
+			'a': ['href', 'target', 'rel'] // Allow links with attributes
+		},
+		allowedSchemes: ['http', 'https'] // Allow standard protocols
 	});
 }
 
