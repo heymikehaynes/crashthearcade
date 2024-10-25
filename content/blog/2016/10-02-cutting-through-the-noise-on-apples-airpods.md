@@ -1,17 +1,18 @@
 ---
-title: 'Cutting through the noise on Apple&#8217;s AirPods'
-date: '2016-10-02T13:03:24+00:00'
+_schema: default
+title: Cutting through the noise on Apple's AirPods
+date: 2016-10-02T08:03:24-05:00
 tags:
     - Apple
+type: post
 ---
-
 [Steven J. Vaughan-Nichols for Computerworld](https://www.computerworld.com/article/3123810/airpods-just-as-bad-as-you-thought-they-d-be.html):
 
 > To catch you up on the story, Apple dumped the headphone jack in iPhone 7. Why? Was there a change.org petition to get rid of old, working technology? Nope.
-> 
->  The real reason, of course, is that Apple wants to shear more money from its sheep. All those expensive Apple Beats earpods and headphones you’ve bought recently? They’re all old junk on their way to obsolescence, if you believe Apple.
-> 
->  Oh, and guess what. You’re going to lose those AirPods. That isn’t a threat. That’s a promise.
+>
+> The real reason, of course, is that Apple wants to shear more money from its sheep. All those expensive Apple Beats earpods and headphones you’ve bought recently? They’re all old junk on their way to obsolescence, if you believe Apple.
+>
+> Oh, and guess what. You’re going to lose those AirPods. That isn’t a threat. That’s a promise.
 
 I won’t be putting much stock into a piece written by someone with a chip on their shoulder, who makes ridiculous assumptions and presents Tham as facts, after seemingly borrowing the AirPods from a friend for a couple of minutes before writing this hit piece.
 

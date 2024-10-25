@@ -1,11 +1,12 @@
 ---
-title: 'On the Pixel&#8217;s apparent lack of premium features'
-date: '2016-10-28T11:32:19+00:00'
+_schema: default
+title: On the Pixel's apparent lack of premium features
+date: 2016-10-28T06:32:19-05:00
 tags:
     - Google
     - Android
+type: post
 ---
-
 [Russell Holly for Android Central](https://www.androidcentral.com/after-four-days-using-pixel-xl-i-miss-note-7):
 
 > This is a fantastic phone, but there’s clearly room for improvement and it’s important to remember that as we place this phone on its pedestal. And yeah, I miss the Note 7. I can’t have a Note 7 though, and the S7 edge isn’t nearly as comfortable to hold and use. So it’s a Pixel for me for now, in hopes that Google figures out how to really push for premium next time.

@@ -1,15 +1,17 @@
 ---
-title: 'Apple&#8217;s process behind removing the headphone jack in the iPhone 7'
-date: '2016-09-08T01:27:02+00:00'
+_schema: default
+title: Apple's process behind removing the headphone jack in the iPhone 7
+date: 2016-09-07T20:27:02-05:00
 tags:
     - Apple
+    - Design
+type: post
 ---
-
 [Juli Clover for MacRumours](http://www.macrumors.com/2016/09/07/apple-explains-headphone-jack-removal/):
 
 > The idea for the removal of the headphone jack was raised during the development of the iPhone 7. In a nutshell, the “driver ledge” for the display and backlight, traditionally placed near the camera, was interfering with the new camera systems in the iPhone 7 and the iPhone 7 Plus, leading Apple to explore other placement options. It was moved near the audio jack, but it also caused interference with various components, including the audio jack itself, so Apple engineers toyed with the elimination of the jack altogether.
-> 
->  When the headphone jack was removed, Apple realized it was easier to install the new Taptic Engine for the pressure-sensitive Home button, implement a bigger battery, and reach an IP7 water resistance rating, so the elimination of the headphone jack became essential for all of the other features in the iPhone 7.
+>
+> When the headphone jack was removed, Apple realized it was easier to install the new Taptic Engine for the pressure-sensitive Home button, implement a bigger battery, and reach an IP7 water resistance rating, so the elimination of the headphone jack became essential for all of the other features in the iPhone 7.
 
 If one archaic port on the bottom of the phone is the price to pay for a massive upgrade to the camera, a bigger, longer-lasting battery, and a completely reengineered home button, I wish they would have done away with it sooner.
 

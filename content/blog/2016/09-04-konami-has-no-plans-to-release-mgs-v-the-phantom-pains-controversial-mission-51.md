@@ -1,11 +1,14 @@
 ---
-title: 'Konami has no plans to release MGS V: The Phantom Pain&#8217;s controversial Mission 51'
-date: '2016-09-04T14:59:07+00:00'
+_schema: default
+title: >-
+    Konami has no plans to release MGS V: The Phantom Pain's controversial
+    Mission 51
+date: 2016-09-04T09:59:07-05:00
 tags:
     - Video games
     - Metal Gear Solid
+type: post
 ---
-
 [Brian Ashcraft for Kotaku](https://kotaku.com/konami-has-no-plans-to-finish-mgsv-the-phantom-pains-mi-1785988932):
 
 > One of Metal Gear Solid V’s most important plot points, Mission 51, ended up on the cutting room floor. Today, Konami said it does not plan to finish this mission.
