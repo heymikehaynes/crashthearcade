@@ -1,7 +1,7 @@
 ---
 _schema: default
-title: ""
-date:
+title:
+date: 2024-10-25T08:18:00-05:00
 tags:
     - Microsoft
     - Social issues

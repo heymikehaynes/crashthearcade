@@ -142,11 +142,6 @@ h4 {
 	line-height: 1.4;
 	font-weight: normal;
 	margin-bottom: 52px;
-	color: var(--secondary-text);
-}
-
-h4 a, h4 a:visited {
-	color: var(--secondary-text);
 }
 
 h5 {
@@ -293,7 +288,6 @@ code {
 	color: var(--primary-text);
 	display: inline-block;
 	text-transform: uppercase;
-	font-weight: bold;
 }
 
 .nav-item a:not(:hover) {
