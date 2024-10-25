@@ -142,6 +142,11 @@ h4 {
 	line-height: 1.4;
 	font-weight: normal;
 	margin-bottom: 52px;
+	color: var(--secondary-text);
+}
+
+h4 a, h4 a:visited {
+	color: var(--secondary-text);
 }
 
 h5 {
