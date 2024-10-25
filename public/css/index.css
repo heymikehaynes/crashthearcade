@@ -257,10 +257,8 @@ code {
 }
 
 .home-link img {
-	width: 70px;
+	width: 160px;
 	height: auto;
-	border-radius: 100px;
-	background: var(--secondary-bg);
 }
 
 .home-link:link:not(:hover) {
