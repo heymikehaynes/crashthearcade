@@ -1,5 +1,5 @@
 ---
-title: 'After reports of harassment, Activision Blizzard won’t be at The Game Awards'
+title: 'After reports of harassment, Activision Blizzard wont be at The Game Awards'
 date: '2021-12-04T15:22:43+00:00'
 tags:
     - 'The Game Awards'
