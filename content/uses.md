@@ -43,7 +43,7 @@ eleventyNavigation:
 * Cloud storage: iCloud Drive
 * RSS/Podcast client: Reeder
 * Read later: Omnivore
-* Browser: Safari
+* Browser: Arc
 * Chat: Messages
 * Music: Apple Music
 * Passwords: Apple Passwords
