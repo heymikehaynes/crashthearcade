@@ -14,4 +14,4 @@ Throughout my career, I’ve had projects shut down while searching for market f
 
 For me, the Windows release of Arc felt like a turning point. With the focus shifting to bring the Windows version up to speed, major feature releases for Mac naturally slowed. You could see this coming.
 
-I understand where they're coming from: Arc isn’t going to be everyone’s browser. When I introduced it to some of my family, they just didn’t get it – and that’s fine. Knowing Arc has a stable (though maybe not so feature-rich) future, I’m excited to see what they build for everyone else.
+As a user of Arc, I get it. When I showed it to some of my family, they didn’t get it – and that’s fine. While I'm nervous that Arc won't get any major updates or new features, I'm interested to see what they build for everyone else.
