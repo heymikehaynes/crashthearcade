@@ -12,4 +12,4 @@ update:
 
 > Microsoft boss Satya Nadella's total pay package increased by 63% this fiscal year, reaching $79.1 million. \[...\] However, Microsoft has been hit with massive waves of layoffs this year with over 2,500 jobs lost.
 
-This is a complete failure by leadership at one of the biggest companies in the world. Guy should be ashamed of himself.
+This is a complete failure of leadership at one of the biggest companies in the world. Guy should be ashamed of himself.
