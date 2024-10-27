@@ -1,10 +1,11 @@
 ---
-title: 'Marvel&#8217;s Infinite Destinies gets new release dates, creators'
-date: '2021-03-03T03:23:00+00:00'
+_schema: default
+title: Marvel's Infinite Destinies gets new release dates, creators
+date: 2021-03-02T21:23:00-06:00
 tags:
     - Comic books
+type: post
 ---
-
 [Joe Grunenwald for The Comics Beat](https://www.comicsbeat.com/marvel-infinite-destinies-annuals-rescheduled/):
 
 > Today the publisher announced release dates for the first three annuals of the event (Iron Man, Captain America, and Black Cat), as well as revealed a previously-unannounced creative team for one of the annuals.

@@ -1,11 +1,12 @@
 ---
-title: 'WandaVision rights wrongs for MCU&#8217;s Scarlet Witch and The Vision'
-date: '2021-01-17T01:21:32+00:00'
+_schema: default
+title: WandaVision rights wrongs for MCU's Scarlet Witch and Vision
+date: 2021-01-16T19:21:32-06:00
 tags:
     - Comic books
     - TV
+type: post
 ---
-
 [Gavia Baker-Whitelaw for Daily Dot](https://www.dailydot.com/unclick/marvel-wandavision-review-disney-plus/):
 
 > It’s wonderfully refreshing to see Vision and Scarlet Witch completely abandon their roles in MCU canon. Obviously, there will be some superpowered explanation for their bizarre sitcom life, where each episode deposits them into a different decade of American TV. The show drops plenty of clues about why they might be trapped in the suburbs, along with numerous Marvel canon Easter eggs.

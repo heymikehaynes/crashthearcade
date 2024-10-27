@@ -1,10 +1,11 @@
 ---
-title: 'Marvel&#8217;s Avengers adding more grind for some reason'
-date: '2021-03-08T22:00:00+00:00'
+_schema: default
+title: Marvel's Avengers is adding more grind for some reason
+date: 2021-03-08T16:00:00-06:00
 tags:
     - Video games
+type: post
 ---
-
 [Simon Cardy for IGN](https://www.ign.com/articles/marvels-avengers-keeps-fixing-the-wrong-problems):
 
 > The dev team recently announced an XP rework that will make grinding hero levels a slower process than before.
