@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # Now
 
-#### What I've been up to as of October 21st, 2024. This page is inspired by Derek Sivers' project, [nownownow.com](https://nownownow.com/about).
+#### What I've been up to as of October 28th, 2024. This page is inspired by Derek Sivers' project, [nownownow.com](https://nownownow.com/about).
 
 {%- include 'now-life.md' -%}
 

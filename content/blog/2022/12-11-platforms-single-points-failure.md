@@ -1,5 +1,5 @@
 ---
-title: Platforms are single points of failure
+title:
 date: '2022-12-11T23:15:00+00:00'
 type: post
 tags:
