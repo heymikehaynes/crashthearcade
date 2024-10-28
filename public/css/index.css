@@ -400,9 +400,10 @@ code {
 }
 
 .homemarks-block {
-	background:
-	url("/img/bookmarks-bg.png") no-repeat top right,  /* Image on top */
-	linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
+	/* background:
+	url("/img/bookmarks-bg.png") no-repeat top right,
+	linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg)); */
+	background: linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
 	padding: 32px;
 	border-radius: 8px;
 	margin-bottom: 100px;
@@ -712,14 +713,28 @@ p.error-text {
 .tumblr-block {
 	margin-bottom: 100px;
 	padding: 32px 32px 8px 32px;
-	background:
-		url("/img/tumblr-bg.png") no-repeat top right,  /* Image on top */
-		linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
+	/* background:
+		url("/img/tumblr-bg.png") no-repeat top right,
+		linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg)); */
+	background: linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
 	border-radius: 8px;
 }
 
 .tumblr-block h3, .pixelfed-block h3 {
 	margin-bottom: 24px;
+}
+
+.fa-bookmark, .fa-square-tumblr {
+	margin-right: 8px;
+	color: var(--primary-accent);
+}
+
+.fa-square-tumblr {
+	font-size: 96%;
+}
+
+.fa-bookmark {
+	font-size: 78%;
 }
 
 .tumblr-block-array {
