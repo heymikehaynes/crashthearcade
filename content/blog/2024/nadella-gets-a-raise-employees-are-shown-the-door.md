@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Nadella gets a raise, employees are shown the door
+title: Nadella gets a raise after employees are shown the door
 date: 2024-10-27T10:39:00-05:00
 tags:
     - Video games
