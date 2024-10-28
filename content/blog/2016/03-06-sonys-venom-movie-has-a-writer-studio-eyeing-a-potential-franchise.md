@@ -1,11 +1,12 @@
 ---
-title: 'Sony&#8217;s Venom movie has a writer, studio eyeing a potential franchise'
-date: '2016-03-06T12:49:15+00:00'
+_schema: default
+title: Sony's Venom movie has a writer, studio eyeing a potential franchise
+date: 2016-03-06T06:49:15-06:00
 tags:
     - Comic books
     - Movies
+type: post
 ---
-
 [Meagan Damore for CBR](http://www.comicbookresources.com/article/sonys-venom-taps-writer-for-new-film-potential-franchise):
 
 > “Venom” is swinging back to Sony. According to The Hollywood Reporter, the studio has hired Dante Harper to write the script for the “Spider-Man” spinoff, which is intended to develop into its own franchise.

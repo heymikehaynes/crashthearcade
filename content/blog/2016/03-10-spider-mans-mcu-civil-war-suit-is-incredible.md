@@ -1,11 +1,12 @@
 ---
-title: 'Spider-Man&#8217;s MCU Civil War suit is incredible'
-date: '2016-03-10T19:47:11+00:00'
+_schema: default
+title: Spider-Man's MCU Civil War suit is perfect
+date: 2016-03-10T13:47:11-06:00
 tags:
     - Comic books
     - Movies
+type: post
 ---
-
 [Chris Plante for The Verge](https://www.theverge.com/2016/3/10/11194196/spider-man-suit-captain-america-civil-war-trailer):
 
 > Spider-Man just leapt into the final shot of the Captain America: Civil War trailer, tingling spidey-senses across social media. The clip lasts only a couple seconds, but gives fans their first clear look at the web-slinger’s new suit. Marvel could not have designed a more nostalgic look.

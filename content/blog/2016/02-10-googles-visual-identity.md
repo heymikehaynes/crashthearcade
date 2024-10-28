@@ -1,11 +1,12 @@
 ---
-title: 'Google&#8217;s visual identity'
-date: '2016-02-10T04:30:29+00:00'
+_schema: default
+title: Google's visual identity
+date: 2016-02-09T22:30:29-06:00
 tags:
     - Google
     - Design
+type: post
 ---
-
 [The Rivalry](https://therivalry.co/project/google-visual-identity):
 
 > We were invited to create a new visual identity for GOOGLE that would adapt to the ever-evolving multi-screen world, without losing the speed and simplicity users love. No small task with over 12 billion searches made monthly and ~200 GOOGLE products to consider. The result is a dynamic system of components beyond the iconic logo.
