@@ -15,7 +15,7 @@ type: post
 
 If one archaic port on the bottom of the phone is the price to pay for a massive upgrade to the camera, a bigger, longer-lasting battery, and a completely reengineered home button, I wish they would have done away with it sooner.
 
-Everyone is so hung up on losing one port and pointing out all the things that Apple “got wrong” with the iPhone 7 announcement today, uninterested in the large number of things they got right including phasing the 16GB storage tier out of every product they carry, new and old. They also upgraded AppleCare+ to allow for cheaper screen repairs and are retrofitting the original Apple Watch with the faster, better, dual-core processor found in the series 2 while still dropping the price.
+Everyone is so hung up on losing one port and pointing out all the things that Apple “got wrong” with the iPhone 7 announcement today, uninterested in the large number of things they got right including phasing the 16GB storage tier out of every product they carry, new and old. They also upgraded AppleCare+ to allow for cheaper screen repairs and are retrofitting the original Apple Watch with the faster, better, dual-core processor in the series 2 while still dropping the price.
 
 Getting back to that pesky headphone jack, if you’re unhappy about those expensive, ridiculous looking headphones you bought a while back not being compatible with the new iPhone, Apple is packaging an adapter inside the box instead of making you spend extra money to buy one separately. Oh you lost that one? It’ll set you back a whole $10 to get a replacement. I mean, I could go on and on but that’s fine, let’s all just keep whining about how they took out the headphone jack.
 

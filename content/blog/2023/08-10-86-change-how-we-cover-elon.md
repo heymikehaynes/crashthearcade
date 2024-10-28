@@ -3,7 +3,6 @@ _schema: default
 title: Elon Musk has always been full of shit
 date: 2023-08-10T14:16:00-05:00
 tags:
-    - Technology
     - Twitter
 type: post
 ---

@@ -3,7 +3,7 @@ _schema: default
 title: 'Samsung’s bizarre new ad pressures Apple to support RCS: ‘We’re bubbles too’'
 date: 2023-10-09T16:01:23-05:00
 tags:
-    - Phones
+    - Samsung
 type: post
 ---
 [Chance Miller for 9to5Mac](https://9to5mac.com/2023/10/09/samsung-apple-rcs-ad-romeo-and-juliet/):
