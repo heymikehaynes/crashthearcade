@@ -10,7 +10,7 @@ eleventyNavigation:
 
 #### Pixels and code. Also coffee.
 
-I’m Mike, a Product Designer and Front-End Developer. This blog is my stash of posts, notes, bookmarks, and articles mostly related to video games, comics, design, and tech. By day, I work at a tech company in the health care space. By night, I sleep. I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of cats and dogs.
+I’m Mike, a Product Designer and Front-End Developer. This blog is my stash of posts, notes, bookmarks, and articles mostly related to video games, comics, design, and tech. In my day job, I work at a tech company in the health care space. I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of cats and dogs.
 
 ## Colophon
 
@@ -18,4 +18,4 @@ This site is proudly built with [Eleventy](https://11ty.dev) and served by [Verc
 
 ## Contact
 
-Need to get in touch? [Send me an email](mailtomikey@crashthearcade.com).
+Need to get in touch? [Send me an email](mailto:mike@crashthearcade.com).
