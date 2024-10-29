@@ -41,11 +41,12 @@ eleventyNavigation:
 * Contacts: Apple Contacts
 * Photos: Apple Photos
 * Cloud storage: iCloud Drive
-* RSS/Podcast client: Reeder
+* RSS: Reeder
 * Read later: Omnivore
-* Browser: Arc
+* Browser: Safari
 * Chat: Messages
 * Music: Apple Music
+* Podcasts: Apple Podcasts
 * Passwords: Apple Passwords
 * Code editor: Nova
 * Design: Figma
