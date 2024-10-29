@@ -10,4 +10,4 @@ tags:
 
 > According to [a tweet](https://twitter.com/remedygames/status/863012017833218049) by Remedy Entertainment, Finnish creator of Alan Wake, its atmospheric horror game will be “removed from stores” (including Steam) on May 15 because of “expiring music licenses.”
 
-If you don’t already own Alan Wake, pick it up before it’s gone. It’s a gem.
+If you don’t own Alan Wake, you should. It’s a gem.
