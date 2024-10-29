@@ -1,12 +1,13 @@
 ---
-title: 'Twitter&#8217;s Android app gets Material Design inspired update'
-date: '2016-06-08T11:41:24+00:00'
+_schema: default
+title: Twitter's Android app gets Material Design inspired update
+date: 2016-06-08T06:41:24-05:00
 tags:
     - Twitter
     - Social media
     - Design
+type: post
 ---
-
 [Ian Hardy for MobileSyrup](https://mobilesyrup.com/2016/06/07/twitter-for-android-updated-with-material-design/):
 
 > Twitter has announced its native app has been overhauled with a “revamped look and feel” in order to move its aesthetic in line with Android’s Material Design guidelines.

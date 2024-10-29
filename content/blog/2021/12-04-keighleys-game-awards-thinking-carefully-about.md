@@ -1,11 +1,12 @@
 ---
-title: 'Keighley’s Game Awards “thinking carefully” about Activision abuse claims'
-date: '2021-12-04T04:55:11+00:00'
+_schema: default
+title: Keighley’s Game Awards "thinking carefully" about Activision abuse claims
+date: 2021-12-03T22:55:11-06:00
 tags:
-    - 'The Game Awards'
-    - 'Video games'
+    - The Game Awards
+    - Video games
+type: post
 ---
-
 [Ethan Gach for Kotaku](https://kotaku.com/the-game-awards-wont-take-sides-on-activision-fallout-t-1848158706):
 
 > Despite being one of the most prominent figures in the video game industry, Keighley has so far refrained from calling out the reported years of abuse at one of the biggest gaming companies in the world.
