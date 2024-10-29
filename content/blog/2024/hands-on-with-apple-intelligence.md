@@ -16,4 +16,4 @@ The image search via the camera button is particularly impressive. I snapped a p
 
 As for the playground features, they’re about as gimmicky as I (and many others) expected. I doubt I’ll use them beyond some initial testing, and fortunately, they can mostly be removed. While there are still image generation features scattered throughout the system, they’re easy enough to ignore.
 
-Overall, as I said during [my initial thoughts](https://crashthearcade.com/blog/2024/06-01-wwdc24-apple-intelligence/) at WWDC, I’m impressed with Apple’s slower approach compared to the more aggressive, desperate, borderline *dangerous* paths taken by Google and Microsoft. Here’s hoping Appl stay the course.
+Overall, as I said during [my initial thoughts](https://crashthearcade.com/blog/2024/06-01-wwdc24-apple-intelligence/) at WWDC, I’m impressed with Apple’s slower approach compared to the more aggressive, desperate, borderline *dangerous* paths taken by Google and Microsoft. Here’s hoping Apple stays the course.
