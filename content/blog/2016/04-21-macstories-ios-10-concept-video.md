@@ -1,16 +1,17 @@
 ---
-title: 'MacStories&#8217; iOS 10 concept video'
-date: '2016-04-21T13:52:09+00:00'
+_schema: default
+title: MacStories' iOS 10 concept video
+date: 2016-04-21T08:52:09-05:00
 tags:
     - Apple
     - Design
+type: post
 ---
-
 [Federico Viticci for MacStories](https://www.macstories.net/stories/ios-10-wishes/):
 
 > Every year, I put together a list of the changes I’d like to see in the next version of iOS. I’ve been doing this for several years now. This year, I wanted to prepare something bigger. The tenth version of iOS due to be released later this year will be a major milestone for Apple and iOS users. It only felt appropriate to celebrate the occasion with a different take on my annual iOS wish list.
-> 
->  For the past few months, I’ve been collaborating with Sam Beckett (author of a fantastic Control Centre concept we linked to a while back) to visualize my iOS 10 wishes with a professional concept video and static mockups. Sam and I discussed my ideas for a couple of months, and he was able to visualize what I would like to have in iOS 10 – both for the iPhone and iPad – with a style and attention to detail I’m extremely happy with.
+>
+> For the past few months, I’ve been collaborating with Sam Beckett (author of a fantastic Control Centre concept we linked to a while back) to visualize my iOS 10 wishes with a professional concept video and static mockups. Sam and I discussed my ideas for a couple of months, and he was able to visualize what I would like to have in iOS 10 – both for the iPhone and iPad – with a style and attention to detail I’m extremely happy with.
 
 An incredible [video](https://youtu.be/J2VcbT4Pgdk) with a ton of great ideas and executions on possible features for the upcoming version of iOS. Over the past couple of months, especially since the iPad Pro hit the scene, it’s become pretty apparent that we’re in desperate need of a version of iOS that has more iPad centric features or an entirely new version of the operating system, built specifically for the larger screens of the iPad and iPad Pro lines.
 

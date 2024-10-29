@@ -1,11 +1,12 @@
 ---
-title: 'Twitter&#8217;s Moments feature now live in Canada'
-date: '2016-04-15T12:15:09+00:00'
+_schema: default
+title: Twitter's Moments feature now live in Canada
+date: 2016-04-15T07:15:09-05:00
 tags:
     - Social media
     - Twitter
+type: post
 ---
-
 [Ian Hardy for MobileSyrup](https://mobilesyrup.com/2016/04/12/twitter-moments-now-live-in-canada/):
 
 > Rory Capern took over leadership at Twitter Canada and stated the country is a top ten market with “tremendous growth potential.” Canadians flock to the platform to keep updated on the latest news, sports and entertainment and today it has officially launched Moments in Canada.
