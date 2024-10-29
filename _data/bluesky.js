@@ -21,7 +21,7 @@ function preserveTextAndLinks(html) {
 }
 
 module.exports = async function () {
-	let rssUrl = "https://bsky.app/profile/crashthearcade.bsky.social/rss/";
+	let rssUrl = "https://bsky.app/profile/crashthearcade.com/rss/";
 
 	try {
 		// Fetch RSS feed using EleventyFetch
