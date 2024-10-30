@@ -5,7 +5,7 @@ tags:
     - Comic books
 ---
 
-[Joe Quesada](https://twitter.com/JoeQuesada/status/1531669411467120640?s=20):
+[Joe Quesada on Twitter](https://twitter.com/JoeQuesada/status/1531669411467120640?s=20):
 
 > It’s both exciting and bittersweet that after discussions with both my family and my family at Marvel, after two plus decades (has it really been that long?), the time has come for me to move on. As you can imagine, my love for the company, its characters, and all my coworkers runs deep, but I have an exciting new chapter that’s about to begin, so the time feels right.
 

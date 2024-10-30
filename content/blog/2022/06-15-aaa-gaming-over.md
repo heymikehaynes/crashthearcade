@@ -1,5 +1,5 @@
 ---
-title: Is AAA gaming over?
+title:
 date: '2022-06-15T10:50:00+00:00'
 tags:
     - 'Video games'
