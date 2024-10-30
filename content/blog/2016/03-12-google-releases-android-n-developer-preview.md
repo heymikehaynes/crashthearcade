@@ -3,7 +3,6 @@ title: 'Google releases Android N Developer Preview'
 date: '2016-03-12T14:53:56+00:00'
 tags:
     - Android
-    - Google
 ---
 
 [Ron Amadeo for Ars Technica](https://arstechnica.com/gadgets/2016/03/surprise-the-android-n-developer-preview-is-out-right-now/):

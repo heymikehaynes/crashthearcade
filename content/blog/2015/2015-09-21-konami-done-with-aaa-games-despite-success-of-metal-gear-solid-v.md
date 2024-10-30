@@ -4,7 +4,7 @@ title: Konami done with AAA games, despite success of Metal Gear Solid V
 date: 2015-09-21T02:08:36-05:00
 tags:
     - Video games
-    - Metal Gear Solid
+    - Metal Gear
 type: post
 ---
 [Alec Meer for Rock Paper Shotgun](https://www.rockpapershotgun.com/2015/09/18/mgs-vi):

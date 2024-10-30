@@ -3,6 +3,7 @@ title: 'Tizen vs. Android UI'
 date: '2015-02-08T23:07:00+00:00'
 tags:
     - Design
+    - Android
 ---
 
 [Ron Amadeo for Ars Technica](http://arstechnica.com/gadgets/2015/02/tizen-versus-android-in-pictures/):

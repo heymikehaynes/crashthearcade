@@ -13,6 +13,6 @@ type: post
 
 I’ve never been able to wrap my head around the “make it or break it” attitude some people have for expandable storage and wireless charging. For starters, I’ve yet to have an experience with expandable storage on an Android phone that wasn’t clunky and frustrating. Storage is usually mishandled from app to app, causing errors and weird file management issues, at which point I usually remove my memory card and just use the phone without it.
 
-As for Wireless charging, it’s always been a bit of a half-baked idea in my opinion. I’ve owned a couple phones that had the capability to charge wirelessly and never once thought it was something that really worked well and added much value. Between the technology failing outright or the phone needing to be adjusted constantly to have the charging kick in, I think we’re still waiting for a feature like this to really find its footing.
+As for Wireless charging, it’s always been a bit of a half-baked idea in my opinion. I’ve owned a couple phones that had the capability to charge wirelessly and never once thought it was something that really worked well and added much value. Between the technology failing outright or the phone needing to be adjusted constantly to have the charging kick in, I don't think it's fully baked yet.
 
 In my experience, these features don’t yet deliver a consistently premium experience, so why expect them in a premium phone?

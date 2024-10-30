@@ -6,7 +6,7 @@ title: >-
 date: 2016-09-04T09:59:07-05:00
 tags:
     - Video games
-    - Metal Gear Solid
+    - Metal Gear
 type: post
 ---
 [Brian Ashcraft for Kotaku](https://kotaku.com/konami-has-no-plans-to-finish-mgsv-the-phantom-pains-mi-1785988932):
