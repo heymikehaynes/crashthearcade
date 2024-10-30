@@ -7,9 +7,9 @@ tags:
     - Android
 type: post
 ---
-Robb [posted](https://rknight.me/blog/every-phone-ive-ever-owned/) about the phones he’d owned over the years, and it reminded me of a note I’d started a while back and never finished, chronicling all the devices that have occupied a place inside my pocket over the years.
+Robb [posted](https://rknight.me/blog/every-phone-ive-ever-owned/) about the phones he’d owned over the years, and it reminded me of a note I’d started a while back and never finished, chronicling all the devices that have occupied a place inside my pocket.
 
-I know the timelines of some of these are blurry, and I’m confident I’m missing a couple somewhere in there, but I think it illustrates that I have issues. I’m ignoring all the pre-smartphone devices I’ve owned, but for the record, my first phone was a Nokia 6110. Don’t judge me.
+I know the timelines of some of these are blurry, and I’m confident I’m missing a couple somewhere in there, but I think I got most of them. I’m ignoring all the pre-smartphone devices I’ve owned, but for the record, my first phone was a Nokia 6110.
 
 These are as chronological as possible.
 
