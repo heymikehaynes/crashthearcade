@@ -3,8 +3,8 @@ _schema: default
 title:
 date: 2024-10-30T08:27:00-05:00
 tags:
-		- Social media
-		- Bluesky
+    - Social media
+    - Bluesky
 type: note
 update:
 ---
