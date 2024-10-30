@@ -7,8 +7,7 @@ tags:
     - Android
 type: post
 ---
-
-Robb <a href="https://rknight.me/blog/every-phone-ive-ever-owned/">posted</a> about the phones he’d owned over the years, and it reminded me of a note I’d started a while back and never finished, chronicling all the devices that have occupied a place inside my pocket over the years.
+Robb [posted](https://rknight.me/blog/every-phone-ive-ever-owned/) about the phones he’d owned over the years, and it reminded me of a note I’d started a while back and never finished, chronicling all the devices that have occupied a place inside my pocket over the years.
 
 I know the timelines of some of these are blurry, and I’m confident I’m missing a couple somewhere in there, but I think it illustrates that I have issues. I’m ignoring all the pre-smartphone devices I’ve owned, but for the record, my first phone was a Nokia 6110. Don’t judge me.
 
@@ -53,15 +52,15 @@ Phew. Quite the list. Let’s break down some high (and low) lights.
 
 ## Best “fun” phone
 
-The OnePlus One was such a great phone to mess around with. Flashing different ROMs, swapping out the backplate, etc. Never a dull moment.
+The OnePlus One was such a great phone to mess around with. Flashing different ROMs, swapping out the backplate, etc.
 
 ## Worst phone
 
-This was, without question, the Samsung Galaxy Note 3. The plastic phone felt cheap, the TouchWiz UI was sluggish and ugly, and the battery was terrible… I used it for a couple of weeks and returned it. This was where I first felt intrigued by “phablet” devices, but it was otherwise a brutal experience. And I owned a Blackberry Storm; think about that for a second.
+This was, without question, the Samsung Galaxy Note 3. The plastic phone felt cheap, the TouchWiz UI was sluggish and ugly, and the battery was terrible… I used it for a couple of weeks and returned it. This was where I first felt intrigued by “phablet” devices, but it was otherwise a brutal experience.
 
 ## Best Android phone
 
-My “panda” Pixel 2 XL was the best Android phone ever, though the Nexus 6 was a close second. After the disaster of the Note 3, I was curious what using a good giant phone might be like. The Nexus 6 was that.
+My “panda” Pixel 2 XL was the best Android phone ever, though the Nexus 6 was a close second because of the size and stock Android.
 
 The Pixel 2 XL was a big, sturdy, gorgeous piece of hardware with a smooth, pure Android experience. Using the devices I did, it was as close as I ever felt that Google got to replicating the iPhone experience.
 
