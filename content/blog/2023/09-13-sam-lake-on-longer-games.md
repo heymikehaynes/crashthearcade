@@ -7,7 +7,7 @@ tags:
 
 [Edwin Evans-Thirlwell for Rock Paper Shotgun](https://www.rockpapershotgun.com/alan-wake-2s-developers-have-always-internally-felt-that-we-need-to-find-ways-to-do-longer-games):
 
-> \[Lake\] himself has difficulty setting aside hours for longer games. “\[It’s\] just struggling with finding time and you know, being interested in a story, wanting to see it through,” he said. “So it can even be daunting at times to start playing a game that you know is really, really long.”
+> [Lake] himself has difficulty setting aside hours for longer games. “[It’s] just struggling with finding time and you know, being interested in a story, wanting to see it through,” he said. “So it can even be daunting at times to start playing a game that you know is really, really long.”
 
 I can definitely relate to this.
 

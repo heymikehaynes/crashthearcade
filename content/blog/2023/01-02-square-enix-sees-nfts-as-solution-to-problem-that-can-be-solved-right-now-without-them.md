@@ -11,7 +11,7 @@ type: post
 ---
 [Jonathan Bolding for PC Gamer](https://www.pcgamer.com/square-enix-president-knows-people-who-play-to-have-fun-dislike-nfts-but-he-wants-them-anyway/):
 
-> \[SE President Yosuke Matsuda\] is unreservedly enthusiastic about the idea that “token economies” will provide those who ‘play to contribute’ with an explicit incentive beyond “such inconsistent personal feelings as goodwill and volunteer spirit.”
+> [SE President Yosuke Matsuda] is unreservedly enthusiastic about the idea that “token economies” will provide those who ‘play to contribute’ with an explicit incentive beyond “such inconsistent personal feelings as goodwill and volunteer spirit.”
 
 People that create in-game content can be rewarded in ways that don’t involve NFTs. Why not DLC or, you know, money?
 

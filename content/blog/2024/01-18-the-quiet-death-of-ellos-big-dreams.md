@@ -6,6 +6,7 @@ tags:
   - Social media
 type: post
 ---
+
 [Andy Baio](https://waxy.org/2024/01/the-quiet-death-of-ellos-big-dreams/):
 
 > Digging through SEC filings, I discovered that the newly-launched indie social network had taken nearly half a million in seed funding from a venture capital firm, which seemed counter to its indie manifesto.

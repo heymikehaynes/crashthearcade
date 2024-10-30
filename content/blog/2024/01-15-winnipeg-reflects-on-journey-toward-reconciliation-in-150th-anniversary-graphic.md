@@ -6,6 +6,7 @@ tags:
   - Design
 type: post
 ---
+
 [Arturo Chang for CBC](https://www.cbc.ca/news/canada/manitoba/winnipeg-150-graphic-unveiled-1.7084154?cmp=rss):
 
 > The graphic features multiple symbols representing Winnipeg, including a prairie crocus (the provincial flower), the Red and Assiniboine rivers (which meet in the centre of Winnipeg) and an overlay of the city’s current footprint.

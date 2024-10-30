@@ -6,6 +6,7 @@ tags:
   - Indieweb
 type: post
 ---
+
 Follow me on a journey. This post is essentially a brain dump, but there’s a point and an idea somewhere, I think.
 
 This whole thing started with a <a href="https://blog.cassidoo.co/post/human-curation/" target="_blank" rel="noopener">post</a> by Cassidy Williams.

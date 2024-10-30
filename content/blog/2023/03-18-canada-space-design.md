@@ -8,5 +8,3 @@ tags:
 [Noor Al-Sibai for Futurism](https://futurism.com/the-byte/new-canadian-space-agency-logo):
 
 > O Canada, take it from your neighbors to the south: As we say down here, your new space logo “absolutely fucks.” On behalf of America: Well done.
-
-I love this.

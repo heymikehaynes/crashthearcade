@@ -6,7 +6,7 @@ tags:
 ---
 [Jyolsna for WP Tavern](https://wptavern.com/highlights-from-matt-mullenwegs-spiciest-word-camp-presentation-at-wordcamp-us-2024):
 
-> Mullenweg criticized \[WP Engine\] for contributing little to the WordPress community’s “Five for the Future” initiative. \[…\] Mullenweg explained that he had attempted to discuss increasing WP Engine’s contributions, but after receiving no positive response, he felt it necessary to call them out publicly.
+> Mullenweg criticized [WP Engine] for contributing little to the WordPress community’s “Five for the Future” initiative. […] Mullenweg explained that he had attempted to discuss increasing WP Engine’s contributions, but after receiving no positive response, he felt it necessary to call them out publicly.
 
 To have dragged this out into the public eye feels&nbsp;*misguided*. At the same time, after reviewing WP Engine’s website, I understand some of the frustration. Their language feels deceptive and implies that WordPress is a WP Engine product. This couldn’t be further from the truth if the contribution hours are accurate.
 
