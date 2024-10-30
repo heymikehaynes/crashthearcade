@@ -8,5 +8,4 @@ tags:
 type: note
 update:
 ---
-
-I’ve been shifting more of my updates over to Bluesky lately. It’s nothing against Mastodon; I just don’t feel as connected to the tech-focused discussions there. Over time, I see myself spending more of my posting and interaction on Bluesky.
+I’ve been shifting more of my updates over to Bluesky lately. It’s nothing against Mastodon; I just don’t feel as connected to the tech-focused discussions there. Over time, I see myself spending more of my time posting and interacting on Bluesky.
