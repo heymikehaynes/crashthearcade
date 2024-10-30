@@ -1,5 +1,5 @@
 ---
-title:
+title: Thoughts on the current Amazing Spider-Man run
 date: '2022-07-25T17:22:00+00:00'
 tags:
     - 'Comic books'
