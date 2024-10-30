@@ -615,7 +615,7 @@ img.masto-avatar {
 }
 
 .masto-user-info p {
-	margin: 0;
+	margin: -3px;
 }
 
 .mastodon-block {

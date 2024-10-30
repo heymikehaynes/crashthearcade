@@ -8,6 +8,6 @@ tags:
 
 [Victor Tangermann for Futurism](https://futurism.com/the-byte/study-nfts-worthless):
 
-> \[dappGambl\] found that 69,795 of the 73,257 NFT collections analyzed now have a market cap of zero Ether.
+> [dappGambl] found that 69,795 of the 73,257 NFT collections analyzed now have a market cap of zero Ether.
 
 Once a scam, always a scam.
