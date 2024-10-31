@@ -7,6 +7,7 @@ tags:
     - Social media
 type: quote
 ---
+
 > Facebook’s problems are too numerous to list, and so \[Zuckerberg\] is pitching products that don’t exist for a reality that does not exist in a desperate attempt to change the narrative as it exists in reality, where we all actually live.
 
 [Zuckerberg Announces Fantasy World Where Facebook Is Not a Horrible Company]()

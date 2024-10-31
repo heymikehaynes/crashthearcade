@@ -6,6 +6,7 @@ tags:
     - Comic books
 type: post
 ---
+
 [Zachary Clemente for The Beat](https://www.comicsbeat.com/panel-syndicate-quietly-releases-new-series-barrier-from-vaughan-martin-vicente/):
 
 > Out today, likely timed with this week’s release of the hardcover physical release of their originally digital-only endeavor The Private Eye, Barrier \#1 hit Panel Syndicate from the exact same team. It’s follows the tried and true distribution method of pay what you what for a DRM-free copy in your choice of PDF, CBR, or CBZ formats. Like before, it’s a landscape-oriented comic to work better with digital devices. It’s 52-pages of comics goodness and stated to be the first of five total installments.

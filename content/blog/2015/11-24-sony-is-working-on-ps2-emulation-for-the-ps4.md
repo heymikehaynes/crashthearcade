@@ -7,6 +7,7 @@ tags:
     - PlayStation
 type: post
 ---
+
 [James Vincent for The Verge](https://www.theverge.com/2015/11/20/9768266/ps4-ps2-emulation):
 
 > What exactly is Sony up to with emulating PlayStation 2 games on the PS4? A report this week from Wired confirmed that the company is, in its own words, “working on utilizing PS2 emulation technology to bring PS2 games forward to the current generation,” but it seems that the PlayStation 4 already has this capability (at least in part), and Sony has done nothing to publicize it.

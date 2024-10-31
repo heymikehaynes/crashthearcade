@@ -409,6 +409,13 @@ code {
 	margin-bottom: 100px;
 }
 
+.homemarks-block h1 img, .tumblr-block .tumblr-block-header img {
+	background: var(--primary-accent);
+	width: 24px;
+	height: auto;
+	margin-right: 8px;
+}
+
 .homemarks-block h1, .tumblr-block-header h1 {
 	font-size: 32px;
 }
@@ -687,10 +694,6 @@ a.masto-logo-link:hover {
 /* tumblr block */
 p.error-text {
 	margin-bottom: 32px;
-}
-
-.tumblr-block .tumblr-block-header img {
-	height: 38px;
 }
 
 .tumblr-block .more-button-style a {

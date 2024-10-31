@@ -7,6 +7,7 @@ tags:
     - Cars
 type: post
 ---
+
 [Ron Amadeo for Ars Technica](https://arstechnica.com/cars/2015/12/google-and-ford-reportedly-team-up-to-build-self-driving-cars/):
 
 > Google just found a major partner for its self-driving car program. A report from Yahoo Autos claims that, during CES, Ford will announce a joint venture between it and Google to build self-driving cars.

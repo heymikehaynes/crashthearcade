@@ -10,7 +10,7 @@ eleventyNavigation:
 
 #### Pixels and code. Also coffee.
 
-I’m Mike, a Product Designer and Front-End Developer. This blog is my stash of posts, notes, bookmarks, and things mostly related to [video games](/tags/video-games/), [comics](/tags/comic-books/), and [design](/tags/design/). In my day job, I work at a tech company in the health care space. I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of dogs and cats.
+I’m Mike, a Product Designer and Front-End Developer. In my day job, I work at a tech company in the health care space. I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of dogs and cats.
 
 ## Colophon
 

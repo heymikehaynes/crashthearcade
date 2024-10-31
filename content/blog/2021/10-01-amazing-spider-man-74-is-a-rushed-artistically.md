@@ -1,5 +1,5 @@
 ---
-title:
+title: Thoughts on Nick Spencers final issue of ASM
 date: '2021-10-01T18:30:00+00:00'
 tags:
     - Comic books

@@ -1,5 +1,5 @@
 ---
-title: 'Bethesda &#038; Arkane rebooting Prey again'
+title: 'Bethesda and Arkane rebooting Prey again'
 date: '2016-06-17T17:14:52+00:00'
 tags:
     - Video games
