@@ -409,15 +409,23 @@ code {
 	margin-bottom: 100px;
 }
 
-.homemarks-block h1 img, .tumblr-block .tumblr-block-header img {
-	background: var(--primary-accent);
-	width: 24px;
-	height: auto;
-	margin-right: 8px;
+.tumblr-block-header, .homemarks-block-header {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	margin-bottom: 32px;
 }
 
-.homemarks-block h1, .tumblr-block-header h1 {
+.homemarks-block-header img, .tumblr-block-header img {
+	background: var(--primary-accent);
+	width: 26px;
+	height: auto;
+	margin-right: 12px;
+}
+
+.homemarks-block-header h1, .tumblr-block-header h1 {
 	font-size: 32px;
+	margin: 0;
 }
 
 .bookmark-block-home h5 {
@@ -705,12 +713,6 @@ p.error-text {
 
 .tumblr-block .more-button-style a:hover {
 	background: var(--primary-accent);
-}
-
-.tumblr-block-header {
-	display: grid;
-	grid-template-columns: 1fr auto;
-	align-items: center;
 }
 
 .tumblr-block {
