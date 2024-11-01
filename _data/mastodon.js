@@ -1,7 +1,7 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
-	const accessToken = "ajru2ZwpLgRU3ayX2Oe7AIndOmU8gg67viZURYt7LMY"; // Replace with your actual access token
+	const accessToken = "OCFT7I8RHfvP_9c_1vT0MKFi9_NVpBLtWmjUh3ljwBs"; // Replace with your actual access token
 	const username = "crashthearcade"; // Your Mastodon username
 	const apiUrl = `https://social.lol/api/v1/accounts/lookup?acct=${username}`;
 
