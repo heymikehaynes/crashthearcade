@@ -1,49 +1,45 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const Parser = require("rss-parser");
-const sanitizeHtml = require("sanitize-html");
-const parser = new Parser();
-
-// Function to preserve basic text formatting (images handled separately)
-function preserveTextAndLinks(html) {
-	return sanitizeHtml(html, {
-		allowedTags: ['p', 'a', 'strong', 'em', 'br'], // Allow text and basic formatting
-		allowedAttributes: {
-			'a': ['href'] // Allow links
-		}
-	});
-}
 
 module.exports = async function () {
-	let rssUrl = "https://social.lol/@crashthearcade.rss"; // Replace with your RSS feed URL
+	const accessToken = "ajru2ZwpLgRU3ayX2Oe7AIndOmU8gg67viZURYt7LMY"; // Replace with your actual access token
+	const username = "crashthearcade"; // Your Mastodon username
+	const apiUrl = `https://social.lol/api/v1/accounts/lookup?acct=${username}`;
 
 	try {
-		// Fetch RSS feed using EleventyFetch
-		let xml = await EleventyFetch(rssUrl, {
-			duration: "1h", // Cache for 1 hour
-			type: "text"
+		// Fetch user ID
+		let userData = await EleventyFetch(apiUrl, {
+			duration: "1h", // Cache response for 1 hour
+			type: "json",
+			fetchOptions: {
+				headers: {
+					Authorization: `Bearer ${accessToken}`
+				}
+			}
 		});
 
-		// Parse the fetched XML
-		let feed = await parser.parseString(xml);
+		const userId = userData.id;
 
-		// Process feed items
-		return feed.items.slice(0, 1).map(item => {
-			let description = item.content || item['content:encoded'] || item.description;
-			let cleanedDescription = preserveTextAndLinks(description);
-
-			// Extract image from media:content or other fields
-			let mediaContent = item['media:content'] || item['mediaContent'] || null;
-			let imageUrl = mediaContent && mediaContent[0] && mediaContent[0].$.url ? mediaContent[0].$.url : null;
-
-			return {
-				...item,
-				pubDate: new Date(item.pubDate),
-				description: cleanedDescription, // Sanitized description without image tags
-				imageUrl // Image URL extracted separately
-			};
+		// Fetch user posts
+		const postsUrl = `https://social.lol/api/v1/accounts/${userId}/statuses`;
+		let postsData = await EleventyFetch(postsUrl, {
+			duration: "1h", // Cache response for 1 hour
+			type: "json",
+			fetchOptions: {
+				headers: {
+					Authorization: `Bearer ${accessToken}`
+				}
+			}
 		});
+
+		// Process posts to return the latest one
+		return postsData.slice(0, 1).map(post => ({
+			content: post.content,
+			imageUrl: post.media_attachments.length > 0 ? post.media_attachments[0].url : null,
+			pubDate: new Date(post.created_at),
+			link: post.url
+		}));
 	} catch (error) {
-		console.error("Error fetching RSS feed:", error);
+		console.error("Error fetching Mastodon posts:", error);
 		return [];
 	}
 };

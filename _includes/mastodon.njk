@@ -15,7 +15,7 @@
 				</div>
 			{% endif %}
 
-			<div class="masto-post-body">{{ post.description | safe }}</div>
+			<div class="masto-post-body">{{ post.content | safe }}</div>
 			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
 		</div>
 	{% endfor %}
