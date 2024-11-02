@@ -10,12 +10,12 @@
 	}
 
 	img.site-logo-og {
-		width: 52px;
+		width: 42px;
 	}
 
 	.title {
 		color: #fff;
-		font-size: 86px;
+		font-size: 82px;
 		margin: auto 0;
 		font-family: 'Archivo Bold', sans-serif;
 	}
@@ -23,14 +23,14 @@
 	h2 {
 		font-family: 'Departure', monospace;
 		text-transform: uppercase;
-		color: #FF3668;
+		color: #5f6369;
 		margin: 0;
-		font-size: 32px;
+		font-size: 28px;
 	}
 </style>
 
 <div class="og-root">
 	<img class="site-logo-og" src="https://crashthearcade.com/img/site-logo.png">
-	<h1 class="title">{{ title }}</h1>
-	<h2>crash the arcade</h2>
+	<h1 class="title">{{ title | safe }}</h1>
+	<h2>crashthearcade.com</h2>
 </div>
