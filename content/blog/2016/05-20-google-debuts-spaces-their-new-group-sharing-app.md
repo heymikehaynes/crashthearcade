@@ -1,10 +1,11 @@
 ---
-title: 'Google debuts Spaces, their new group sharing app'
-date: '2016-05-20T14:20:45+00:00'
+_schema: default
+title: Google debuts Spaces, a new group sharing app
+date: 2016-05-20T09:20:45-05:00
 tags:
     - Google
+type: post
 ---
-
 [Luke Wroblewski for Google](https://blog.google/products/spaces/introducing-spaces-tool-for-small-group/):
 
 > When someone shares something new to a space, the conversational view lets you see what the group is talking about without missing a beat. And if you ever want to find something that was shared earlier—articles, videos, comments or even images—a quick search lets you pull it up in a snap.

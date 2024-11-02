@@ -1,10 +1,11 @@
 ---
-title: Microsoft, Amazon, and Google reportedly prepping big gaming acquisitions
-date: '2021-01-17T18:47:00+00:00'
+_schema: default
+title: Microsoft, Amazon, and Google prepping for gaming acquisitions
+date: 2021-01-17T12:47:00-06:00
 tags:
     - Video games
+type: post
 ---
-
 [Andy Robinson for VGC](https://www.videogameschronicle.com/news/microsoft-amazon-and-google-are-targeting-big-names-for-buyouts-journalist-claims/):
 
 > Microsoft, Amazon and Google are actively seeking further video game company acquisitions, with at least three deals going on right now.

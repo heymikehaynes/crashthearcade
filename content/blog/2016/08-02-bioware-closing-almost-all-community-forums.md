@@ -1,15 +1,16 @@
 ---
-title: 'BioWare closing (almost all) community forums'
-date: '2016-08-02T15:00:26+00:00'
+_schema: default
+title: BioWare closing most community forums
+date: 2016-08-02T10:00:26-05:00
 tags:
     - Video games
+type: post
 ---
-
 [Chris Carter for Destructoid](https://www.destructoid.com/bioware-is-shutting-down-all-its-forums-outside-of-star-wars-the-old-republic-378027.phtml):
 
 > If you frequent the BioWare forums, you better sit down.
-> 
->  Over the weekend, the publisher explained that everything outside of the Star Wars: The Old Republic forums will be shut down. That includes Mass Effect, Dragon Age — everything. The closure is expected to roll out on August 26, and will transition into read-only capabilities until October 25. So if you have some awesome enlightening post about the ending to Mass Effect 3, back it up before that latter date.
+>
+> Over the weekend, the publisher explained that everything outside of the Star Wars: The Old Republic forums will be shut down. That includes Mass Effect, Dragon Age — everything. The closure is expected to roll out on August 26, and will transition into read-only capabilities until October 25. So if you have some awesome enlightening post about the ending to Mass Effect 3, back it up before that latter date.
 
 Having spent some time in there during the launches of Dragon Age 2 and Mass Effect 3, I’m surprised it took them this long to shut the place down. To be honest, I’m not sure why studios decide to create community forums for their games in the first place as they often descend quickly into madness.
 
