@@ -43,27 +43,21 @@
 	</div>
 
 	{% if loop.index == 2 and page.url == '/' %}
-			<div class="tumblr-block">
-				{%- include 'tumblr.njk' -%}
-			</div>
+		<div class="tumblr-block">
+			{%- include 'tumblr.njk' -%}
+		</div>
 	{% endif %}
 
 	{% if loop.index == 4 and page.url == '/' %}
 		<div class="homemarks-block">
-			<div class="homemarks-block-header">
-				<img src="/img/card-badge-bookmarks.png">
-				<h1>Latest bookmarks</h1>
-			</div>
-			<div class="bookmark-block-home">
-				{%- include 'homemarks.njk' -%}
-			</div>
+			{%- include 'bookmarks.njk' -%}
 		</div>
 	{% endif %}
 
 	{% if loop.index == 6 and page.url == '/' %}
-			<div class="mastodon-block">
-				{%- include 'mastodon.njk' -%}
-			</div>
+		<div class="mastodon-block">
+			{%- include 'mastodon.njk' -%}
+		</div>
 	{% endif %}
 {% endfor %}
 

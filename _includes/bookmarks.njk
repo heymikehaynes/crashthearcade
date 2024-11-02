@@ -1,15 +1,26 @@
-{% for post in bookmarks %}
-	<div class="bookmark-post">
-		<a href="{{ post.link }}" target="_blank">
-			<img
-				src="{{ post.image }}"
-				alt="{{ post.title }}"
-				onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
-			>
-		</a>
-		<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
-			<a href="{{ post.link }}" target="_blank">» {{ post.pubDate | ordinalDate }}</a>
-		</time>
-		<h5><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(75) }}</a></h5>
-	</div>
-{% endfor %}
+<div class="homemarks-block-header">
+	<img src="/img/card-badge-bookmarks.png">
+	<h1>Latest bookmarks</h1>
+</div>
+
+<div class="bookmark-block-home">
+	{% for post in bookmarks %}
+		<div class="bookmark-post">
+			<a href="{{ post.link }}" target="_blank">
+				<img
+					src="{{ post.image }}"
+					alt="{{ post.title }}"
+					onerror="this.src='/img/link-default-img.png'" {# Fallback if image fails to load #}
+				>
+			</a>
+			<time class="bookmark-list-date" datetime="{{ post.pubDate | htmlDateString }}">
+				<a href="{{ post.link }}" target="_blank">» {{ post.pubDate | ordinalDate }}</a>
+			</time>
+			<h5><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(75) }}</a></h5>
+		</div>
+	{% endfor %}
+</div>
+
+<div class="more-button-style">
+		<a href="https://reederapp.net/qotk31U8S5GNHl5LIJOaGw">More »</a>
+</div>
