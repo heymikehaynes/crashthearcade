@@ -1,10 +1,14 @@
 ---
-title: 'Users bombard the App Store with negative reviews for Super Mario Run, stock drops'
-date: '2016-12-23T13:46:30+00:00'
+_schema: default
+title: >-
+    Users bombard the App Store with negative reviews for Super Mario Run, stock
+    drops
+date: 2016-12-23T07:46:30-06:00
 tags:
     - Video games
+    - Nintendo
+type: post
 ---
-
 [Usman Qureshi for iPhone in Canada](https://www.iphoneincanada.ca/news/nintendo-shares-plunge-due-to-super-mario/):
 
 > Disappointing early reviews and sales of Nintendo’s latest ‘Super Mario Run’ smartphone game have caused the company’s shares to fall by almost 16% in the past five days, while some analysts are also expressing concern over the game’s payment model, The Wall Street Journal is reporting. Although the company’s stock rose over 20% in the past month, the shares finished down 7.1% today in Tokyo Stock Exchange trading.

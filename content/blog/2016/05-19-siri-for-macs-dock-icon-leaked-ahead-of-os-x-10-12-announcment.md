@@ -1,12 +1,12 @@
 ---
-title: 'Siri for Mac’s dock icon leaked ahead of OS X 10.12 announcment'
-date: '2016-05-19T14:02:44+00:00'
+_schema: default
+title: Siri for Mac’s dock icon leaked ahead of OS X 10.12 announcment
+date: 2016-05-19T09:02:44-05:00
 tags:
     - Apple
-    - Siri
     - Design
+type: post
 ---
-
 [Juli Clover for MacRumors](https://www.macrumors.com/2016/05/18/siri-for-mac-os-x-10-12-dock-icon/):
 
 > In the menu bar, there’s a simple Siri black and white icon that features the word “Siri” surrounded by a box, while the full dock icon is more colorful and features a colorful Siri waveform in the style of other built-in app icons.

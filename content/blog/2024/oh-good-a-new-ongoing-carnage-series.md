@@ -4,7 +4,6 @@ title: Oh good, a new ongoing Carnage series
 date: 2024-10-22T08:27:00-05:00
 tags:
     - Comic books
-    - Carnage
 type: post
 update:
 ---
