@@ -1,9 +1,6 @@
 ---
 layout: layouts/home.njk
 permalink: /about/
-eleventyNavigation:
-  key: About
-  order: 1
 ---
 
 # About

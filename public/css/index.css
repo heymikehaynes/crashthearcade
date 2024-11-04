@@ -39,8 +39,8 @@
 
 /* Theme colors */
 :root {
-	--primary-accent: #10D275;
-	--secondary-accent: #87E9BA;
+	--primary-accent: #FF3668;
+	--secondary-accent: #FF9AB3;
 	--primary-bg: #08121c;
 	--secondary-bg: #151c26;
 	--primary-text: #FFFFFF;
@@ -538,9 +538,10 @@ footer a:hover {
 	top: 80px;
 	width: 220px;
 	padding-right: 32px;
-	height: 86vh;
+	/* height: 86vh; */
 	display: grid;
 	grid-template-rows: 1fr auto;
+	row-gap: 32px;
 }
 
 /* now */

@@ -1,6 +1,9 @@
 ---
 layout: layouts/home.njk
 numberOfLatestPostsToShow: 8
+eleventyNavigation:
+  key: Blog
+  order: 1
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
