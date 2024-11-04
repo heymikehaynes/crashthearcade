@@ -4,6 +4,7 @@ title: Epic Games cuts around 830 jobs
 date: 2023-09-29T17:39:00-05:00
 tags:
     - Video games
+    - Epic Games
 type: post
 ---
 [The Verge](https://www.theverge.com/2023/9/28/23894266/epic-games-layoffs-fortnite-unreal-engine):

@@ -4,7 +4,7 @@ title: Hideo Kojima doesn't understand Metal Gear Survive either
 date: 2016-09-24T07:58:10-05:00
 tags:
     - Video games
-    - Metal Gear Solid
+    - Metal Gear
 type: post
 ---
 [Daniel Robson and Jose Otero for IGN](https://www.ign.com/articles/2016/09/18/kojima-calls-out-metal-gear-survives-zomibes):

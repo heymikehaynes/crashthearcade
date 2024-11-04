@@ -3,7 +3,7 @@ _schema: default
 title: Discord users not happy with CEO's crypto tease
 date: 2021-11-10T23:05:33-06:00
 tags:
-    - Discord
+    - Apps
     - NFTs
 type: post
 ---

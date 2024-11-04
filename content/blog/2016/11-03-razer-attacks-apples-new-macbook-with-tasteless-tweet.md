@@ -3,7 +3,8 @@ _schema: default
 title: Razer attacks Apple's new MacBook with awful tweet
 date: 2016-11-02T19:11:00-05:00
 tags:
-    - Razer
+    - Internet
+    - Apple
 type: post
 ---
 ![Razer's tweet](/uploads/razer-s-my-d.jpg)
