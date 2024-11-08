@@ -11,4 +11,4 @@ tags:
 
 > Nvidia's subscription cloud gaming service GeForce Now will soon be enforcing a playtime limit of 100 hours per month. [...] The company said the limit "comfortably accommodates 94% of members."
 
-I get that most people won't be effected by this but, on principal alone, this is dumb as hell. This is a *trillion dollar company* we're talking about here.
+I get that most people won't be effected but, on principal alone, this is dumb as hell. We're talking about a *trillion dollar company* here.
