@@ -1,7 +1,7 @@
 {
 	"name": "crash the arcade",
 	"version": "3.0.0",
-	"description": "A blog by Mike Haynes.",
+	"description": "A weblog by Mike Haynes.",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",

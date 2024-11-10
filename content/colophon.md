@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 4
 ---
 
-# About
+# Colophon
 
 #### Pixels and code. Also coffee.
 
@@ -14,8 +14,8 @@ I’m Mike, a designer and hobbyist developer with a love for video games, manga
 
 I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of dogs and cats.
 
-## Under the hood
+## Technical stuff
 
 This site is happily built with [Eleventy](https://11ty.dev) and served by [Vercel](https://vercel.com). The theme was designed by me. It is set in Archivo by [Omnibus-Type](https://github.com/Omnibus-Type) and Departure by [Helena Zhang](https://www.helenazhang.com/).
 
-The code for this site is also available to review on [GitHub](https://github.com/heymikehaynes/crashthearcade).
+The code for this site is available on [GitHub](https://github.com/heymikehaynes/crashthearcade).
