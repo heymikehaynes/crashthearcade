@@ -288,6 +288,7 @@ code {
 	color: var(--primary-text);
 	display: inline-block;
 	text-transform: uppercase;
+	word-spacing: -8px;
 }
 
 .nav-item a:not(:hover) {
