@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
-permalink: /follow/
+permalink: /subscribe/
 eleventyNavigation:
-  key: Follow
+  key: Subscribe
   order: 5
 ---
 
-# Follow
+# Subscribe
 
-#### Subscribe and stay updated with new posts and bookmarks through the feeds below or follow updates on social media. Note that some sites may include NSFW content.
+#### Stay updated with new posts and bookmarks through the feeds below or follow updates and nonsense on social media. Note that some sites *may* include NSFW content.
 
 ## Feeds
 
