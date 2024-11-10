@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 permalink: /colophon/
+slug: colophon
 eleventyNavigation:
   key: Colophon
   order: 4

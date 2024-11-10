@@ -602,6 +602,14 @@ footer a:hover {
 	line-height: 1.3;
 }
 
+.style-now ul li {
+	margin-bottom: 24px;
+}
+
+.style-now ul li:last-of-type {
+	margin-bottom: 0;
+}
+
 /* archive */
 .archive-post .bookmark-list-date {
 	margin: 24px 0 0 0;
@@ -869,7 +877,7 @@ p.error-text {
 		right: 0px;
 		background: var(--secondary-bg);
 		padding: 18px 32px 12px 32px;
-		top: 32px;
+		top: 38px;
 		border-radius: 4px;
 	}
 
@@ -878,10 +886,9 @@ p.error-text {
 		display: initial;
 		background: none;
 		border: none;
-		font-size: 28px;
+		font-size: 32px;
 		cursor: pointer;
 		color: var(--primary-text);
-		height: 75px;
 		padding: 0;
 	}
 

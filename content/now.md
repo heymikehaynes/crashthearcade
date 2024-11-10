@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 permalink: /now/
+slug: now
 eleventyNavigation:
   key: Right now
   order: 3

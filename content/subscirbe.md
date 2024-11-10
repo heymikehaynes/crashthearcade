@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 permalink: /subscribe/
+slug: subscribe
 eleventyNavigation:
   key: Subscribe
   order: 5
@@ -8,7 +9,7 @@ eleventyNavigation:
 
 # Subscribe
 
-#### Stay updated with new posts and bookmarks through the feeds below or follow updates and nonsense on social media. Note that some sites *may* include NSFW content.
+#### Keep up with new posts and bookmarks through the feeds below or follow updates and nonsense on social media. Note that some sites *may* include NSFW content.
 
 ## Feeds
 

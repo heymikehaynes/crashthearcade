@@ -39,7 +39,7 @@
 			{%- include 'sidebar.njk' -%}
 		</header>
 
-		<div class="main-content">
+		<div class="main-content style-{{ slug or 'default' | slugify }}">
 			{{ content | safe }}
 		</div>
 
