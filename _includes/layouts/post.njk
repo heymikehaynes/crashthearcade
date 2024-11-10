@@ -38,7 +38,7 @@ layout: layouts/base.njk
 {% endif %}
 
 <div class="postlist-tags single-tags">
-	{% for tag in tags %}
+	{% for tag in tags | sort %}
 		{% if tag != "posts" %}
 			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %} {% endif %}
 		{% endif %}
