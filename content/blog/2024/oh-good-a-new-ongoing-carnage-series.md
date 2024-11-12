@@ -7,7 +7,8 @@ tags:
 type: post
 update:
 ---
-<a href="https://www.comicsbeat.com/nycc-24-eddie-brock-is-the-new-carnage/" target="_blank" rel="noopener">Samantha Puc for Comics Beat</a>:
+
+[Samantha Puc for Comics Beat](https://www.comicsbeat.com/nycc-24-eddie-brock-is-the-new-carnage/):
 
 > In February 2025, writer Charles Soule and artist Jesús Saíz will team up for a new ongoing series appropriately entitled Eddie Brock: Carnage, in which he serially kills serial killers. Paying his debt to society, and all.
 

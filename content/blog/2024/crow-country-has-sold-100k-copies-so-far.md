@@ -7,6 +7,7 @@ tags:
 type: post
 update:
 ---
+
 [Tom Regan for Game Developer](https://www.gamedeveloper.com/business/indie-horror-hit-crow-country-sells-over-100-000-copies):
 
 > PlayStation 1 inspired horror title Crow Country has sold 100,000 copies since May. A week after Crow Country's release on Nintendo Switch, London-based developer SFB Games announced that it had reached the impressive milestone.

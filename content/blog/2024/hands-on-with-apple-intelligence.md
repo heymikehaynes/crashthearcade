@@ -8,6 +8,7 @@ tags:
 type: post
 update:
 ---
+
 I've spent some time with Apple Intelligence, using version 18.1 for several weeks and now 18.2 for most of yesterday.
 
 I really appreciate the notification summaries. A few times, just by glancing at my phone, I could instantly see and understand what was waiting in my inbox. It’s not flawless—occasionally, the order of information is off, or it says the opposite of what the message actually contains. However, these issues are rare, and overall, I find it to be a genuinely useful feature.

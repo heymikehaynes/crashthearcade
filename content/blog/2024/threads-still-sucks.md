@@ -7,6 +7,7 @@ tags:
   - Threads
 type: post
 ---
+
 Against my better judgment, I decided to give Threads another shot. Unfortunately, it’s only slightly less painful than I remembered—which isn’t much of an improvement. The main “For You” feed is a chaotic mess of generic, uninteresting, and often offensive content. It’s filled with bland, overused questions you’ve seen countless times elsewhere (and often wish you hadn’t). It all feels so fake, just people posting literally *anything* for engagement or ripping off old jokes from Twitter.
 
 One thing Meta *has* managed to change since my last visit is how much harder they’ve made it to access the “Following” feed. They’ve buried it so deeply that the app feels practically unusable. If you want to see content you actually care about, you have to dig through a clunky interface that looks like a half-baked knockoff of Bluesky’s feeds menu. And I genuinely cannot overstate just how terrible the “For You” feed is.

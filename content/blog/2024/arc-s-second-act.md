@@ -8,6 +8,7 @@ tags:
 type: post
 update:
 ---
+
 The Browser Company today [announced](https://www.theverge.com/2024/10/24/24279020/browser-company-ai-browser-arc) they're working on something *new*. Arc hasn't reached the critical mass they'd hoped so they're taking another shot at it with an entirely new browser that's simpler for the average user to wrap their head around.
 
 Throughout my career, I’ve had projects shut down while searching for market fit, bogged down by restrictive timelines, budget constraints, and misalignment with management. That’s why this shift feels exciting – watching a team get the runway they need to create something.

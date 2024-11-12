@@ -7,6 +7,7 @@ tags:
     - Video games
 type: post
 ---
+
 [Marie Dealessandri for GamesIndustry.biz](https://www.gamesindustry.biz/geforce-now-to-establish-100-hour-playtime-limit):
 
 > Nvidia's subscription cloud gaming service GeForce Now will soon be enforcing a playtime limit of 100 hours per month. The new rule won't affect Founder memberships, but will impact the newly renamed Performance and Ultimate tiers, Nvidia announced on Reddit. The company said the limit "comfortably accommodates 94% of members."

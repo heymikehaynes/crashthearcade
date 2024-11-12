@@ -8,7 +8,8 @@ tags:
 type: post
 update:
 ---
-<a href="https://www.gamesindustry.biz/netflix-shuts-down-california-game-studio" target="_blank" rel="noopener">Sophie McEvoy for GamesIndustry.biz</a>:
+
+[Sophie McEvoy for GamesIndustry.biz](https://www.gamesindustry.biz/netflix-shuts-down-california-game-studio):
 
 > Netflix has shut down its AAA Southern California game studio known as Team Blue. As reported by Game File, Netflix confirmed its fifth internal studio had been closed, and that three hires on the team had left the company.
 
