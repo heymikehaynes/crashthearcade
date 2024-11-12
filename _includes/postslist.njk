@@ -43,13 +43,13 @@
 	</div>
 
 	{% if loop.index == 2 and page.url == '/' %}
-		<div class="tumblr-block">
+		<div id="tumblr-home" class="tumblr-block">
 			{%- include 'tumblr.njk' -%}
 		</div>
 	{% endif %}
 
 	{% if loop.index == 4 and page.url == '/' %}
-		<div class="homemarks-block">
+		<div id="bookmarks-home" class="homemarks-block">
 			{%- include 'bookmarks.njk' -%}
 		</div>
 	{% endif %}
