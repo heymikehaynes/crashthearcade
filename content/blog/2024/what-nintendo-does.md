@@ -15,4 +15,6 @@ This kind of hostile behavior is, unfortunately, what we’ve come to expect fro
 
 What’s particularly frustrating, as we've seen countless times in their battles against emulation sites, is that Nintendo themselves aren't interested in offering any legal way to play many of the games featured on Crandall’s channel, going so far as shutting down the virtual console back in 2019 and cutting off access to over 400 classic titles games.
 
-As much as I’ve loved their games and hardware over the years (my first console was a SNES!), it’s hard to keep cheering for a company that refuses to meet its customers halfway—or worse, punishes them for their loyalty. From now on, I’ll be thinking twice about my Nintendo purchases. Nostalgia isn’t a free pass to treat your fans like crap.
+As much as I’ve loved their games and hardware over the years (my first console was a SNES!), it’s hard to keep cheering for a company that refuses to work *with* its customers in any meaningful way, or worse, punishes them for their loyalty. Going forward, I’ll be thinking twice about my Nintendo purchases.
+
+Nostalgia isn’t a free pass to treat your fans like shit.
