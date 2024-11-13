@@ -38,13 +38,22 @@
 }
 
 /* Theme colors */
-:root {
+/* :root {
 	--primary-accent: #29ADFF;
 	--secondary-accent: #94D6FF;
 	--primary-bg: #08121c;
 	--secondary-bg: #151c26;
 	--primary-text: #FFFFFF;
 	--secondary-text: #5f6369;
+} */
+
+:root {
+	--primary-accent: #8888F4;
+	--secondary-accent: #B0AFF7;
+	--primary-bg: #08121c;
+	--secondary-bg: #141E27;
+	--primary-text: #FFFFFF;
+	--secondary-text: #83888D;
 }
 
 /* Global stylesheet */
@@ -283,7 +292,7 @@ code {
 .nav-item a {
 	font-family: 'Departure', sans-serif;
 	font-size: 24px;
-	line-height: 80%;
+	line-height: 90%;
 	text-decoration: none;
 	color: var(--primary-text);
 	display: inline-block;
