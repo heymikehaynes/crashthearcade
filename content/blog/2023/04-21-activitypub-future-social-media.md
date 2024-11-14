@@ -3,7 +3,7 @@ _schema: default
 title: ActivityPub and the future of social media
 date: 2023-04-20T22:07:55-05:00
 tags:
-    - Indieweb
+    - Indie web
 type: post
 ---
 [David Pierce for The Verge](https://www.theverge.com/2023/4/20/23689570/activitypub-protocol-standard-social-network):

@@ -1,9 +1,9 @@
 ---
 _schema: default
-title: The indieweb needs a search engine
+title: The indie web needs a search engine
 date: 2024-01-12T00:00:00Z
 tags:
-  - Indieweb
+  - Indie web
 type: post
 ---
 
@@ -19,7 +19,7 @@ It’s a great read; please check it out.
 
 It got me thinking and sharing this idea on Mastodon:
 
-> Can we just make a new indieweb search engine that uses tags and requires people submit their own site to be a part of it? Literally just make a page with a search bar and type in whatever kind of blog/site you’re looking for. Ship it.
+> Can we just make a new indie web search engine that uses tags and requires people submit their own site to be a part of it? Literally just make a page with a search bar and type in whatever kind of blog/site you’re looking for. Ship it.
 
 The replies came in, and they pointed to examples of this or variations of it. Matt Stein even shared a <a href="https://sizeof.cat/post/website-discovery/" target="_blank" rel="noopener">link to </a>their list in an article.
 
