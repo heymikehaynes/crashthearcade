@@ -19,8 +19,6 @@ eleventyNavigation:
 ## Social media
 
 * [Bluesky](https://bsky.app/profile/crashthearcade.com)
-* [Goodreads](https://www.goodreads.com/crashthearcade)
 * [Mastodon](https://social.lol/@crashthearcade)
 * [Pixelfed](https://pixelfed.social/crashthearcade)
-* [Record Club](https://record.club/crashthearcade/activity)
 * [Tumblr](https://www.tumblr.com/crashthearcade)
