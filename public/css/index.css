@@ -542,8 +542,8 @@ footer a:hover {
 	position: sticky;
 	top: 80px;
 	width: 220px;
-	padding-right: 32px;
-	/* height: 86vh; */
+	padding: 0 32px 90px 0;
+	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
 	row-gap: 64px;

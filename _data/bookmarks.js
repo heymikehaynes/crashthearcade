@@ -1,38 +1,38 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function () {
-	let jsonFeedUrl = "https://reederapp.net/qotk31U8S5GNHl5LIJOaGw.json"; // Replace with your JSON feed URL
+	// Your Linkding API base URL and endpoint
+	const linkdingApiBaseUrl = "https://your-linkding-url/api/bookmarks/";
+	const apiKey = process.env.LINKDING_API; // Use the Vercel environment variable
 
 	try {
-		// Fetch and parse the JSON feed
-		let jsonFeed = await EleventyFetch(jsonFeedUrl, {
+		// Append the shared filter to the API URL
+		const apiUrl = `${linkdingApiBaseUrl}?shared=true`;
+
+		// Fetch the bookmarks data using EleventyFetch
+		let bookmarks = await EleventyFetch(apiUrl, {
 			duration: "1h", // Cache for 1 hour
-			type: "json"    // Use "json" as the type for JSON feeds
+			type: "json",   // Use JSON as the response type
+			fetchOptions: {
+				headers: {
+					Authorization: `Token ${apiKey}`, // Pass the API key as a Bearer token
+					"Content-Type": "application/json"
+				}
+			}
 		});
 
-		// Extract the latest item from the JSON feed
-		return jsonFeed.items.slice(0, 8).map(item => {
-			// Extract the image from the _reeder.media[0].url or image field
-			let imageUrl = item._reeder?.media?.[0]?.url || item.image;
-
-			// Fallback if no image is found
-			if (!imageUrl) {
-				imageUrl = item.attachments?.[0]?.url || ''; // Check attachments as a fallback
-			}
-
-			// Remove year in parentheses from the title (e.g., "(2024)")
-			let title = item.title.replace(/\(\d{4}\)/, '').trim();
-
+		// Transform the data into the desired format
+		return bookmarks.results.map(bookmark => {
 			return {
-				title: title, // Return the cleaned title
-				link: item.url || item.link, // Ensure the correct link field is used
-				pubDate: new Date(item.date_published || item.date), // Handle date fields appropriately
-				description: item.content_text || '', // Use content_text as the description
-				image: imageUrl // Return the extracted image URL
+				title: bookmark.title,
+				link: bookmark.url,
+				description: bookmark.description || '', // Optional description
+				dateAdded: new Date(bookmark.date_added), // Format date
+				tags: bookmark.tag_names || [] // Extract tags if needed
 			};
 		});
 	} catch (error) {
-		console.error("Error fetching JSON feed:", error);
+		console.error("Error fetching shared bookmarks from Linkding:", error);
 		return [];
 	}
 };
