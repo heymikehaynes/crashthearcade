@@ -1,7 +1,7 @@
-module.exports = async function () {
-	const fetch = (await import("node-fetch")).default;
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
-	const API_BASE_URL = "https://saved.forthaynes.com/api/bookmarks/";
+module.exports = async function () {
+	const API_BASE_URL = "https://saved.crashthearcade.com/api/bookmarks/";
 	const API_KEY = process.env.LINKDING_API; // Using Vercel's environment variable
 
 	if (!API_KEY) {
@@ -10,28 +10,28 @@ module.exports = async function () {
 	}
 
 	try {
-		const response = await fetch(API_BASE_URL, {
-			headers: {
-				"Authorization": `Token ${API_KEY}`,
-				"Content-Type": "application/json",
+		// Use Eleventy Fetch to cache the API response
+		const data = await EleventyFetch(API_BASE_URL, {
+			duration: "1h", // Cache for 1 day
+			type: "json", // Parse as JSON
+			fetchOptions: {
+				headers: {
+					"Authorization": `Token ${API_KEY}`,
+					"Content-Type": "application/json",
+				},
 			},
 		});
 
-		if (!response.ok) {
-			console.error(`Failed to fetch bookmarks: ${response.statusText}`);
-			return [];
-		}
+		// Filter and map the bookmarks as needed
+		const sharedBookmarks = data.results
+			.filter((bookmark) => bookmark.shared) // Only include shared bookmarks
+			.slice(0, 8); // Limit to 8 bookmarks
 
-		const data = await response.json();
-
-		// Format the data to include the image and publication date
-		return data.results.map((bookmark) => ({
-			title: bookmark.title,
-			url: bookmark.url,
-			description: bookmark.description,
-			tags: bookmark.tag_names,
-			dateAdded: bookmark.date_added, // Publication date
-			image: bookmark.website_title_image || "", // Fallback to empty string if no image
+		return sharedBookmarks.map((bookmark) => ({
+			link: bookmark.url, // URL for the bookmark
+			image: bookmark.preview_image_url || bookmark.website_title_image || "/img/link-default-img.png", // Use preview image if available, fallback to title image or default
+			pubDate: bookmark.date_added, // Publication date (ISO string)
+			title: bookmark.title, // Bookmark title
 		}));
 	} catch (error) {
 		console.error("Error fetching bookmarks:", error);

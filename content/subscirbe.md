@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Feeds
 
 * Blog posts: [JSON](/feed/feed.json) | [RSS](/feed/feed.xml)
-* Bookmarks: [JSON](https://reederapp.net/qotk31U8S5GNHl5LIJOaGw.json)
+* Bookmarks: [RSS](https://saved.crashthearcade.com/feeds/shared)
 
 ## Social media
 

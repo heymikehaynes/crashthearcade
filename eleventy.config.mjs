@@ -70,9 +70,16 @@ export default function (eleventyConfig) {
 
 	// Ordinal dates
 	eleventyConfig.addFilter("ordinalDate", (dateObj) => {
-		const date = DateTime.fromJSDate(dateObj);
+		// Handle both Date objects and ISO strings
+		const date = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
+
+		if (!date.isValid) {
+			return "Invalid Date"; // Handle invalid date cases gracefully
+		}
+
 		const day = date.day;
 		let suffix = "th";
+
 		if (day % 10 === 1 && day !== 11) {
 			suffix = "st";
 		} else if (day % 10 === 2 && day !== 12) {
@@ -80,6 +87,7 @@ export default function (eleventyConfig) {
 		} else if (day % 10 === 3 && day !== 13) {
 			suffix = "rd";
 		}
+
 		return `${date.toFormat("LLLL")} ${day}${suffix}, ${date.toFormat("yyyy")}`;
 	});
 

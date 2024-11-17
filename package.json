@@ -38,6 +38,7 @@
 		"axios": "^1.7.7",
 		"crypto": "^1.0.1",
 		"crypto-js": "^4.2.0",
+		"dotenv": "^16.4.5",
 		"express": "^4.21.1",
 		"fs-extra": "^11.2.0",
 		"image-downloader": "^4.3.0",
