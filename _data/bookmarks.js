@@ -1,38 +1,38 @@
-const EleventyFetch = require("@11ty/eleventy-fetch");
-
 module.exports = async function () {
-	// Your Linkding API base URL and endpoint
-	const linkdingApiBaseUrl = "https://your-linkding-url/api/bookmarks/";
-	const apiKey = process.env.LINKDING_API; // Use the Vercel environment variable
+	const fetch = (await import("node-fetch")).default;
+
+	const API_BASE_URL = "https://saved.forthaynes.com/api/bookmarks/";
+	const API_KEY = process.env.LINKDING_API; // Using Vercel's environment variable
+
+	if (!API_KEY) {
+		console.error("Missing LINKDING_API environment variable");
+		return [];
+	}
 
 	try {
-		// Append the shared filter to the API URL
-		const apiUrl = `${linkdingApiBaseUrl}?shared=true`;
-
-		// Fetch the bookmarks data using EleventyFetch
-		let bookmarks = await EleventyFetch(apiUrl, {
-			duration: "1h", // Cache for 1 hour
-			type: "json",   // Use JSON as the response type
-			fetchOptions: {
-				headers: {
-					Authorization: `Token ${apiKey}`, // Pass the API key as a Bearer token
-					"Content-Type": "application/json"
-				}
-			}
+		const response = await fetch(API_BASE_URL, {
+			headers: {
+				"Authorization": `Token ${API_KEY}`,
+				"Content-Type": "application/json",
+			},
 		});
 
-		// Transform the data into the desired format
-		return bookmarks.results.map(bookmark => {
-			return {
-				title: bookmark.title,
-				link: bookmark.url,
-				description: bookmark.description || '', // Optional description
-				dateAdded: new Date(bookmark.date_added), // Format date
-				tags: bookmark.tag_names || [] // Extract tags if needed
-			};
-		});
+		if (!response.ok) {
+			console.error(`Failed to fetch bookmarks: ${response.statusText}`);
+			return [];
+		}
+
+		const data = await response.json();
+
+		// Format the data if needed
+		return data.results.map((bookmark) => ({
+			title: bookmark.title,
+			url: bookmark.url,
+			description: bookmark.description,
+			tags: bookmark.tag_names,
+		}));
 	} catch (error) {
-		console.error("Error fetching shared bookmarks from Linkding:", error);
+		console.error("Error fetching bookmarks:", error);
 		return [];
 	}
 };

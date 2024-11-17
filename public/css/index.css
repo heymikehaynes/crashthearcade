@@ -64,7 +64,7 @@ body {
 
 body {
 	max-width: 1020px;
-	margin: 80px auto 24px auto;
+	margin: 80px auto;
 	background-image: url("/img/site-bg.png");
 	background-position: top right;
 	background-repeat: no-repeat;
@@ -72,10 +72,6 @@ body {
 
 html {
 	overflow-y: scroll;
-}
-
-.main-content {
-	margin-bottom: 46px;
 }
 
 header {
@@ -269,15 +265,18 @@ code {
 .nav {
 	list-style: none;
 	padding: 0;
-	margin: 0 0 46px 0;
 }
 
 .nav-toggle {
 	display: none;
 }
 
-.nav li {
+.nav li.nav-item {
 	margin-bottom: 16px;
+}
+
+.nav li.nav-item:last-of-type {
+	margin-bottom: 0px;
 }
 
 .nav-item a {
@@ -539,14 +538,24 @@ footer a:hover {
 
 /* sidebar */
 .sidebar {
-	position: sticky;
+	/* position: sticky;
 	top: 80px;
 	width: 220px;
 	padding: 0 32px 90px 0;
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr auto;
-	row-gap: 64px;
+	row-gap: 64px; */
+}
+
+.sidebar .site-logo-sidebar {
+	position: fixed;
+	top: 80px;
+}
+
+.sidebar nav {
+	position: fixed;
+	bottom: 80px;
 }
 
 /* now */
