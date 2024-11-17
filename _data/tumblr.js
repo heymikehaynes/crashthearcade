@@ -1,3 +1,5 @@
+require("dotenv").config(); // Load environment variables from .env file
+
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const OAuth = require("oauth-1.0a");
 const crypto = require("crypto-js");
