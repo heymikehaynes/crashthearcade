@@ -24,12 +24,14 @@ module.exports = async function () {
 
 		const data = await response.json();
 
-		// Format the data if needed
+		// Format the data to include the image and publication date
 		return data.results.map((bookmark) => ({
 			title: bookmark.title,
 			url: bookmark.url,
 			description: bookmark.description,
 			tags: bookmark.tag_names,
+			dateAdded: bookmark.date_added, // Publication date
+			image: bookmark.website_title_image || "", // Fallback to empty string if no image
 		}));
 	} catch (error) {
 		console.error("Error fetching bookmarks:", error);
