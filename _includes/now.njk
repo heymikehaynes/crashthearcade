@@ -1,22 +1,8 @@
-<!-- <div class="now-reading-block">
+<div class="now-reading-block">
 	{% for post in reading %}
 		<a href="{{ post.link }}" target="_blank"><div class="reading-playing-image"><img src="{{ post.image }}" alt="{{ post.title }}"></div></a>
 		<div class="vert-align-copy"><h3>» Reading</h3><a href="{{ post.link }}" target="_blank">{{ post.title | excerpt(120) }}</a></div>
 	{% endfor %}
-</div> -->
-
-<div class="now-reading-block">
-	{% if recentBook %}
-		<div class="recent-book">
-			<h2>Currently Reading</h2>
-			<a href="{{ recentBook.link }}" target="_blank">
-				<img src="{{ recentBook.image }}" alt="{{ recentBook.title }}">
-				<p>{{ recentBook.title }}</p>
-			</a>
-		</div>
-	{% else %}
-		<p>No books currently marked as "reading".</p>
-	{% endif %}
 </div>
 
 <div class="now-playing-block">
