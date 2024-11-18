@@ -20,3 +20,15 @@ I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assor
 This site is happily built with [Eleventy](https://11ty.dev) and served by [Vercel](https://vercel.com). The theme was designed by me. It is set in Archivo by [Omnibus-Type](https://github.com/Omnibus-Type) and Departure by [Helena Zhang](https://www.helenazhang.com/).
 
 The code for this site is available on [GitHub](https://github.com/heymikehaynes/crashthearcade).
+
+## Feeds
+
+* Blog posts: [JSON](/feed/feed.json) | [RSS](/feed/feed.xml)
+* Bookmarks: [RSS](https://saved.crashthearcade.com/feeds/shared)
+
+## Social media
+
+* [Bluesky](https://bsky.app/profile/crashthearcade.com)
+* [Mastodon](https://social.lol/@crashthearcade)
+* [Pixelfed](https://pixelfed.social/crashthearcade)
+* [Tumblr](https://www.tumblr.com/crashthearcade)
