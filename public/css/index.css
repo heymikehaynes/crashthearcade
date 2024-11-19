@@ -39,8 +39,8 @@
 
 /* Theme colors */
 :root {
-	--primary-accent: #10D275;
-	--secondary-accent: #87E9BA;
+	--primary-accent: #29ADFF;
+	--secondary-accent: #94D6FF;
 	--primary-bg: #08121c;
 	--secondary-bg: #141E27;
 	--primary-text: #FFFFFF;
@@ -96,7 +96,7 @@ h1 {
 	font-size: 64px;
 	line-height: 1.1;
 	font-weight: bold;
-	text-wrap: balance;
+	text-wrap: pretty;
 	font-family: 'Archivo', sans-serif;
 	margin: 0 0 32px 0;
 }
@@ -153,7 +153,7 @@ blockquote {
 	border-left: 10px solid var(--secondary-accent);
 	letter-spacing: 0;
 	font-style: italic;
-	/* text-wrap: balance; */
+	/* text-wrap: pretty; */
 }
 
 .format-quote blockquote, .quote-block blockquote {
@@ -175,6 +175,7 @@ blockquote {
 	font-size: 32px;
 	line-height: 1.4;
 	text-indent: -12px;
+	text-wrap: pretty;
 }
 
 .mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
