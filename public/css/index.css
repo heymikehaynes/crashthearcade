@@ -853,7 +853,11 @@ p.error-text {
 		display: none;
 	}
 
-	.tumblr-block-array, .sidebar nav, .sidebar .site-logo-sidebar {
+	.sidebar nav, .sidebar .site-logo-sidebar {
+		position: static;
+	}
+
+	.tumblr-block-array {
 		display: initial;
 	}
 
