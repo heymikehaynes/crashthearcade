@@ -580,7 +580,7 @@ footer a:hover {
 .now-playing-block, .now-reading-block {
 	display: grid;
 	grid-template-columns: auto 1fr;
-	column-gap: 24px;
+	column-gap: 32px;
 	background: var(--secondary-bg);
 	border-radius: 4px;
 	padding: 0 16px 0 0;
