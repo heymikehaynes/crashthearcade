@@ -592,7 +592,7 @@ footer a:hover {
 }
 
 .now-playing-block img,  .now-reading-block img {
-	height: 140px;
+	height: 180px;
 	width: 140px;
 	object-fit: cover;
 	border-radius: 2px 0 0 2px;
