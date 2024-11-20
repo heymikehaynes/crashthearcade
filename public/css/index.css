@@ -112,6 +112,15 @@ h1 a:hover {
 	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
+.type-page h1:before {
+	content: "";
+	width: 52px;
+	height: 10px;
+	background: var(--primary-accent);
+	display: block;
+	margin-bottom: 42px;
+}
+
 h2 {
 	font-size: 32px;
 	line-height: 1.6;
@@ -171,12 +180,22 @@ blockquote {
 	margin-bottom: 100px;
 }
 
-.format-quote blockquote p, .quote-block blockquote p, .mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
+.mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
+	font-size: 32px;
+	line-height: 1.4;
+	text-indent: -12px;
+	text-wrap: pretty;
+}
+
+.format-quote blockquote p, .quote-block blockquote p {
 	font-size: 32px;
 	line-height: 1.4;
 	text-indent: -12px;
 	text-wrap: pretty;
 	font-style: italic;
+	padding-left: 40px;
+	border-left: 10px solid var(--secondary-accent);
+	letter-spacing: 0;
 }
 
 .mastodon-block .masto-post-body p, .masto-post-body.bluesky-variant {
@@ -307,8 +326,8 @@ code {
 .nav a[aria-current="page"], .nav a:hover {
 	text-decoration: none;
 	color: var(--primary-text);
-	box-shadow: inset 0 -8px 0 var(--primary-accent);
-	padding-bottom: 4px;
+	box-shadow: inset 0 -10px 0 var(--primary-accent);
+	padding-bottom: 5px;
 }
 
 /* Posts list */

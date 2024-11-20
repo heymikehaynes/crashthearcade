@@ -33,7 +33,7 @@
 	</head>
 	<body>
 
-	<div id="container">
+	<div id="container" class="type-{{ type | slugify if type }}">
 
 		<header>
 			{%- include 'sidebar.njk' -%}
