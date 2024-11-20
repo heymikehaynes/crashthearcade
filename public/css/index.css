@@ -121,6 +121,10 @@ h1 a:hover {
 	margin-bottom: 42px;
 }
 
+.tumblr-block-header h1:before {
+	display: none;
+}
+
 h2 {
 	font-size: 32px;
 	line-height: 1.6;
