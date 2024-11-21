@@ -38,6 +38,10 @@ layout: layouts/base.njk
 {% endif %}
 
 <div class="postlist-tags single-tags">
+	{% if sourcename is defined %}
+			<a href="{{ sourceurl }}" class="postlist-tag post-source">Source: {{ sourcename }} ↗</a>
+	{% endif %}
+
 	{% for tag in tags | sort %}
 		{% if tag != "posts" %}
 			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %} {% endif %}

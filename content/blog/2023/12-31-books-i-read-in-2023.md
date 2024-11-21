@@ -6,6 +6,7 @@ tags:
     - Manga
 type: post
 ---
+
 I fell pretty hard into manga last year. In 2023, my tastes continued to evolve. I developed a good understanding of the books I was into and wanted to continue to follow. Here’s the books I made it through this year.
 
 ## Favourite

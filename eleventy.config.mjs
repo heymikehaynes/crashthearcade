@@ -94,13 +94,17 @@ export default function (eleventyConfig) {
 	// Ordinal with Time
 	eleventyConfig.addFilter("ordinalDateWithTime", (dateObj) => {
 		// Handle both Date objects and ISO strings
-		const date = typeof dateObj === "string" ? DateTime.fromISO(dateObj) : DateTime.fromJSDate(dateObj);
+		const date = typeof dateObj === "string"
+			? DateTime.fromISO(dateObj, { zone: "UTC" })
+			: DateTime.fromJSDate(dateObj, { zone: "UTC" });
 
 		if (!date.isValid) {
 			return "Invalid Date"; // Handle invalid date cases gracefully
 		}
 
-		const day = date.day;
+		const dateInCST = date.setZone("America/Winnipeg"); // Adjust to Central Standard Time
+
+		const day = dateInCST.day;
 		let suffix = "th";
 
 		if (day % 10 === 1 && day !== 11) {
@@ -111,8 +115,7 @@ export default function (eleventyConfig) {
 			suffix = "rd";
 		}
 
-		// Combine the ordinal date with the time
-		return `${date.toFormat("LLLL")} ${day}${suffix}, ${date.toFormat("yyyy '@' h:mm a")}`;
+		return `${dateInCST.toFormat("LLLL")} ${day}${suffix}, ${dateInCST.toFormat("yyyy '@' h:mm a")}`;
 	});
 
 	eleventyConfig.addFilter("excerpt", (content, length = 200) => {

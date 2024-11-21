@@ -18,7 +18,7 @@ I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assor
 
 ## Technical stuff
 
-This site is happily built with [Eleventy](https://11ty.dev) and served by [Vercel](https://vercel.com). The theme was designed by me. It is set in Archivo by [Omnibus-Type](https://github.com/Omnibus-Type) and Departure by [Helena Zhang](https://www.helenazhang.com/).
+This site is happily built with [Eleventy](https://11ty.dev) and served by [Vercel](https://vercel.com). The theme was designed by me. It is set in [Archivo](https://www.omnibus-type.com/fonts/archivo/) by Héctor Gatti and Omnibus-Type, and [Departure](https://departuremono.com) by Helena Zhang.
 
 The code for this site is available on [GitHub](https://github.com/heymikehaynes/crashthearcade).
 

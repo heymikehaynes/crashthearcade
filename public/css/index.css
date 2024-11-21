@@ -209,6 +209,10 @@ blockquote {
 	content: "”";
 }
 
+.post-source, .post-source a, .post-source a:visited {
+	color: var(--secondary-text);
+}
+
 .update-block {
 	background: var(--secondary-bg);
 	padding: 32px;
@@ -482,8 +486,12 @@ code {
 	display: inline;
 }
 
+.postlist-tags {
+	margin-top: 36px
+}
+
 .postlist-tags a, a.tag-cluster-item {
-	margin: 36px 8px 0 0;
+	margin: 0 6px 12px 0;
 	padding: 16px 22px;
 	border-radius: 100px;
 	text-decoration: none;
@@ -494,6 +502,7 @@ code {
 	display: inline-block;
 	font-size: 16px;
 	letter-spacing: 1px;
+	word-spacing: -5px;
 }
 
 a.tag-cluster-item {
