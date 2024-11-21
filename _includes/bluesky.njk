@@ -2,7 +2,7 @@
 	{% for post in bluesky %}
 		<div class="mastodon-block-post bluesky-variant">
 			<div class="masto-header-info">
-				<img class="masto-avatar" src="/img/avatar.gif">
+				<img class="masto-avatar" src="/img/avatar-no-bg.png">
 				<div class="masto-user-info">
 					<p class="masto-name"><a href="https://bsky.app/profile/crashthearcade.com">Mike Haynes</a></p>
 					<p class="masto-address">@crashthearcade.com</p>
@@ -11,7 +11,9 @@
 
 			<div class="masto-post-body bluesky-variant">{{ post.description | safe }}</div>
 
-			<time class="postlist-date"><a href="{{ post.link }}">» {{ post.pubDate | ordinalDate }}</a></time>
+			<time class="postlist-date">
+				<a href="{{ post.link }}">{{ post.pubDate | ordinalDateWithTime }}</a>
+			</time>
 		</div>
 	{% endfor %}
 </div>
