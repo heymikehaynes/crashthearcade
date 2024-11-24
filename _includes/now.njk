@@ -1,13 +1,13 @@
 <div class="now-reading-block">
 	{% for post in reading %}
 		<a href="{{ post.link }}"><div class="reading-playing-image"><img src="{{ post.image or '/img/no-cover.png' }}" alt="{{ post.title }}"></div></a>
-		<div class="vert-align-copy"><h3>» Now reading</h3><a href="{{ post.link }}">{{ post.title | excerpt(50) }}</a></div>
+		<div class="vert-align-copy"><h3>» Reading</h3><a href="{{ post.link }}">{{ post.title | excerpt(50) }}</a></div>
 	{% endfor %}
 </div>
 
 <div class="now-playing-block">
 	{% for game in backloggd %}
 		<a href="https://www.backloggd.com/u/crashthearcade/journal/activity/"><div class="reading-playing-image"><img src="{{ game.image or '/img/no-cover.png' }}" alt="{{ game.title }}"></div></a>
-		<div class="vert-align-copy"><h3>» Now playing</h3><a href="https://www.backloggd.com/u/crashthearcade/journal/activity/">{{ game.title | excerpt(50) }}</a></div>
+		<div class="vert-align-copy"><h3>» Playing</h3><a href="https://www.backloggd.com/u/crashthearcade/journal/activity/">{{ game.title | excerpt(50) }}</a></div>
 	{% endfor %}
 </div>

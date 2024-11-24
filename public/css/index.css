@@ -599,7 +599,7 @@ footer a:hover {
 .now-block {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	margin: 52px 0;
+	margin: 52px 0 0 0;
 	column-gap: 24px;
 	row-gap: 24px;
 }
@@ -642,7 +642,7 @@ footer a:hover {
 
 .vert-align-copy {
 	padding: 0 32px 32px 32px;
-	height: 124px;
+	height: 152px;
 }
 
 .now-block .vert-align-copy a {
@@ -855,6 +855,7 @@ p.error-text {
 }
 
 .now-media-block {
+	margin-top: 46px;
 	padding: 32px 32px 8px 32px;
 	background: linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
 	border-radius: 8px;
