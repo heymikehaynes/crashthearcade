@@ -2,24 +2,4 @@
 	<div class=site-logo-sidebar>
 		<a href="/" class="home-link"><img src="/img/cta-text-logo-solid.png"></a>
 	</div>
-
-{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-<nav>
-	<!-- Mobile menu button -->
-	<button class="nav-toggle" aria-label="Toggle navigation">
-		<i class="fa-solid fa-bars"></i>
-	</button>
-
-	<!-- Navigation menu -->
-	<ul class="nav" id="nav-menu">
-		{%- for entry in collections.all | eleventyNavigation %}
-			<li class="nav-item">
-				<a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>
-					{{ entry.title }}
-				</a>
-			</li>
-		{%- endfor %}
-	</ul>
-</nav>
-
 </div>

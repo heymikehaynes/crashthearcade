@@ -1,3 +1,4 @@
+<!--
 ---
 eleventyNavigation:
   title: Bookmarks
@@ -7,3 +8,4 @@ eleventyNavigation:
 permalink: false
 sitemap: false
 ---
+-->

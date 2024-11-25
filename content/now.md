@@ -5,7 +5,7 @@ slug: now
 type: page
 eleventyNavigation:
   key: Now
-  order: 3
+  order: 2
 ---
 
 # Now

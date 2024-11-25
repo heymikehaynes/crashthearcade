@@ -5,7 +5,7 @@ slug: colophon
 type: page
 eleventyNavigation:
   key: Colophon
-  order: 4
+  order: 1
 ---
 
 # Colophon

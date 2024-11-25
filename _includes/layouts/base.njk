@@ -45,12 +45,22 @@
 
 	</div>
 
-	<!-- <footer>
-		<div class="footer-01"></div>
+	<footer>
+		<div class="footer-01">
+			<ul>
+				{%- for entry in collections.all | eleventyNavigation %}
+					<li class="footer-links">
+						<a href="{{ entry.url }}">
+							{{ entry.title }}
+						</a>
+					</li>
+				{%- endfor %}
+			</ul>
+		</div>
 		<div class="footer-02">
 			<div class="footer-links">©2015–2024, crash the arcade. <a href="https://www.11ty.dev/docs/versions/">v3.0.0</a></div>
 		</div>
-	</footer> -->
+	</footer>
 
 	<script src="/_vercel/insights/script.js"></script>
 	<script src="/_vercel/speed-insights/script.js"></script>
