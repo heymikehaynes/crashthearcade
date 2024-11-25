@@ -1,20 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const backToTopButton = document.getElementById("backToTop");
 
-	// Show the button after scrolling down 100px
+	// Adjust the scroll threshold (e.g., 500px) or tie it to a specific section
+	const scrollThreshold = 1600;
+
 	window.addEventListener("scroll", () => {
-		if (window.scrollY > 100) {
+		if (window.scrollY > scrollThreshold) {
 			backToTopButton.classList.add("show");
 		} else {
 			backToTopButton.classList.remove("show");
 		}
 	});
 
-	// Scroll back to top when the button is clicked
 	backToTopButton.addEventListener("click", () => {
 		window.scrollTo({
 			top: 0,
-			behavior: "smooth"
+			behavior: "smooth",
 		});
 	});
 });
