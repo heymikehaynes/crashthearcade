@@ -64,7 +64,7 @@ body {
 
 body {
 	max-width: 746px;
-	margin: 80px auto;
+	margin: 80px auto 24px auto;
 	background-image: url("/img/site-bg.png");
 	background-position: top right;
 	background-repeat: no-repeat;
@@ -358,7 +358,7 @@ code {
 	text-decoration: underline;
 }
 
-.post-item {
+.single, .post-item {
 	margin-bottom: 100px;
 }
 
@@ -428,9 +428,6 @@ code {
 }
 
 .homemarks-block {
-	/* background:
-	url("/img/bookmarks-bg.png") no-repeat top right,
-	linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg)); */
 	background: linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
 	padding: 32px;
 	border-radius: 8px;
@@ -579,6 +576,35 @@ footer a:hover {
 	background: var(--primary-accent);
 	color: var(--primary-text);
 	text-decoration: none;
+}
+
+/* Back to top */
+.back-to-top {
+	font-family: 'Departure', monospace;
+	font-size: 22px;
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+	padding: 12px 20px;
+	background-color: var(--secondary-bg);
+	color: var(--secondary-text);
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top:hover {
+	background: var(--primary-accent);
+	color: var(--primary-text);
+	transition: all .1s ease;
+}
+
+.back-to-top.show {
+	opacity: 1;
+	visibility: visible;
 }
 
 /* now */

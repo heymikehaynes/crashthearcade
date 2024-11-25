@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # Uses
 
-#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done. Full disclosure, my list is a bit bland. I use a lot of Apple devices and services and don't usually veer far from that.
+#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done.
 
 ## Hardware
 

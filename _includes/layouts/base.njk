@@ -33,16 +33,20 @@
 	</head>
 	<body>
 
+	<header>
+		<div class=site-logo-sidebar>
+			<a href="/" class="home-link"><img src="/img/cta-text-logo-solid.png"></a>
+		</div>
+	</header>
+
 	<div id="container" class="type-{{ type | slugify if type }}">
-
-		<header>
-			{%- include 'sidebar.njk' -%}
-		</header>
-
 		<div class="main-content style-{{ slug or 'default' | slugify }}">
 			{{ content | safe }}
 		</div>
 
+		<button id="backToTop" class="back-to-top" aria-label="Back to top">
+			↑
+		</button>
 	</div>
 
 	<footer>
@@ -64,6 +68,7 @@
 
 	<script src="/_vercel/insights/script.js"></script>
 	<script src="/_vercel/speed-insights/script.js"></script>
+	<script src="/js/back-to-top.js" defer></script>
 	<script>
 		document.querySelector('.nav-toggle').addEventListener('click', function() {
 			document.getElementById('nav-menu').classList.toggle('active');
