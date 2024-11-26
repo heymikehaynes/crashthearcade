@@ -18,15 +18,17 @@ eleventyNavigation:
   * Mouse: Apple Magic Mouse, Black
 * Desk: IKEA UTESPELARE, White
 * Chair: IKEA HATTEFJÄLL, Grey/White
-* Display: LG 27QN600, 27"
+* Displays:
+  * LG 27QN600, 27"
+  * Samsung S24R350FHN, 24"
 * Audio: Apple HomePod mini, Space Grey
 * Phone: iPhone 16 Plus, 128GB, Black
 * Watch: Apple Watch Series 7, 45mm, Midnight
 * Tablet: iPad Air, 11", 6th gen, Space Grey
   * Mouse: Logitech Pebble i345, Black
 * Headphones:
-  * Apple AirPods, 3rd gen
-  * Apple AirPods Max, Space Grey
+  * AirPods (with ANC), 4th gen
+  * Apple AirPods Max, 1st gen, Space Grey
 * Gaming consoles:
   * Xbox Series X, Black
   * PlayStation 5, White
@@ -45,7 +47,7 @@ eleventyNavigation:
 * RSS: FreshRSS and Reeder
 * Read later: Linkding
 * Browser: Safari
-* Chat: Messages
+* Chat: Messages and Discord
 * Music: Apple Music
 * Podcasts: Apple Podcasts
 * Passwords: Apple Passwords
