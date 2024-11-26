@@ -1,10 +1,10 @@
 ---
 layout: layouts/home.njk
-permalink: /colophon/
-slug: colophon
+permalink: /about/
+slug: about
 type: page
 eleventyNavigation:
-  key: Colophon
+  key: About
   order: 1
 ---
 
