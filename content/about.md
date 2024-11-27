@@ -8,13 +8,19 @@ eleventyNavigation:
   order: 1
 ---
 
-# Colophon
+# About
 
 #### Pixels and code. Also coffee.
 
 I’m Mike, a designer and hobbyist developer who loves video games, manga, and technology. I ran a comic book news and review site in my past life, which helped me build a strong foundation in web design and WordPress development. I’ve also co-hosted several podcasts and a college radio show on comics.
 
 I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of dogs and cats.
+
+## Some favourites
+
+<div class="favourites-block">
+	{%- include 'favourites.njk' -%}
+</div>
 
 ## Technical stuff
 
