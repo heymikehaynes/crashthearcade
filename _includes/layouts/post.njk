@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <div class="format-{{ type }} single">
 
 <time class="postlist-date" datetime="{{ date | htmlDateString }}">
-	» {{ date | ordinalDate }}
+	> {{ date | ordinalDate }}
 </time>
 
 <h1 class="postlist-title"><a href="#">{{ title }}</a></h1>
@@ -30,7 +30,7 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
-{% if post.data.update %}
+<!-- {% if post.data.update %}
 	<div class="update-block">
 		<h3>Update</h3>
 		<p>{{ post.data.update | safe }}</p>
@@ -47,6 +47,6 @@ layout: layouts/base.njk
 			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %} {% endif %}
 		{% endif %}
 	{% endfor %}
-</div>
+</div> -->
 
 </div>

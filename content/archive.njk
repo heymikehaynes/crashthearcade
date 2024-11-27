@@ -29,7 +29,7 @@ slug: archive
 	<h2 id="year-{{ entry.year }}">{{ entry.year }}</h2>
 	{% for post in entry.posts %}
 		<div class="archive-post format-{{ post.data.type }}">
-			<p class="bookmark-list-date"><a href="{{ post.url }}">» {{ post.date | ordinalDate }}</a></p>
+			<p class="bookmark-list-date"><a href="{{ post.url }}">> {{ post.date | ordinalDate }}</a></p>
 			{% if post.data.title %}
 				<h5><a href="{{ post.url }}">{{ post.data.title }}</a></h5>
 			{% endif %}

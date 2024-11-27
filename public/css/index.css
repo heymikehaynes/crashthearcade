@@ -37,6 +37,14 @@
 	font-style: normal;
 }
 
+/* Outpost */
+@font-face {
+	font-family: Outpost;
+	src: url(/fonts/outpost/outpost.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Theme colors */
 :root {
 	--primary-accent: #29ADFF;
@@ -65,9 +73,6 @@ body {
 body {
 	max-width: 746px;
 	margin: 80px auto 24px auto;
-	/* background-image: url("/img/site-bg.png");
-	background-position: top right;
-	background-repeat: no-repeat; */
 }
 
 html {
@@ -81,6 +86,13 @@ header {
 a.home-link {
 	position: absolute;
 	margin-left: -142px;
+	opacity: .35;
+	filter: grayscale(100%);
+}
+
+a.home-link:hover {
+	opacity: 1;
+	filter: none;
 }
 
 a.home-link img {
@@ -97,6 +109,12 @@ p:last-child {
 
 p {
 	line-height: 1.6;
+}
+
+.type-page h1 {
+	font-family: 'Outpost', 'Archivo', sans-serif;
+	font-size: 58px;
+	text-transform: uppercase;
 }
 
 h1 {
@@ -119,35 +137,36 @@ h1 a:hover {
 	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
-/* .type-page h1:before {
+.type-page h1:before {
 	content: "";
 	width: 52px;
 	height: 10px;
 	background: var(--primary-accent);
 	display: block;
-	margin-bottom: 42px;
-} */
+	margin-bottom: 52px;
+}
 
 .tumblr-block-header h1:before {
 	display: none;
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 1.6;
 	font-weight: bold;
 	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
 	margin-top: 42px;
-	font-family: 'Archivo', sans-serif;
+	font-family: 'Outpost', monospace;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 16px;
 	line-height: 1.4;
 	font-weight: normal;
-	margin: 0 0 9px 0;
-	font-family: 'Departure', monospace;
+	margin: 0 0 16px 0;
+	font-family: 'Outpost', monospace;
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
 	color: var(--primary-accent);
@@ -307,7 +326,7 @@ code {
 }
 
 .nav-item a {
-	font-family: 'Departure', monospace;
+	font-family: 'Outpost', monospace;
 	font-size: 24px;
 	line-height: 90%;
 	text-decoration: none;
@@ -336,9 +355,9 @@ code {
 }
 
 .postlist-date {
-	font-family: 'Departure', monospace;
-	margin-bottom: 28px;
-	font-size: 16px;
+	font-family: 'Outpost', monospace;
+	margin-bottom: 36px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
@@ -416,8 +435,8 @@ code {
 
 .bookmark-list-date {
 	margin: 24px 24px 12px 24px;
-	font-family: 'Departure', monospace;
-	font-size: 16px;
+	font-family: 'Outpost', monospace;
+	font-size: 13px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
 	display: block;
@@ -446,7 +465,9 @@ code {
 }
 
 .homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1 {
-	font-size: 32px;
+	font-family: 'Outpost', monospace;
+	text-transform: uppercase;
+	font-size: 24px;
 	margin: 0;
 }
 
@@ -487,14 +508,14 @@ code {
 	padding: 16px 22px;
 	border-radius: 100px;
 	text-decoration: none;
-	font-family: 'Departure', monospace;
+	font-family: 'Archivo', monospace;
 	text-transform: uppercase;
 	background: var(--secondary-bg);
 	color: var(--secondary-text);
 	display: inline-block;
 	font-size: 16px;
+	font-weight: bold;
 	letter-spacing: 1px;
-	word-spacing: -5px;
 }
 
 a.tag-cluster-item {
@@ -502,7 +523,7 @@ a.tag-cluster-item {
 }
 
 .tags-cluster {
-	margin-top: 36px;
+	margin-top: 18px;
 }
 
 .archive-navigation li a {
@@ -562,10 +583,11 @@ footer a:hover {
 	border-radius: 100px;
 	padding: 15px 12px;
 	display: block;
-	font-family: 'Departure', monospace;
-	font-size: 16px;
+	font-family: 'Outpost', monospace;
+	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none;
+	letter-spacing: 2px;
 	color: var(--secondary-text);
 }
 
@@ -576,6 +598,10 @@ footer a:hover {
 }
 
 /* About favourites */
+
+.favourites-block {
+	margin-top: 32px;
+}
 
 .favourites-reading-block, .favourites-playing-block {
 	display: grid;
@@ -607,12 +633,12 @@ footer a:hover {
 
 /* Back to top */
 .back-to-top {
-	font-family: 'Departure', monospace;
-	font-size: 22px;
+	font-family: 'Outpost', monospace;
+	font-size: 16px;
 	position: fixed;
 	bottom: 32px;
 	right: 32px;
-	padding: 12px 20px;
+	padding: 12px 16px 12px 18px;
 	background-color: var(--secondary-bg);
 	color: var(--secondary-text);
 	border: none;
@@ -681,7 +707,7 @@ footer a:hover {
 
 .vert-align-copy {
 	padding: 0 32px 32px 32px;
-	height: 120px;
+	height: 128px;
 }
 
 .now-block .vert-align-copy a {
@@ -698,7 +724,7 @@ footer a:hover {
 
 /* archive */
 .archive-post .bookmark-list-date {
-	margin: 24px 0 0 0;
+	margin: 24px 0 16px 0;
 }
 
 .archive-post p:last-of-type {
