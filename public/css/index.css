@@ -65,9 +65,9 @@ body {
 body {
 	max-width: 746px;
 	margin: 80px auto 24px auto;
-	background-image: url("/img/site-bg.png");
+	/* background-image: url("/img/site-bg.png");
 	background-position: top right;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 }
 
 html {
@@ -76,6 +76,19 @@ html {
 
 header {
 	margin-bottom: 100px;
+}
+
+a.home-link {
+	position: absolute;
+	margin-left: -132px;
+}
+
+a.home-link img {
+	width: 70px;
+}
+
+a.home-link-mobile {
+	display: none;
 }
 
 p:last-child {
@@ -273,22 +286,6 @@ code {
 
 code {
 	word-break: break-all;
-}
-
-/* Header */
-.home-link {
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
-	margin-right: 2em;
-}
-
-.home-link img {
-	width: 160px;
-	height: auto;
-}
-
-.home-link:link:not(:hover) {
-	text-decoration: none;
 }
 
 /* Nav */
@@ -928,6 +925,18 @@ p.error-text {
 		margin-bottom: 110px;
 		display: grid;
 		grid-template-columns: 1fr auto;
+	}
+
+	a.home-link-mobile {
+		display: block;
+	}
+
+	a.home-link {
+		display: none;
+	}
+
+	a.home-link-mobile img {
+		width: 180px;
 	}
 
 	.socials, .masto-logo-link, .masto-avatar {
