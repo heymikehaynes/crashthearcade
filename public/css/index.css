@@ -40,7 +40,7 @@
 /* Outpost */
 @font-face {
 	font-family: Outpost;
-	src: url(/fonts/outpost/outpost.ttf);
+	src: url(/fonts/outpost/outpost.woff);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -52,7 +52,7 @@
 	--primary-bg: #08121c;
 	--secondary-bg: #141E27;
 	--primary-text: #FFFFFF;
-	--secondary-text: #4b525a;
+	--secondary-text: #60656B;
 }
 
 /* Global stylesheet */
@@ -129,6 +129,7 @@ h1 {
 h1 a {
 	text-decoration: none;
 	color: var(--primary-text);
+	box-shadow: inset 0 -16px 0 var(--secondary-text);
 }
 
 h1 a:hover {
@@ -162,7 +163,7 @@ h2 {
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.4;
 	font-weight: normal;
 	margin: 0 0 16px 0;
@@ -256,7 +257,7 @@ li {
 }
 
 li ul li:first-of-type {
-		margin-top: 24px;
+	margin-top: 18px;
 }
 
 .type-uses li ul li:first-of-type {
@@ -356,7 +357,7 @@ code {
 
 .postlist-date {
 	font-family: 'Outpost', monospace;
-	margin-bottom: 36px;
+	margin-bottom: 28px;
 	font-size: 14px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -434,9 +435,9 @@ code {
 }
 
 .bookmark-list-date {
-	margin: 24px 24px 12px 24px;
+	margin: 24px 24px 18px 24px;
 	font-family: 'Outpost', monospace;
-	font-size: 13px;
+	font-size: 14px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
 	display: block;
@@ -552,7 +553,7 @@ footer ul {
 
 footer li.footer-links {
 	display: inline;
-	margin-right: 8px;
+	margin-right: 14px;
 }
 
 footer .footer-links:last-of-type {
@@ -715,7 +716,7 @@ footer a:hover {
 }
 
 .style-now ul li {
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
 .style-now ul li:last-of-type {

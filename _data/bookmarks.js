@@ -1,42 +1,55 @@
-require("dotenv").config(); // Load environment variables from .env file
-
 const EleventyFetch = require("@11ty/eleventy-fetch");
+const Parser = require("rss-parser");
+const sanitizeHtml = require("sanitize-html");
+const parser = new Parser();
 
-module.exports = async function () {
-	const API_BASE_URL = "https://saved.crashthearcade.com/api/bookmarks/";
-	const API_KEY = process.env.LINKDING_API; // Using Vercel's environment variable
-
-	if (!API_KEY) {
-		console.error("Missing LINKDING_API environment variable");
-		return [];
-	}
-
-	try {
-		// Use Eleventy Fetch to cache the API response
-		const data = await EleventyFetch(API_BASE_URL, {
-			duration: "1h", // Cache for 1 day
-			type: "json", // Parse as JSON
-			fetchOptions: {
-				headers: {
-					"Authorization": `Token ${API_KEY}`,
-					"Content-Type": "application/json",
-				},
-			},
+// Function to extract only images
+function extractImagesOnly(html) {
+		let sanitizedHtml = sanitizeHtml(html, {
+				allowedTags: ['img'], // Allow only <img> tags
+				allowedAttributes: {
+						'img': ['src', 'alt', 'title'] // Allow relevant attributes for <img>
+				}
 		});
 
-		// Filter and map the bookmarks as needed
-		const sharedBookmarks = data.results
-			.filter((bookmark) => bookmark.shared) // Only include shared bookmarks
-			.slice(0, 8); // Limit to 8 bookmarks
+		// Extract the first <img> tag's src
+		let match = sanitizedHtml.match(/<img[^>]+src="([^"]+)"/);
+		if (match && match[1]) {
+				return match[1]; // Return the image URL
+		}
 
-		return sharedBookmarks.map((bookmark) => ({
-			link: bookmark.url, // URL for the bookmark
-			image: bookmark.preview_image_url || bookmark.website_title_image || "/img/link-default-img.png", // Use preview image if available, fallback to title image or default
-			pubDate: bookmark.date_added, // Publication date (ISO string)
-			title: bookmark.title, // Bookmark title
-		}));
-	} catch (error) {
-		console.error("Error fetching bookmarks:", error);
-		return [];
-	}
+		return null; // Return null if no image is found
+}
+
+module.exports = async function () {
+		let rssUrl = "https://bg.raindrop.io/rss/public/50048104"; // Replace with your RSS feed URL
+
+		try {
+				let xml = await EleventyFetch(rssUrl, {
+						duration: "1h", // Cache for 1 hour
+						type: "text"
+				});
+
+				let feed = await parser.parseString(xml);
+
+				return feed.items.slice(0, 8).map(item => {
+						let description = item.content || item['content:encoded'] || item.description;
+
+						// Extract only the image URL from the description
+						let imageUrl = extractImagesOnly(description);
+
+						return {
+								...item,
+								pubDate: new Date(item.pubDate),
+								image: imageUrl, // Add image URL as a separate field
+								description: sanitizeHtml(description, {
+										allowedTags: [], // Strip all HTML tags
+										allowedAttributes: {} // Strip all attributes
+								}) // Use plain text for description
+						};
+				});
+		} catch (error) {
+				console.error("Error fetching RSS feed:", error);
+				return [];
+		}
 };

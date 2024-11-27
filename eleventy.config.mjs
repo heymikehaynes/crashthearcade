@@ -37,8 +37,8 @@ export default function (eleventyConfig) {
 		satoriOptions: {
 			fonts: [
 				{
-					name: 'Departure',
-					data: fs.readFileSync('public/fonts/departure/DepartureMono-Regular.woff'),
+					name: 'Outpost',
+					data: fs.readFileSync('public/fonts/outpost/outpost.woff'),
 					weight: 400,
 					style: 'normal',
 				},
