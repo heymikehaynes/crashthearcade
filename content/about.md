@@ -33,7 +33,7 @@ The code for this site is available on [GitHub](https://github.com/heymikehaynes
 * Blog posts: [JSON](/feed/feed.json) | [RSS](/feed/feed.xml)
 * Bookmarks: [RSS](https://saved.crashthearcade.com/feeds/shared)
 
-## Social media
+## Socials
 
 * [Backloggd](https://www.backloggd.com/u/crashthearcade/)
 * [Bluesky](https://bsky.app/profile/crashthearcade.com)
