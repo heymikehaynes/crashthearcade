@@ -133,7 +133,7 @@ h1 a:hover {
 }
 
 .type-page h1 {
-	font-family: 'Outpost', 'Archivo', sans-serif;
+	font-family: 'Outpost', monospace;
 	font-size: 52px;
 	text-transform: uppercase;
 }
@@ -160,6 +160,7 @@ h2 {
 	margin-top: 42px;
 	font-family: 'Outpost', monospace;
 	text-transform: uppercase;
+	letter-spacing: 0.75px;
 }
 
 h3 {
@@ -804,9 +805,49 @@ a.masto-logo-link:hover {
 /* pixelfed block */
 .gallery-block-array {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 24px;
-	margin-top: 32px;
+	grid-template-columns: repeat(6, minmax(auto, 1fr));
+	grid-auto-rows: 24px;
+	gap: 24px;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(2) {
+	grid-column: span 2;
+	grid-row: span 5;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(5) {
+	grid-column: span 4;
+	grid-row: span 10;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(8) {
+	grid-column: span 2;
+	grid-row: span 5;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(11) {
+	grid-column: span 3;
+	grid-row: span 7;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(14) {
+	grid-column: span 3;
+	grid-row: span 7;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(17) {
+	grid-column: span 4;
+	grid-row: span 10;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(20) {
+	grid-column: span 2;
+	grid-row: span 5;
+}
+
+.gallery-block-array .gallery-block-post:nth-child(23) {
+	grid-column: span 2;
+	grid-row: span 5;
 }
 
 .gallery-block-array p {
@@ -815,10 +856,14 @@ a.masto-logo-link:hover {
 
 .gallery-block-post img {
 	width: 100%;
-	height: 211px;
+	height: -webkit-fill-available;
+	height: -moz-available;
+	height: fill-available;
 	object-fit: cover;
-	border-radius: 2px;
-	margin-bottom: 20px;
+}
+
+.now-media-block .more-button-style {
+	margin-top: 24px;
 }
 
 /* tumblr block */
@@ -964,13 +1009,6 @@ p.error-text {
 		border-right: 0;
 	}
 
-	.sidebar {
-		width: 100%;
-		margin-bottom: 110px;
-		display: grid;
-		grid-template-columns: 1fr auto;
-	}
-
 	a.home-link-mobile {
 		display: block;
 	}
@@ -995,15 +1033,27 @@ p.error-text {
 		display: initial;
 	}
 
-	.tumblr-block-post img {
+	.tumblr-block-post img, .gallery-block-post img {
+		width: 100%;
 		height: auto;
+		margin-bottom: 12px;
+		display: block;
+	}
+
+	.gallery-block-array {
+		display: block;
+	}
+
+	.gallery-block-array .gallery-block-post {
+		grid-column: initial;
+		grid-row: initial;
 	}
 
 	.tumblr-block-post img:not(:first-child) {
 		display: none;
 	}
 
-	.bookmark-block, .now-block, .gallery-block-array, .bookmark-block-home {
+	.bookmark-block, .now-block, .bookmark-block-home {
 		grid-template-columns: 1fr;
 	}
 
@@ -1014,6 +1064,15 @@ p.error-text {
 
 	.now-playing-block {
 		margin-top: 16px;
+	}
+
+	.favourites-reading-block, .favourites-playing-block {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.favourites-reading-block .favourite-book-block:nth-of-type(5),
+	.favourites-playing-block .favourite-game-block:nth-of-type(5) {
+		display: none;
 	}
 
 	.nav {
