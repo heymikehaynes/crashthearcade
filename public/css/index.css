@@ -932,8 +932,8 @@ p.error-text {
 }
 
 .lightboxOverlay {
-	background: var(--secondary-bg);
-	opacity: .8;
+	background: var(--primary-bg);
+	opacity: .75;
 }
 
 @media only screen and (max-width: 1100px) {
