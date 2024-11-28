@@ -31,7 +31,7 @@ The code for this site is available on [GitHub](https://github.com/heymikehaynes
 ## Feeds
 
 * Blog posts: [JSON](/feed/feed.json) | [RSS](/feed/feed.xml)
-* Bookmarks: [RSS](https://saved.crashthearcade.com/feeds/shared)
+* Bookmarks: [RSS](https://raindrop.io/collection/50048104/feed)
 
 ## Socials
 
