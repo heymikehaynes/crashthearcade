@@ -3,22 +3,26 @@ const Parser = require("rss-parser");
 const sanitizeHtml = require("sanitize-html");
 const parser = new Parser();
 
-// Function to extract only images
-function extractImagesOnly(html) {
+// Function to extract the first image URL from HTML
+function extractImageSrc(html) {
 		let sanitizedHtml = sanitizeHtml(html, {
 				allowedTags: ['img'], // Allow only <img> tags
 				allowedAttributes: {
-						'img': ['src', 'alt', 'title'] // Allow relevant attributes for <img>
+						'img': ['src'] // Allow only the src attribute for <img>
 				}
 		});
 
 		// Extract the first <img> tag's src
 		let match = sanitizedHtml.match(/<img[^>]+src="([^"]+)"/);
-		if (match && match[1]) {
-				return match[1]; // Return the image URL
-		}
+		return match ? match[1] : null; // Return the image URL or null if not found
+}
 
-		return null; // Return null if no image is found
+// Function to strip images and return plain text description
+function stripImagesFromDescription(html) {
+		return sanitizeHtml(html, {
+				allowedTags: [], // Remove all tags
+				allowedAttributes: {} // Remove all attributes
+		});
 }
 
 module.exports = async function () {
@@ -35,17 +39,17 @@ module.exports = async function () {
 				return feed.items.slice(0, 8).map(item => {
 						let description = item.content || item['content:encoded'] || item.description;
 
-						// Extract only the image URL from the description
-						let imageUrl = extractImagesOnly(description);
+						// Extract the image URL from the description
+						let imageUrl = extractImageSrc(description);
+
+						// Strip images and retain plain text in the description
+						let cleanDescription = stripImagesFromDescription(description);
 
 						return {
-								...item,
+								title: item.title || "Untitled", // Extract title
 								pubDate: new Date(item.pubDate),
-								image: imageUrl, // Add image URL as a separate field
-								description: sanitizeHtml(description, {
-										allowedTags: [], // Strip all HTML tags
-										allowedAttributes: {} // Strip all attributes
-								}) // Use plain text for description
+								image: imageUrl, // Extracted image URL
+								description: cleanDescription // Plain text description
 						};
 				});
 		} catch (error) {
