@@ -9,6 +9,7 @@
 		<link rel="me" href="https://mastodon.social/@crashthearcade">
 		<meta name="fediverse:creator" content="@crashthearcade@social.lol">
 		<meta name="description" content="{{ description or metadata.description }}">
+		<link href="/css/lightbox.min.css" rel="stylesheet">
 
 		{#- Opengraph #}
 		<meta property="og:title" content="{{ title | safe }}">
@@ -70,6 +71,7 @@
 	<script src="/_vercel/insights/script.js"></script>
 	<script src="/_vercel/speed-insights/script.js"></script>
 	<script src="/js/back-to-top.js" defer></script>
+	<script src="/js/lightbox.min.js"></script>
 	<script>
 		document.querySelector('.nav-toggle').addEventListener('click', function() {
 			document.getElementById('nav-menu').classList.toggle('active');

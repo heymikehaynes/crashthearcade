@@ -1,7 +1,7 @@
 <div class="gallery-block-array">
 	{% for post in gallery %}
 		<div class="gallery-block-post">
-			<a href="{{ post.link }}"><div><img src="{{ post.image }}"></div></a>
+			<a href="{{ post.image }}" data-lightbox="gallery"><div><img src="{{ post.image }}"></div></a>
 		</div>
 	{% endfor %}
 </div>
