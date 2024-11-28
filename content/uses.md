@@ -45,7 +45,7 @@ eleventyNavigation:
 * Photos: Apple Photos
 * Cloud storage: iCloud Drive
 * RSS: FreshRSS and Reeder
-* Read later: Linkding
+* Read later: Raindrop.io
 * Browser: Safari
 * Chat: Messages and Discord
 * Music: Apple Music

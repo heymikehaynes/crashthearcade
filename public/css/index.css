@@ -860,6 +860,7 @@ a.masto-logo-link:hover {
 	height: -moz-available;
 	height: fill-available;
 	object-fit: cover;
+	border-radius: 2px;
 }
 
 .now-media-block .more-button-style {
@@ -963,6 +964,7 @@ p.error-text {
 	height: -moz-available;
 	height: fill-available;
 	object-fit: cover;
+	border-radius: 2px;
 }
 
 .now-media-block {
