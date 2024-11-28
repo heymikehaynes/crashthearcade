@@ -28,8 +28,8 @@ eleventyNavigation:
 <div class="now-media-block">
 	<div class="tumblr-block-header">
 		<img src="/img/card-badge-images.png">
-		<h1>Visuals</h1>
+		<p class="block-heading-title">Visuals</p>
 	</div>
-	{%- include 'pixelfed.njk' -%}
-	<div class="more-button-style"><a href="https://pixelfed.social/@crashthearcade">More »</a></div>
+	{%- include 'gallery.njk' -%}
+	<div class="more-button-style"><a href="https://raindrop.io/crashthearcade/visuals-50066445">More »</a></div>
 </div>

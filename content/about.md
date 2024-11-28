@@ -35,7 +35,7 @@ The code for this site is available on [GitHub](https://github.com/heymikehaynes
 
 ## Socials
 
-* [Backloggd](https://www.backloggd.com/u/crashthearcade/)
+* [Backloggd](https://www.backloggd.com/u/crashthearcade)
 * [Bluesky](https://bsky.app/profile/crashthearcade.com)
-* [Pixelfed](https://pixelfed.social/crashthearcade)
+* [Mastodon](https://mastodon.social/@crashthearcade)
 * [Tumblr](https://www.tumblr.com/crashthearcade)

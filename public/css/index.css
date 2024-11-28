@@ -111,12 +111,6 @@ p {
 	line-height: 1.6;
 }
 
-.type-page h1 {
-	font-family: 'Outpost', 'Archivo', sans-serif;
-	font-size: 58px;
-	text-transform: uppercase;
-}
-
 h1 {
 	font-size: 64px;
 	line-height: 1.1;
@@ -136,6 +130,12 @@ h1 a:hover {
 	text-decoration: none;
 	color: var(--primary-text);
 	box-shadow: inset 0 -16px 0 var(--primary-accent);
+}
+
+.type-page h1 {
+	font-family: 'Outpost', 'Archivo', sans-serif;
+	font-size: 52px;
+	text-transform: uppercase;
 }
 
 .type-page h1:before {
@@ -460,12 +460,12 @@ code {
 
 .homemarks-block-header img, .tumblr-block-header img {
 	background: var(--primary-accent);
-	width: 26px;
+	width: 28px;
 	height: auto;
 	margin-right: 12px;
 }
 
-.homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1 {
+.homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1, .block-heading-title {
 	font-family: 'Outpost', monospace;
 	text-transform: uppercase;
 	font-size: 24px;
@@ -802,18 +802,18 @@ a.masto-logo-link:hover {
 }
 
 /* pixelfed block */
-.pixelfed-block-array {
+.gallery-block-array {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 24px;
 	margin-top: 32px;
 }
 
-.pixelfed-block p, .now-media-block p {
+.gallery-block-array p {
 	display: none;
 }
 
-.pixelfed-block-post img {
+.gallery-block-post img {
 	width: 100%;
 	height: 211px;
 	object-fit: cover;
@@ -844,7 +844,7 @@ p.error-text {
 	border-radius: 8px;
 }
 
-.tumblr-block h3, .now-media-block h3, .pixelfed-block h3 {
+.tumblr-block h3, .now-media-block h3, .gallery-block h3 {
 	margin-bottom: 24px;
 }
 
@@ -939,6 +939,14 @@ p.error-text {
 		font-size: 52px;
 	}
 
+	.type-page h1 {
+		font-size: 46px;
+	}
+
+	h4 {
+		font-size: 28px;
+	}
+
 	#container {
 		display: block;
 	}
@@ -963,7 +971,7 @@ p.error-text {
 	}
 
 	a.home-link-mobile img {
-		width: 180px;
+		width: 160px;
 	}
 
 	.socials, .masto-logo-link, .masto-avatar {
@@ -978,11 +986,15 @@ p.error-text {
 		display: initial;
 	}
 
+	.tumblr-block-post img {
+		height: auto;
+	}
+
 	.tumblr-block-post img:not(:first-child) {
 		display: none;
 	}
 
-	.bookmark-block, .now-block, .pixelfed-block-array, .bookmark-block-home {
+	.bookmark-block, .now-block, .gallery-block-array, .bookmark-block-home {
 		grid-template-columns: 1fr;
 	}
 
