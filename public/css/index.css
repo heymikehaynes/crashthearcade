@@ -927,6 +927,15 @@ p.error-text {
 	border-radius: 8px;
 }
 
+.lightbox .lb-image {
+	border: 0px;
+}
+
+.lightboxOverlay {
+	background: var(--secondary-bg);
+	opacity: .8;
+}
+
 @media only screen and (max-width: 1100px) {
 
 	body {
