@@ -31,6 +31,6 @@
 
 <div class="og-root">
 	<img class="site-logo-og" src="https://crashthearcade.com/img/site-logo.png">
-	<h1 class="title">{{ title or "crash the arcade" | safe }}</h1>
+	<h1 class="title">{{ (title | decodeURIComponent | safe) or "crash the arcade" }}</h1>
 	<h2>crashthearcade.com</h2>
 </div>
