@@ -39,8 +39,8 @@
 
 /* Outpost */
 @font-face {
-	font-family: Outpost;
-	src: url(/fonts/outpost/outpost.woff);
+	font-family: Decimal;
+	src: url(/fonts/outpost/decimal.woff);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -133,7 +133,7 @@ h1 a:hover {
 }
 
 .type-page h1 {
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	font-size: 52px;
 	text-transform: uppercase;
 }
@@ -158,7 +158,7 @@ h2 {
 	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
 	margin-top: 42px;
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	text-transform: uppercase;
 	letter-spacing: 0.75px;
 }
@@ -168,7 +168,7 @@ h3 {
 	line-height: 1.4;
 	font-weight: normal;
 	margin: 0 0 16px 0;
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
 	color: var(--primary-accent);
@@ -328,7 +328,7 @@ code {
 }
 
 .nav-item a {
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	font-size: 24px;
 	line-height: 90%;
 	text-decoration: none;
@@ -357,7 +357,7 @@ code {
 }
 
 .postlist-date {
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	margin-bottom: 28px;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -437,7 +437,7 @@ code {
 
 .bookmark-list-date {
 	margin: 24px 24px 18px 24px;
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
@@ -467,7 +467,7 @@ code {
 }
 
 .homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1, .block-heading-title {
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	text-transform: uppercase;
 	font-size: 24px;
 	margin: 0;
@@ -585,7 +585,7 @@ footer a:hover {
 	border-radius: 100px;
 	padding: 15px 12px;
 	display: block;
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -635,7 +635,7 @@ footer a:hover {
 
 /* Back to top */
 .back-to-top {
-	font-family: 'Outpost', monospace;
+	font-family: 'Decimal', monospace;
 	font-size: 16px;
 	position: fixed;
 	bottom: 32px;
@@ -1033,6 +1033,10 @@ p.error-text {
 
 	.tumblr-block-array {
 		display: initial;
+	}
+
+	.favourites-reading-block, .favourites-playing-block {
+		row-gap: 12px;
 	}
 
 	.tumblr-block-post img, .gallery-block-post img {
