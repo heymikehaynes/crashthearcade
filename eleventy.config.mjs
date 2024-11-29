@@ -37,8 +37,8 @@ export default function (eleventyConfig) {
 		satoriOptions: {
 			fonts: [
 				{
-					name: 'Outpost',
-					data: fs.readFileSync('public/fonts/outpost/outpost.woff'),
+					name: 'Decimal',
+					data: fs.readFileSync('public/fonts/decimal/decimal.woff'),
 					weight: 400,
 					style: 'normal',
 				},
