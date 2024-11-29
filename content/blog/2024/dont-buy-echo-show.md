@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Don't buy an Echo Show
+title: Please don't buy an Echo Show
 date: 2024-11-29T09:52:00-06:00
 tags:
     - Amazon
