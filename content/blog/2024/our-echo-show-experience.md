@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Paying for ads
+title: Our Echo Show experience
 date: 2024-11-29T09:52:00-06:00
 tags:
     - Amazon
@@ -8,9 +8,10 @@ tags:
 type: post
 update:
 ---
-Our Echo Show 15 has been a helpful addition to our kitchen for years. It's been great for photos and weather at a glance, keeping track of our family calendar, and setting up quick timers while cooking. While it wasn't perfect, its quirks were manageable, and it genuinely added value to our routine.
 
-But recently, Amazon released an update that completely ruined our experience. The Show seems less like a helpful tool and more like a billboard in our kitchen. Ads are everywhere. Every time we glance at the screen, we see random products from Amazon. And we **paid** for this thing. Paying to be advertised to in our own home doesn't sit right with me.
+Our Echo Show 15 has been a helpful addition to our kitchen for years. It's been great for photos and weather at a glance, keeping track of our family calendar, and setting up quick timers while cooking. While it wasn't perfect, it added value to our routine.
+
+But recently, Amazon released an update that completely ruined our experience. The Show seems less like a helpful tool and more like a billboard in our kitchen. Ads are everywhere. Every time we glance at the screen, we see random products from Amazon. We **paid** for this thing. We paid to hang an advertisement on our kitchen wall.
 
 What's worse, the UI got an overhaul to prepare for the upcoming Show 21, and against all odds, it got *worse*. The font size has been reduced, making it harder to see from a distance, and the widget requirement has gone from 1/3 of the screen to 2/3. This might not make a ton of sense if you've never used one so I'll try to explain.
 
