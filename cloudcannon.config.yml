@@ -1,7 +1,12 @@
 _schema: _schema
 paths:
-  uploads: public/uploads
-  static: ''
+  uploads: /uploads/
+  uploads_filename:
+  uploads_use_relative_path:
+  static: public
+  dam_uploads:
+  dam_uploads_filename:
+  dam_static:
 collections_config:
   blog:
     path: content/blog
