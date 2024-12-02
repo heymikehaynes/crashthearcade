@@ -390,6 +390,7 @@ code {
 	height: 420px;
 	object-fit: cover;
 	margin: 12px 0 0 0;
+	border-radius: 2px;
 }
 
 .postlist-item-active .postlist-link {
