@@ -8,7 +8,8 @@ tags:
 type: post
 update:
 ---
-![Nintendo Switch console on a blue background](../../../public/uploads/nintendo-switch.jpg)
+
+![Nintendo Switch console on a blue background](/uploads/nintendo-switch.jpg)
 
 As news broke yesterday about the latest bed Nintendo has decided to shit in, targeting a longtime fan with DMCA strikes for sharing videos featuring their games, I was reminded of a few things.
 
