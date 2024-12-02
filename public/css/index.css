@@ -132,10 +132,11 @@ h1 a:hover {
 	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
-.type-page h1 {
+.type-page h1, .type-uses h1 {
 	font-family: 'Decimal', monospace;
 	font-size: 52px;
 	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .type-page h1:before, .type-uses h1:before {
@@ -160,6 +161,7 @@ h2 {
 	font-family: 'Decimal', monospace;
 	text-transform: uppercase;
 	letter-spacing: 0.75px;
+	font-weight: normal;
 }
 
 h3 {
@@ -170,6 +172,7 @@ h3 {
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
 	color: var(--primary-accent);
+	font-weight: normal;
 }
 
 h4 {
@@ -859,6 +862,7 @@ a.masto-logo-link:hover {
 	height: fill-available;
 	object-fit: cover;
 	border-radius: 2px;
+	scale: 105%;
 }
 
 .now-media-block .more-button-style {
@@ -963,6 +967,7 @@ p.error-text {
 	height: fill-available;
 	object-fit: cover;
 	border-radius: 2px;
+	scale: 105%;
 }
 
 .now-media-block {

@@ -6,7 +6,8 @@ tags:
   - Life
 type: post
 ---
-![A man driving a boat with a small child on his lap](/uploads/public/uploads/m-d-h-lake-img.jpg)
+
+![A man driving a boat with a small child on his lap](/public/uploads/m-d-h-lake-img.jpg)
 
 My dad's birthday was this week. He would have been 68. He passed away 16 years ago and completely shifted my perspective on life. It was the first time I truly understood how fragile everything is and how important it is not to take things for granted.
 

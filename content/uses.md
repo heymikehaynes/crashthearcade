@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # Uses
 
-#### Inspired by [uses.tech](https://uses.tech/) and the *legendary* [app defaults list](https://defaults.rknight.me/), this is a list the things I use to get stuff done.
+#### Inspired by [uses.tech](https://uses.tech/), this is a list the things I use to get stuff done. It was last updated December 2nd, 2024.
 
 ## Hardware
 
@@ -48,7 +48,7 @@ eleventyNavigation:
 * Read later: Raindrop.io
 * Browser: Safari
 * Chat: Messages and Discord
-* Music: Apple Music
+* Music: Spotify
 * Podcasts: Apple Podcasts
 * Passwords: Apple Passwords
 * Code editor: Nova
