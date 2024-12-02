@@ -24,7 +24,7 @@ eleventyNavigation:
 	* Moved my [bookmarks](/#bookmarks-home) feed from Reeder to ~~a self-hosted Linkding setup and used the API~~ Raindrop.io to generate the list on my site. For whatever reason, Linkding stopped fetching images.
 	* I've moved away from Pixelfed as it seems the creator is more focused on his new short-form video app. I'm using Raindrop to show images I've saved there instead. See the results below.
 	* ~~My reading and playing feeds (below) are still powered by Reeder and I want to move away from that but I'm not entirely sure how yet. The API for Linkding isn't playing nice with tags.~~ Done! Now using Goodreads RSS feed and a third-party API for Backloggd!
-* I made my own typeface to add a bit more personality to my site. You can see it around in headers and the logo of the site itself. I call it Decimal.
+* I made my own typeface to add a bit more personality to the site. You can see it around in headers and dates. I call it Decimal.
 
 <div class="now-media-block">
 	<div class="tumblr-block-header">

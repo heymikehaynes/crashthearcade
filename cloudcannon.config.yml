@@ -1,11 +1,11 @@
 _schema: _schema
 paths:
   uploads: /uploads/
-  uploads_filename: "{slug}-{unique}"
-  uploads_use_relative_path: true
+  uploads_filename:
+  uploads_use_relative_path: false
   static: public
   dam_uploads: /uploads/
-  dam_uploads_filename: "{slug}-{unique}"
+  dam_uploads_filename:
   dam_static: public
 collections_config:
   blog:

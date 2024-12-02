@@ -58,6 +58,11 @@ export default function (eleventyConfig) {
 		},
 	});
 
+	// Passthrough for uploads
+	eleventyConfig.addPassthroughCopy({
+		"public/uploads": "uploads",
+	});
+
 	// Watch content images for the image pipeline
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
