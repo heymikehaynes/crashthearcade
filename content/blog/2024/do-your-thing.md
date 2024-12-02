@@ -6,7 +6,8 @@ tags:
   - Social media
 type: post
 ---
-This might sound obvious, but it bears repeating.
+
+This might sound obvious, but I'm going to say it anyway.
 
 The internet has no shortage of opinions; some are helpful, and some not so much. If you spend too much time worrying about what other people think of what you do, you’ll end up stuck, second-guessing yourself instead of actually doing the thing that fills your tank. Let me save us both some time: the opinions of random people don’t matter.
 

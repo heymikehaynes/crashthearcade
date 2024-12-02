@@ -7,6 +7,7 @@ tags:
     - PlayStation
 type: post
 ---
+
 ![A collection of Sony peripherals with PlayStation branding on them](/uploads/sony-30-anni.jpg)
 
 Sony’s <a href="https://www.playstation.com/en-us/30th-anniversary-collection/" target="_blank" rel="noopener">30th-anniversary celebration</a> of the original PlayStation feels like a disappointment. Releasing PS1-themed controllers and a reskinned console that cannot play PS1 games feels tone-deaf. And yes, they offer the Classic Collection on PS Plus Premium for $23 per month, but that’s a post for another day.

@@ -385,9 +385,11 @@ code {
 	margin-bottom: 0px;
 }
 
-.postlist-content img {
+.postlist-content p img {
 	width: 100%;
-	margin-bottom: 6px;
+	height: 420px;
+	object-fit: cover;
+	margin: 12px 0 0 0;
 }
 
 .postlist-item-active .postlist-link {
