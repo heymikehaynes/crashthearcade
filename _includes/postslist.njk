@@ -10,6 +10,12 @@
 
 		<div class="postlist-content format-{{ post.data.type }}">{{ post.content | safe }}</div>
 
+	<div class="postlist-tags">
+		{% if post.data.sourcename %}
+				<a href="{{ post.data.sourceurl }}" tagret="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} ↗</a>
+		{% endif %}
+	</div>
+
 		<!-- <div class="postlist-tags">
 			{% if post.data.sourcename %}
 					<a href="{{ post.data.sourceurl }}" tagret="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} ↗</a>
