@@ -6,7 +6,9 @@ tags:
     - Video games
     - Nintendo
 type: post
-update:
+sourcename: The Verge
+sourceurl: >-
+    https://www.theverge.com/games/24272743/nintendo-retro-game-corps-russ-crandall-profile-youtube-emulation-dmca-takedown-copyright-strike
 ---
 ![Nintendo Switch console on a blue background](/uploads/nintendo-switch.jpg)
 

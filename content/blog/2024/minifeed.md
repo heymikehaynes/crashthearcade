@@ -6,8 +6,10 @@ tags:
   - Indie web
   - Apps
 type: post
+sourcename: Minifeed
+sourceurl: https://minifeed.net/global
 ---
-<a href="https://minifeed.net/global" target="_blank" rel="noopener">Minifeed</a> is a new aggregator from Rakhim that pulls updates from the small web into a personalized reader. It's a fantastic idea—one I've <a href="https://crashthearcade.com/blog/2024/01-12-the-indieweb-needs-a-search-engine-or-something-like-it/" target="_blank" rel="noopener">kicked around before</a>. That said, I think there are a few things about it that could be better and some challenges it might have as it grows.
+Minifeed is a new aggregator from Rakhim that pulls updates from the small web into a personalized reader. It's a fantastic idea—one I've <a href="https://crashthearcade.com/blog/2024/01-12-the-indieweb-needs-a-search-engine-or-something-like-it/" target="_blank" rel="noopener">kicked around before</a>. That said, I think there are a few things about it that could be better and some challenges it might have as it grows.
 
 Minifeed, like other indie web tools, is human-curated. This is awesome in theory but not so much in practice if the goal is to grow. Approving sites manually might work when there's only a handful coming in each day, but as the service takes off, that backlog will only grow. Having just one or two people handling submissions will take a lot of work. Some form of automation could help, letting an AI handle the easy stuff while flagging more complex submissions for human review.
 
