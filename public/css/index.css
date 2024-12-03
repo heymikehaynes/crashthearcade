@@ -242,6 +242,11 @@ blockquote {
 	color: var(--secondary-text);
 }
 
+.fa-up-right-from-square {
+	margin-left: 3px;
+	font-size: 86%;
+}
+
 .update-block {
 	background: var(--secondary-bg);
 	padding: 32px;

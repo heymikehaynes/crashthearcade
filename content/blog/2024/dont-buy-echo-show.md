@@ -16,6 +16,6 @@ Frustratingly, the UI was tweaked in preparation for the upcoming Show 21 and ag
 
 The screen, which we have displayed vertically, is essentially broken into thirds. You could previously have a large, single widget in the bottom third and then a gallery of rotating "cards" like weather, photos, sports scores, etc, in the top 2/3. Now, you have to use the bottom 2/3 of the screen for widgets or not use them at all. Because we were only using the calendar widget on the bottom 1/3 of the screen, this means we now have a giant empty space below that unless we fill it with a grocery list widget that connects to an app we don't use, a weather widget that shows the temperature we already see on the top of the screen, or one of the brutal third-party widgets like a "fart button."
 
-Since we opted to close the widget section entirely, the ads, part of the rotating cards I mentioned, now take up the entire screen when shown. It's awful.
+Since we opted to close the widget section entirely, the ads, part of the rotating cards I mentioned, now take up the entire screen. It's awful.
 
 If you're considering buying an Echo Show, my advice is simple: *don't*. Consider [putting together your own](https://www.hanselman.com/blog/how-to-build-a-wall-mounted-family-calendar-and-dashboard-with-a-raspberry-pi-and-cheap-monitor), checking out a Google Nest Hub, or waiting to see what Apple has planned for next year. Investing in a smart display should make your life easier—not be a constant reminder of how little your time and attention matter to the company that made it.
