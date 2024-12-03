@@ -3,10 +3,10 @@ paths:
   uploads: /uploads/
   uploads_filename:
   uploads_use_relative_path: false
-  static: public
-  dam_uploads: /uploads/
+  static: /public/uploads/
+  dam_uploads:
   dam_uploads_filename:
-  dam_static: public
+  dam_static:
 collections_config:
   blog:
     path: content/blog
