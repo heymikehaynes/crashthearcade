@@ -6,6 +6,9 @@ tags:
     - Video games
     - Netflix
 type: post
+sourcename: IGN
+sourceurl: >-
+    https://www.ign.com/articles/netflix-shuts-down-aaa-gaming-studio-high-profile-devs-leave-the-company
 ---
 After only a few years, Netflix is shutting down its AAA gaming studio, which is run by former Halo, Overwatch, and God of War alums.
 
