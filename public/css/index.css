@@ -242,7 +242,7 @@ blockquote {
 	color: var(--secondary-text);
 }
 
-.fa-up-right-from-square {
+.fa-up-right-from-square, .fa-solid.fa-right-long {
 	margin-left: 3px;
 	font-size: 86%;
 }
@@ -592,13 +592,14 @@ footer a:hover {
 	text-align: center;
 	background: var(--secondary-bg);
 	border-radius: 100px;
-	padding: 15px 12px;
+	padding: 16px 22px;
 	display: block;
-	font-family: 'Decimal', monospace;
-	font-size: 14px;
+	font-family: 'Archivo', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: var(--secondary-text);
 }
 
