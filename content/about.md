@@ -16,6 +16,8 @@ I’m Mike, a designer and hobbyist developer who loves video games, manga, and 
 
 I live in ~~frigid~~ lovely Winnipeg, Canada with my wife, our son, and an assortment of dogs and cats.
 
+If you need to get in touch, you can do that <a href="mailto:contact@crashthearcade.com">here</a>.
+
 ## Favourites
 
 <div class="favourites-block">
