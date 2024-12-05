@@ -7,11 +7,12 @@ tags:
     - Social issues
 type: post
 ---
+
 [Andy Chalk for PC Gamer](https://www.pcgamer.com/former-tripwire-ceo-tells-tucker-carlson-that-cancel-culture-destroyed-him/):
 
 > Tripwire Interactive co-founder John Gibson blamed what he called “social terrorism” for being forced out as CEO of the developer and publisher in 2021.
 >
-> \[…\]
+> […]
 >
 > Gibson stepped down as chief executive of Tripwire shortly after tweeting support for an abortion ban in September 2021.
 

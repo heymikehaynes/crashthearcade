@@ -1,18 +1,18 @@
-<div class="favourites-reading-block">
-	{% for post in goodreads_fav %}
-		<div class="favourite-book-block">
-			<a href="{{ post.link }}">
-				<img src="{{ post.image or '/img/no-cover.png' }}" alt="{{ post.title }}">
-			</a>
-		</div>
-	{% endfor %}
-</div>
-
 <div class="favourites-playing-block">
 	{% for game in backloggd_fav %}
 		<div class="favourite-game-block">
 			<a href="https://www.backloggd.com/u/crashthearcade/">
 				<img src="{{ game.image or '/img/no-cover.png' }}" alt="{{ game.title }}">
+			</a>
+		</div>
+	{% endfor %}
+</div>
+
+<div class="favourites-reading-block">
+	{% for post in goodreads_fav %}
+		<div class="favourite-book-block">
+			<a href="{{ post.link }}">
+				<img src="{{ post.image or '/img/no-cover.png' }}" alt="{{ post.title }}">
 			</a>
 		</div>
 	{% endfor %}

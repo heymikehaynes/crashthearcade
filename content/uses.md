@@ -44,7 +44,7 @@ eleventyNavigation:
 * Contacts: Apple Contacts
 * Photos: Apple Photos
 * Cloud storage: iCloud Drive
-* RSS: FreshRSS and Reeder
+* RSS: Feedbin and Reeder
 * Read later: Raindrop.io
 * Browser: Safari
 * Chat: Messages and Discord
