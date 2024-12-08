@@ -1,5 +1,5 @@
 ---
-title: 'Tumblr banning all adult content on December 17th'
+title: 'Tumblr bans adult content starting December 17th'
 date: '2018-12-03T19:00:00+00:00'
 tags:
     - Social media
