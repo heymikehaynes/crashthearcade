@@ -8,25 +8,15 @@
 			<a href="{{ post.url }}">{{ post.data.title }}</a>
 		</h1>
 
-		<div class="postlist-content format-{{ post.data.type }}">{{ post.content | safe }}</div>
+		<div class="postlist-content format-{{ post.data.type }}">
+			{{ post.content | safe }}
+		</div>
 
-	<div class="postlist-tags">
-		{% if post.data.sourcename %}
-				<a href="{{ post.data.sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
-		{% endif %}
-	</div>
-
-		<!-- <div class="postlist-tags">
+		<div class="postlist-tags">
 			{% if post.data.sourcename %}
-					<a href="{{ post.data.sourceurl }}" tagret="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} ↗</a>
+				<a href="{{ post.data.sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
 			{% endif %}
-
-			{% for tag in post.data.tags | sort %}
-				{% if tag != "posts" %}
-					<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %} {% endif %}
-				{% endif %}
-			{% endfor %}
-		</div> -->
+		</div>
 	</div>
 
 	{% if loop.index == 2 and page.url == '/' %}
@@ -36,16 +26,33 @@
 	{% endif %}
 
 	{% if loop.index == 4 and page.url == '/' %}
+		<div class="now-play-read-block">
+			<div class="tumblr-block-header">
+				<img src="/img/card-badge-now.png">
+				<p class="block-heading-title">Now</p>
+			</div>
+			<div class="now-block-contents">
+				{%- include 'now.njk' -%}
+			</div>
+		</div>
+	{% endif %}
+
+	{% if loop.index == 6 and page.url == '/' %}
 		<div id="bookmarks-home" class="homemarks-block">
 			{%- include 'bookmarks.njk' -%}
 		</div>
 	{% endif %}
 
-	<!-- {% if loop.index == 6 and page.url == '/' %}
-		<div id="bluesky-home" class="mastodon-block">
-			{%- include 'bluesky.njk' -%}
+	{% if loop.index == 8 and page.url == '/' %}
+		<div class="now-media-block">
+			<div class="tumblr-block-header">
+				<img src="/img/card-badge-images.png">
+				<p class="block-heading-title">Visuals</p>
+			</div>
+			{%- include 'gallery.njk' -%}
+			<div class="more-button-style"><a href="https://raindrop.io/crashthearcade/visuals-50066445">More »</a></div>
 		</div>
-	{% endif %} -->
+	{% endif %}
 {% endfor %}
 
 <div class="more-button-style"><a href="/archive">Archive »</a></div>
