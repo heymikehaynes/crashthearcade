@@ -10,9 +10,20 @@ layout: layouts/base.njk
 
 <h1 class="postlist-title"><a href="#">{{ title }}</a></h1>
 
+{% if thumbnailurl %}
+	<figure>
+		<img src="{{ thumbnailurl }}" alt="{{ title }}" />
+		{% if thumbnailsource %}
+			<figcaption>
+				Photo by <a href="{{ thumbnailsourceurl }}" target="_blank">{{ thumbnailsource }}</a>
+			</figcaption>
+		{% endif %}
+	</figure>
+{% endif %}
+
 <div class="postlist-content">{{ content | safe }}</div>
 
-{% if rating is defined %}
+{% if rating %}
 <div class="rating">
 		{% for i in range(1, rating | int + 1) %}
 				<i class="fa-sharp fa-solid fa-star"></i>
@@ -30,29 +41,10 @@ layout: layouts/base.njk
 </div>
 {% endif %}
 
+{% if sourcename %}
 <div class="postlist-tags single-tags">
-{% if sourcename is defined %}
-		<a href="{{ sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
-{% endif %}
+	<a href="{{ sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
 </div>
-
-<!-- {% if post.data.update %}
-	<div class="update-block">
-		<h3>Update</h3>
-		<p>{{ post.data.update | safe }}</p>
-	</div>
 {% endif %}
-
-<div class="postlist-tags single-tags">
-	{% if sourcename is defined %}
-			<a href="{{ sourceurl }}" class="postlist-tag post-source">Source: {{ sourcename }} ↗</a>
-	{% endif %}
-
-	{% for tag in tags | sort %}
-		{% if tag != "posts" %}
-			<a href="/tags/{{ tag | slugify }}/" class="postlist-tag">#{{ tag }}</a>{% if not loop.last %} {% endif %}
-		{% endif %}
-	{% endfor %}
-</div> -->
 
 </div>

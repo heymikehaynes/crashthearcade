@@ -24,11 +24,11 @@
 			{{ post.content | safe }}
 		</div>
 
+		{% if post.data.sourcename %}
 		<div class="postlist-tags">
-			{% if post.data.sourcename %}
-				<a href="{{ post.data.sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
-			{% endif %}
+			<a href="{{ post.data.sourceurl }}" target="_blank" class="postlist-tag post-source">Source: {{ post.data.sourcename }} <i class="fa-solid fa-up-right-from-square"></i></a>
 		</div>
+		{% endif %}
 	</div>
 
 	{% if loop.index == 2 and page.url == '/' %}
