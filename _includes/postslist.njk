@@ -8,6 +8,18 @@
 			<a href="{{ post.url }}">{{ post.data.title }}</a>
 		</h1>
 
+		{% if post.data.thumbnailurl %}
+			<figure>
+				<img src="{{ post.data.thumbnailurl }}" alt="{{ title }}" />
+				{% if post.data.thumbnailsource %}
+					<figcaption>
+						Photo by <a href="{{ post.data.thumbnailsourceurl }}" target="_blank">{{ post.data.thumbnailsource }}</a>
+					</figcaption>
+				{% endif %}
+			</figure>
+		{% endif %}
+
+
 		<div class="postlist-content format-{{ post.data.type }}">
 			{{ post.content | safe }}
 		</div>

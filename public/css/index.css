@@ -390,7 +390,21 @@ code {
 	margin-bottom: 0px;
 }
 
-.postlist-content p img {
+figure {
+	margin: 0 0 32px 0;
+}
+
+figcaption, figcaption a, figcaption a:visited {
+	color: var(--secondary-text);
+	text-align: right;
+	font-size: 16px;
+}
+
+figcaption a:hover {
+	color: var(--primary-accent);
+}
+
+.postlist-content p img, figure img {
 	width: 100%;
 	height: 420px;
 	object-fit: cover;

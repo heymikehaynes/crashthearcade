@@ -8,6 +8,9 @@ tags:
 type: post
 sourcename:
 sourceurl:
+thumbnailurl: /uploads/netflix-logo.jpg
+thumbnailsource: Oscar Vargas on Unsplash
+thumbnailsourceurl: https://unsplash.com/@ozvargas
 ---
 
 I wish we weren't so quick to accept the things we use getting shittier, with higher prices and fewer features. I'm not suggesting boycotts, but it's troubling how we've, myself included, grown numb to decline and do nothing to push back.
