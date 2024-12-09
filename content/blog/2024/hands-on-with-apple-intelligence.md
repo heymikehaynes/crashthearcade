@@ -6,8 +6,11 @@ tags:
     - Apple
     - AI
 type: post
-update:
+thumbnailurl: /uploads/apple-intelligence.jpg
+thumbnailsource: appshunter.io on Unsplash
+thumbnailsourceurl: https://unsplash.com/@appshunter
 ---
+
 I've had some time with Apple Intelligence, using 18.1 for several weeks and now 18.2 for most of the day.
 
 I like the notification summaries. Likewise, I've had a few instances where, just by glancing at my phone, I can see and even understand what's waiting for me in my inbox. It could be better; sometimes, it gets the order of information wrong and states the opposite of what the message says, but it's relatively infrequent and legitimately helpful.
