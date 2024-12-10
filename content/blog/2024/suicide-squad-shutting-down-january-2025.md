@@ -7,7 +7,7 @@ tags:
 type: post
 sourcename: Rocksteady
 sourceurl: https://www.suicidesquadgame.com/en-us/community/season-4-deep-dive
-thumbnailurl: uploads/ss-deathstroke-img.png
+thumbnailurl: /uploads/ss-deathstroke-img.png
 thumbnailsource: Rocksteady / Warner Bros
 thumbnailsourceurl: https://www.suicidesquadgame.com/en-us/community/season-4-deep-dive
 ---
