@@ -2,7 +2,7 @@ _schema: _schema
 paths:
   uploads: /uploads/
   uploads_filename:
-  uploads_use_relative_path: false
+  uploads_use_relative_path: true
   static: /public/uploads/
   dam_uploads:
   dam_uploads_filename:
