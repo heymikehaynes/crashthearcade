@@ -1,6 +1,6 @@
 _schema: _schema
 paths:
-  uploads: /uploads/
+  uploads: /public/uploads/
   uploads_filename:
   uploads_use_relative_path: false
   static: /public/uploads/
