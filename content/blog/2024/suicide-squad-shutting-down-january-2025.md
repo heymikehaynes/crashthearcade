@@ -11,6 +11,8 @@ thumbnailurl: /uploads/ss-deathstroke-img.png
 thumbnailsource: Rocksteady / Warner Bros
 thumbnailsourceurl: https://www.suicidesquadgame.com/en-us/community/season-4-deep-dive
 ---
+![](/ss-deathstroke-img.png "Image by Rocksteady")
+
 Rocksteady confirmed what I think many people assumed: Suicide Squad is **done**. The studio is shutting down the live-service game in January 2025, patching it for offline support and moving on. The announcement downplays the whole thing, but it's important to note how big of a misfire this was from a studio known for *great* games.
 
 Suicide Squad was released on February 2nd, 2024. It will have lasted less than a year before being shuttered. Destiny 1/2 and League of Legends, both titles that Warner pitted Suicide Squad against in the run-up to release, have been running for 10 and 15 years, respectively.
