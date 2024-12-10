@@ -11,7 +11,7 @@ thumbnailurl: /uploads/ss-deathstroke-img.png
 thumbnailsource: Rocksteady / Warner Bros
 thumbnailsourceurl: https://www.suicidesquadgame.com/en-us/community/season-4-deep-dive
 ---
-![](/ss-deathstroke-img.png)
+![](../../../uploads/ss-game-img.jpg)
 
 Rocksteady confirmed what I think many people assumed: Suicide Squad is **done**. The studio is shutting down the live-service game in January 2025, patching it for offline support and moving on. The announcement downplays the whole thing, but it's important to note how big of a misfire this was from a studio known for *great* games.
 
