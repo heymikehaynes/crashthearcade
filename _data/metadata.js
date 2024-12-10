@@ -6,6 +6,6 @@ module.exports = {
 	author: {
 		name: "Mike Haynes",
 		email: "mike@crashthearcade.com",
-		url: "https://social.lol/@crashthearcade"
+		url: "https://crashthearcade.com"
 	}
 }

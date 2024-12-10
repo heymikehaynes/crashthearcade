@@ -749,8 +749,8 @@ footer a:hover {
 	margin: 12px 0 52px 0;
 }
 
-.archive-post.format-:last-of-type {
-	margin-bottom: -62px;
+.archive-post:last-of-type {
+	margin-bottom: 0px;
 }
 
 /* masto block */

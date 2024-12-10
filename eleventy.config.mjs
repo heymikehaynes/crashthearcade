@@ -147,6 +147,13 @@ export default function (eleventyConfig) {
 		return collectionApi.getFilteredByGlob("content/blog/*.md"); // Adjust the glob pattern as needed
 	});
 
+	// Add a custom collection for RSS feed (limit to 10 posts)
+	eleventyConfig.addCollection("rssFeed", function(collectionApi) {
+		return collectionApi.getFilteredByTag("posts") // Filter by tag 'posts'
+			.reverse() // Reverse to get the most recent posts first
+			.slice(0, 10); // Limit to 10 posts
+	});
+
 	// Create a collection for tags
 	eleventyConfig.addCollection("tagList", function(collectionApi) {
 		const tagSet = new Set();
