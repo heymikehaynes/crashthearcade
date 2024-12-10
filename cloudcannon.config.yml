@@ -1,9 +1,9 @@
 _schema: _schema
 paths:
-  uploads: /public/uploads/
+  uploads: /uploads/
   uploads_filename:
   uploads_use_relative_path: false
-  static: /uploads/
+  static: /public/uploads/
   dam_uploads:
   dam_uploads_filename:
   dam_static:
