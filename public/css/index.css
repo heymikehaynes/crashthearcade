@@ -993,8 +993,16 @@ p.error-text {
 		font-size: 20px;
 	}
 
-	h1 {
+	h1, .block-heading-title {
 		font-size: 52px;
+	}
+
+	.tumblr-block-header, .homemarks-block-header {
+		margin-bottom: 30px;
+	}
+
+	.block-heading-title::before {
+		margin-bottom: 30px;
 	}
 
 	.type-page h1 {
@@ -1003,6 +1011,10 @@ p.error-text {
 
 	h4 {
 		font-size: 28px;
+	}
+
+	.postlist-date, .postlist-tags a, a.tag-cluster-item, .more-button-style a {
+		font-size: 14px;
 	}
 
 	#container {
@@ -1070,8 +1082,17 @@ p.error-text {
 		row-gap: 0;
 	}
 
-	.now-playing-block {
+	.now-reading-block, .now-media-block .more-button-style, .tumblr-block .more-button-style a {
 		margin-top: 16px;
+	}
+
+	.bookmark-post, .gallery-block-post, .tumblr-block-post {
+		margin-bottom: 16px;
+	}
+
+	.back-to-top {
+		padding: 12px 20px 12px 22px;
+		font-size: 24px;
 	}
 
 	.favourites-reading-block, .favourites-playing-block {
