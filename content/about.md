@@ -26,7 +26,7 @@ If you need to get in touch, you can do that <a href="mailto:contact@crashthearc
 
 ## Technical
 
-This site is built with [Eleventy](https://11ty.dev), served by [Vercel](https://vercel.com), and designed by me. It is set in Decimal, a custom bitmap typeface I made myself, and [Archivo](https://www.omnibus-type.com/fonts/archivo/) by Héctor Gatti and Omnibus-Type.
+This site is built with [Eleventy](https://11ty.dev), served by [Vercel](https://vercel.com), and designed by me. It is set in [Departure](https://departuremono.com/), a monospace typeface by Helena Zhang, and [Archivo](https://www.omnibus-type.com/fonts/archivo/) by Héctor Gatti and Omnibus-Type.
 
 The code for this site is available on [GitHub](https://github.com/heymikehaynes/crashthearcade).
 

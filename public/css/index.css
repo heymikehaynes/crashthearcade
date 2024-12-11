@@ -37,22 +37,14 @@
 	font-style: normal;
 }
 
-/* Outpost */
-@font-face {
-	font-family: Decimal;
-	src: url(/fonts/decimal/decimal.woff);
-	font-weight: normal;
-	font-style: normal;
-}
-
 /* Theme colors */
 :root {
-	--primary-accent: #29ADFF;
-	--secondary-accent: #94D6FF;
+	--primary-accent: #FFD100;
+	--secondary-accent: #FFE880;
 	--primary-bg: #08121c;
 	--secondary-bg: #141E27;
 	--primary-text: #FFFFFF;
-	--secondary-text: #60656B;
+	--secondary-text: #535A60;
 }
 
 /* Global stylesheet */
@@ -133,10 +125,9 @@ h1 a:hover {
 }
 
 .type-page h1, .type-uses h1 {
-	font-family: 'Decimal', monospace;
+	font-family: 'Archivo', sans-serif;
 	font-size: 52px;
-	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .type-page h1:before, .type-uses h1:before {
@@ -158,17 +149,16 @@ h2 {
 	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
 	margin-top: 42px;
-	font-family: 'Decimal', monospace;
-	text-transform: uppercase;
+	font-family: 'Archivo', sans-serif;
 	letter-spacing: 0.75px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 h3 {
 	font-size: 14px;
 	line-height: 1.4;
 	margin: 0 0 16px 0;
-	font-family: 'Decimal', monospace;
+	font-family: 'Departure', monospace;
 	text-transform: uppercase;
 	letter-spacing: 1.25px;
 	color: var(--primary-accent);
@@ -334,13 +324,12 @@ code {
 }
 
 .nav-item a {
-	font-family: 'Decimal', monospace;
+	font-family: 'Archivo', sans-serif;
 	font-size: 24px;
 	line-height: 90%;
 	text-decoration: none;
 	color: var(--primary-text);
 	display: inline-block;
-	text-transform: uppercase;
 	word-spacing: -7px;
 }
 
@@ -363,9 +352,9 @@ code {
 }
 
 .postlist-date {
-	font-family: 'Decimal', monospace;
+	font-family: 'Departure', monospace;
 	margin-bottom: 28px;
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
@@ -409,7 +398,7 @@ figcaption a:hover {
 	height: 420px;
 	object-fit: cover;
 	margin: 12px 0 0 0;
-	border-radius: 3px;
+	border-radius: 0;
 }
 
 .postlist-item-active .postlist-link {
@@ -434,12 +423,12 @@ figcaption a:hover {
 	width: 100%;
 	height: 180px;
 	object-fit: cover;
-	border-radius: 3px 3px 0 0;
+	border-radius: 2px 2px 0 0;
 }
 
 .bookmark-post {
 	background: var(--secondary-bg);
-	border-radius: 3px;
+	border-radius: 2px;
 	margin-bottom: 24px;
 	display: block;
 }
@@ -460,7 +449,7 @@ figcaption a:hover {
 
 .bookmark-list-date {
 	margin: 24px 24px 18px 24px;
-	font-family: 'Decimal', monospace;
+	font-family: 'Departure', monospace;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: var(--primary-accent);
@@ -483,9 +472,9 @@ figcaption a:hover {
 }
 
 .homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1, .block-heading-title {
-	font-family: 'Decimal', monospace;
-	text-transform: uppercase;
-	font-size: 24px;
+	font-family: 'Archivo', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
 	margin: 0;
 }
 
@@ -526,13 +515,12 @@ figcaption a:hover {
 	padding: 16px 22px;
 	border-radius: 100px;
 	text-decoration: none;
-	font-family: 'Archivo', monospace;
+	font-family: 'Departure', monospace;
 	text-transform: uppercase;
 	background: var(--secondary-bg);
 	color: var(--secondary-text);
 	display: inline-block;
 	font-size: 16px;
-	font-weight: bold;
 	letter-spacing: 1px;
 }
 
@@ -601,9 +589,8 @@ footer a:hover {
 	border-radius: 100px;
 	padding: 16px 22px;
 	display: block;
-	font-family: 'Archivo', sans-serif;
+	font-family: 'Departure', sans-serif;
 	font-size: 16px;
-	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	letter-spacing: 1px;
@@ -652,7 +639,7 @@ footer a:hover {
 
 /* Back to top */
 .back-to-top {
-	font-family: 'Decimal', monospace;
+	font-family: 'Departure', monospace;
 	font-size: 16px;
 	position: fixed;
 	bottom: 32px;
@@ -711,7 +698,7 @@ footer a:hover {
 	height: 450px;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 3px 3px 0 0;
+	border-radius: 2px 2px 0 0;
 	margin-bottom: -5px;
 }
 
@@ -872,14 +859,12 @@ a.masto-logo-link:hover {
 
 .gallery-block-post {
 	overflow: hidden;
-	border-radius: 3px;
+	border-radius: 0;
 }
 
 .gallery-block-post img {
 	width: 100%;
-	height: -webkit-fill-available;
-	height: -moz-available;
-	height: fill-available;
+	height: 100%;
 	object-fit: cover;
 	scale: 105%;
 }
@@ -930,7 +915,7 @@ p.error-text {
 
 .tumblr-block-post {
 	overflow: hidden;
-	border-radius: 3px;
+	border-radius: 0;
 }
 
 .tumblr-block-post:nth-child(1) {

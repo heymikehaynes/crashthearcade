@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: A specific shade of grey
+title: Give us the games
 date: 2024-11-25T21:40:00-06:00
 tags:
     - Video games
