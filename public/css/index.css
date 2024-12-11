@@ -41,10 +41,10 @@
 :root {
 	--primary-accent: #FFD100;
 	--secondary-accent: #FFE880;
-	--primary-bg: #08121c;
-	--secondary-bg: #141E27;
+	--primary-bg: #111111;
+	--secondary-bg: #1a1a1a;
 	--primary-text: #FFFFFF;
-	--secondary-text: #535A60;
+	--secondary-text: #595959;
 }
 
 /* Global stylesheet */
@@ -539,7 +539,7 @@ a.tag-cluster-item {
 
 .postlist-tags a:hover, a.tag-cluster-item:hover {
 	background: var(--primary-accent);
-	color: var(--primary-text);
+	color: var(--primary-bg);
 }
 
 footer {
@@ -600,7 +600,7 @@ footer a:hover {
 
 .more-button-style a:hover {
 	background: var(--primary-accent);
-	color: var(--primary-text);
+	color: var(--primary-bg);
 	text-decoration: none;
 }
 
