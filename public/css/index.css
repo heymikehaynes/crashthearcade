@@ -107,7 +107,7 @@ h1 {
 	font-size: 64px;
 	line-height: 1.1;
 	font-weight: bold;
-	text-wrap: pretty;
+	text-wrap: balance;
 	font-family: 'Archivo', sans-serif;
 	margin: 0 0 32px 0;
 }
@@ -124,19 +124,17 @@ h1 a:hover {
 	box-shadow: inset 0 -16px 0 var(--primary-accent);
 }
 
-.type-page h1, .type-uses h1 {
-	font-family: 'Archivo', sans-serif;
-	font-size: 52px;
-	font-weight: bold;
+.type-page h1 {
+	margin-bottom: 30px;
 }
 
-.type-page h1:before, .type-uses h1:before {
+.type-page h1:before, .type-uses h1:before, .block-heading-title:before {
 	content: "";
 	width: 52px;
 	height: 10px;
 	background: var(--primary-accent);
 	display: block;
-	margin-bottom: 52px;
+	margin-bottom: 40px;
 }
 
 .tumblr-block-header h1:before {
@@ -144,7 +142,7 @@ h1 a:hover {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 32px;
 	line-height: 1.6;
 	border-bottom: 4px solid var(--secondary-bg);
 	padding-bottom: 4px;
@@ -166,10 +164,10 @@ h3 {
 }
 
 h4 {
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 1.4;
 	font-weight: normal;
-	margin-bottom: 40px;
+	margin: 0 0 30px 0;
 }
 
 h5 {
@@ -458,10 +456,10 @@ figcaption a:hover {
 }
 
 .tumblr-block-header, .homemarks-block-header {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: auto 1fr;
-	align-items: center;
-	margin-bottom: 26px;
+	align-items: center; */
+	margin-bottom: 40px;
 }
 
 .homemarks-block-header img, .tumblr-block-header img {
@@ -471,10 +469,13 @@ figcaption a:hover {
 	margin-right: 14px;
 }
 
+
+
 .homemarks-block-header h1, .tumblr-block-header h1, .now-media-block h1, .block-heading-title {
 	font-family: 'Archivo', sans-serif;
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 64px;
+	line-height: 1.1;
 	margin: 0;
 }
 
@@ -866,7 +867,7 @@ a.masto-logo-link:hover {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	scale: 105%;
+	scale: 110%;
 }
 
 .now-media-block .more-button-style {
@@ -964,15 +965,15 @@ p.error-text {
 	height: -moz-available;
 	height: fill-available;
 	object-fit: cover;
-	scale: 105%;
+	scale: 110%;
 }
 
 .now-media-block, .homemarks-block, .tumblr-block, .now-play-read-block {
 	margin-bottom: 100px;
-	padding: 24px;
+	/* padding: 24px;
 	background: linear-gradient(to bottom, var(--secondary-bg), var(--primary-bg));
 	border-radius: 8px;
-	/* border: 2px solid var(--secondary-bg); */
+	border: 2px solid var(--secondary-bg); */
 }
 
 .lightbox .lb-image {

@@ -7,11 +7,10 @@ tags:
 type: post
 sourcename: Rocksteady
 sourceurl: https://www.suicidesquadgame.com/en-us/community/season-4-deep-dive
-thumbnailurl:
-thumbnailsource:
-thumbnailsourceurl:
+thumbnailurl: /uploads/ss-game-img.jpg
+thumbnailsource: Rocksteady
+thumbnailsourceurl: 
 ---
-![](../../../uploads/ss-game-img.jpg)
 
 Rocksteady confirmed what I think many people assumed: Suicide Squad is **done**. The studio is shutting down the live-service game in January 2025, patching it for offline support and moving on. The announcement downplays the whole thing, but it's important to note how big of a misfire this was from a studio known for *great* games.
 

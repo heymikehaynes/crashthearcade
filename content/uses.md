@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # Uses
 
-#### Inspired by [uses.tech](https://uses.tech/), this is a list the things I use to get stuff done. It was last updated December 2nd, 2024.
+#### Inspired by [uses.tech](https://uses.tech/), this is a list the things I use to get stuff done. Last updated December 2nd, 2024.
 
 ## Hardware
 
