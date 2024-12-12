@@ -549,11 +549,9 @@ a.tag-cluster-item {
 footer {
 	display: grid;
 	grid-template-columns: 1fr auto;
-	border-top: 6px solid var(--secondary-bg);
 	padding: 24px 0 3px 0;
 	font-size: 16px;
 	color: var(--secondary-text);
-	margin-top: 32px;
 }
 
 footer ul {
@@ -662,7 +660,7 @@ footer a:hover {
 
 .back-to-top:hover {
 	background: var(--primary-accent);
-	color: var(--primary-text);
+	color: var(--primary-bg);
 	transition: all .1s ease;
 }
 
