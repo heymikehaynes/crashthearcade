@@ -8,6 +8,7 @@ tags:
 type: post
 update:
 ---
+
 We've had an Echo Show 15 in our kitchen for the past 3 years. We use it for photos and weather, keeping track of our family calendar, and setting up quick timers while cooking. While the design leaves much to be desired, we've enjoyed having it.
 
 However, Amazon recently released an update that has completely ruined our experience. We see ads for random Amazon products every time we glance at the screen. I'd heard about this happening to people before, usually from US users, but I'd never experienced it. We paid for this thing. We *paid* to hang an advertisement on our kitchen wall.
