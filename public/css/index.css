@@ -963,9 +963,7 @@ p.error-text {
 
 .tumblr-block-post img {
 	width: 100%;
-	height: -webkit-fill-available;
-	height: -moz-available;
-	height: fill-available;
+	height: 100%;
 	object-fit: cover;
 	scale: 110%;
 }
