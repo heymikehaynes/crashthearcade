@@ -1,6 +1,6 @@
 module.exports = {
 	title: "crash the arcade",
-	url: "https://crashthearcade.com/",
+	url: "https://crashthearcade.netlify.app",
 	language: "en",
 	description: "A weblog by Mike Haynes.",
 	author: {
