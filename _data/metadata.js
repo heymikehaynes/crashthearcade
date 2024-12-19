@@ -6,6 +6,6 @@ module.exports = {
 	author: {
 		name: "Mike Haynes",
 		email: "mike@crashthearcade.com",
-		url: "https://crashthearcade.com"
+		url: "https://crashthearcade.netlify.app"
 	}
 }
